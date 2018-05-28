@@ -1,0 +1,4110 @@
+[
+  {
+    "1": {
+      "slug": "aegwynn",
+      "name": "Aegwynn",
+      "locale": "en_US",
+      "house": 1,
+      "canonical": "aegwynn",
+      "ownerrealm": null
+    },
+    "2": {
+      "slug": "aerie-peak",
+      "name": "Aerie Peak",
+      "locale": "en_US",
+      "house": 2,
+      "canonical": "aerie-peak",
+      "ownerrealm": null
+    },
+    "3": {
+      "slug": "agamaggan",
+      "name": "Agamaggan",
+      "locale": "en_US",
+      "house": 3,
+      "canonical": "agamaggan",
+      "ownerrealm": null
+    },
+    "4": {
+      "slug": "aggramar",
+      "name": "Aggramar",
+      "locale": "en_US",
+      "house": 4,
+      "canonical": "aggramar",
+      "ownerrealm": null
+    },
+    "5": {
+      "slug": "akama",
+      "name": "Akama",
+      "locale": "en_US",
+      "house": 5,
+      "canonical": "akama",
+      "ownerrealm": null
+    },
+    "6": {
+      "slug": "alexstrasza",
+      "name": "Alexstrasza",
+      "locale": "en_US",
+      "house": 6,
+      "canonical": "alexstrasza",
+      "ownerrealm": null
+    },
+    "7": {
+      "slug": "alleria",
+      "name": "Alleria",
+      "locale": "en_US",
+      "house": 7,
+      "canonical": "alleria",
+      "ownerrealm": null
+    },
+    "8": {
+      "slug": "altar-of-storms",
+      "name": "Altar of Storms",
+      "locale": "en_US",
+      "house": 8,
+      "canonical": "altar-of-storms",
+      "ownerrealm": null
+    },
+    "9": {
+      "slug": "alterac-mountains",
+      "name": "Alterac Mountains",
+      "locale": "en_US",
+      "house": 9,
+      "canonical": "alterac-mountains",
+      "ownerrealm": null
+    },
+    "10": {
+      "slug": "amanthul",
+      "name": "Aman'Thul",
+      "locale": "en_US",
+      "house": 10,
+      "canonical": "amanthul",
+      "ownerrealm": null
+    },
+    "11": {
+      "slug": "andorhal",
+      "name": "Andorhal",
+      "locale": "en_US",
+      "house": 11,
+      "canonical": "andorhal",
+      "ownerrealm": null
+    },
+    "12": {
+      "slug": "anetheron",
+      "name": "Anetheron",
+      "locale": "en_US",
+      "house": 8,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "13": {
+      "slug": "antonidas",
+      "name": "Antonidas",
+      "locale": "en_US",
+      "house": 12,
+      "canonical": "antonidas",
+      "ownerrealm": null
+    },
+    "14": {
+      "slug": "anubarak",
+      "name": "Anub'arak",
+      "locale": "en_US",
+      "house": 13,
+      "canonical": "anubarak",
+      "ownerrealm": null
+    },
+    "15": {
+      "slug": "arathor",
+      "name": "Arathor",
+      "locale": "en_US",
+      "house": 14,
+      "canonical": "arathor",
+      "ownerrealm": null
+    },
+    "16": {
+      "slug": "archimonde",
+      "name": "Archimonde",
+      "locale": "en_US",
+      "house": 3,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "17": {
+      "slug": "area-52",
+      "name": "Area 52",
+      "locale": "en_US",
+      "house": 15,
+      "canonical": "area-52",
+      "ownerrealm": null
+    },
+    "18": {
+      "slug": "argent-dawn",
+      "name": "Argent Dawn",
+      "locale": "en_US",
+      "house": 16,
+      "canonical": "argent-dawn",
+      "ownerrealm": null
+    },
+    "19": {
+      "slug": "arthas",
+      "name": "Arthas",
+      "locale": "en_US",
+      "house": 17,
+      "canonical": "arthas",
+      "ownerrealm": null
+    },
+    "20": {
+      "slug": "arygos",
+      "name": "Arygos",
+      "locale": "en_US",
+      "house": 18,
+      "canonical": "arygos",
+      "ownerrealm": null
+    },
+    "21": {
+      "slug": "auchindoun",
+      "name": "Auchindoun",
+      "locale": "en_US",
+      "house": 19,
+      "canonical": "auchindoun",
+      "ownerrealm": null
+    },
+    "22": {
+      "slug": "azgalor",
+      "name": "Azgalor",
+      "locale": "en_US",
+      "house": 20,
+      "canonical": "azgalor",
+      "ownerrealm": null
+    },
+    "23": {
+      "slug": "azjolnerub",
+      "name": "Azjol-Nerub",
+      "locale": "en_US",
+      "house": 21,
+      "canonical": "azjolnerub",
+      "ownerrealm": null
+    },
+    "24": {
+      "slug": "azralon",
+      "name": "Azralon",
+      "locale": "pt_BR",
+      "house": 22,
+      "canonical": "azralon",
+      "ownerrealm": "Azralon"
+    },
+    "25": {
+      "slug": "azshara",
+      "name": "Azshara",
+      "locale": "en_US",
+      "house": 20,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "26": {
+      "slug": "azuremyst",
+      "name": "Azuremyst",
+      "locale": "en_US",
+      "house": 23,
+      "canonical": "azuremyst",
+      "ownerrealm": null
+    },
+    "27": {
+      "slug": "baelgun",
+      "name": "Baelgun",
+      "locale": "en_US",
+      "house": 24,
+      "canonical": "baelgun",
+      "ownerrealm": null
+    },
+    "28": {
+      "slug": "balnazzar",
+      "name": "Balnazzar",
+      "locale": "en_US",
+      "house": 9,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "29": {
+      "slug": "barthilas",
+      "name": "Barthilas",
+      "locale": "en_US",
+      "house": 25,
+      "canonical": "barthilas",
+      "ownerrealm": null
+    },
+    "30": {
+      "slug": "black-dragonflight",
+      "name": "Black Dragonflight",
+      "locale": "en_US",
+      "house": 26,
+      "canonical": "black-dragonflight",
+      "ownerrealm": null
+    },
+    "31": {
+      "slug": "blackhand",
+      "name": "Blackhand",
+      "locale": "en_US",
+      "house": 27,
+      "canonical": "blackhand",
+      "ownerrealm": null
+    },
+    "32": {
+      "slug": "blackrock",
+      "name": "Blackrock",
+      "locale": "en_US",
+      "house": 28,
+      "canonical": "blackrock",
+      "ownerrealm": null
+    },
+    "33": {
+      "slug": "blackwater-raiders",
+      "name": "Blackwater Raiders",
+      "locale": "en_US",
+      "house": 29,
+      "canonical": "blackwater-raiders",
+      "ownerrealm": null
+    },
+    "34": {
+      "slug": "blackwing-lair",
+      "name": "Blackwing Lair",
+      "locale": "en_US",
+      "house": 30,
+      "canonical": "blackwing-lair",
+      "ownerrealm": null
+    },
+    "35": {
+      "slug": "blades-edge",
+      "name": "Blade's Edge",
+      "locale": "en_US",
+      "house": 31,
+      "canonical": "blades-edge",
+      "ownerrealm": null
+    },
+    "36": {
+      "slug": "bladefist",
+      "name": "Bladefist",
+      "locale": "en_US",
+      "house": 32,
+      "canonical": "bladefist",
+      "ownerrealm": null
+    },
+    "37": {
+      "slug": "bleeding-hollow",
+      "name": "Bleeding Hollow",
+      "locale": "en_US",
+      "house": 33,
+      "canonical": "bleeding-hollow",
+      "ownerrealm": null
+    },
+    "38": {
+      "slug": "blood-furnace",
+      "name": "Blood Furnace",
+      "locale": "en_US",
+      "house": 34,
+      "canonical": "blood-furnace",
+      "ownerrealm": null
+    },
+    "39": {
+      "slug": "bloodhoof",
+      "name": "Bloodhoof",
+      "locale": "en_US",
+      "house": 35,
+      "canonical": "bloodhoof",
+      "ownerrealm": null
+    },
+    "40": {
+      "slug": "bloodscalp",
+      "name": "Bloodscalp",
+      "locale": "en_US",
+      "house": 36,
+      "canonical": "bloodscalp",
+      "ownerrealm": null
+    },
+    "41": {
+      "slug": "bonechewer",
+      "name": "Bonechewer",
+      "locale": "en_US",
+      "house": 1,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "42": {
+      "slug": "borean-tundra",
+      "name": "Borean Tundra",
+      "locale": "en_US",
+      "house": 37,
+      "canonical": "borean-tundra",
+      "ownerrealm": null
+    },
+    "43": {
+      "slug": "boulderfist",
+      "name": "Boulderfist",
+      "locale": "en_US",
+      "house": 36,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "44": {
+      "slug": "bronzebeard",
+      "name": "Bronzebeard",
+      "locale": "en_US",
+      "house": 38,
+      "canonical": "bronzebeard",
+      "ownerrealm": null
+    },
+    "45": {
+      "slug": "burning-blade",
+      "name": "Burning Blade",
+      "locale": "en_US",
+      "house": 39,
+      "canonical": "burning-blade",
+      "ownerrealm": null
+    },
+    "46": {
+      "slug": "burning-legion",
+      "name": "Burning Legion",
+      "locale": "en_US",
+      "house": 3,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "47": {
+      "slug": "caelestrasz",
+      "name": "Caelestrasz",
+      "locale": "en_US",
+      "house": 40,
+      "canonical": "caelestrasz",
+      "ownerrealm": null
+    },
+    "48": {
+      "slug": "cairne",
+      "name": "Cairne",
+      "locale": "en_US",
+      "house": 41,
+      "canonical": "cairne",
+      "ownerrealm": null
+    },
+    "49": {
+      "slug": "cenarion-circle",
+      "name": "Cenarion Circle",
+      "locale": "en_US",
+      "house": 42,
+      "canonical": "cenarion-circle",
+      "ownerrealm": null
+    },
+    "50": {
+      "slug": "cenarius",
+      "name": "Cenarius",
+      "locale": "en_US",
+      "house": 43,
+      "canonical": "cenarius",
+      "ownerrealm": null
+    },
+    "51": {
+      "slug": "chogall",
+      "name": "Cho'gall",
+      "locale": "en_US",
+      "house": 19,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "52": {
+      "slug": "chromaggus",
+      "name": "Chromaggus",
+      "locale": "en_US",
+      "house": 13,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "53": {
+      "slug": "coilfang",
+      "name": "Coilfang",
+      "locale": "en_US",
+      "house": 44,
+      "canonical": "coilfang",
+      "ownerrealm": null
+    },
+    "54": {
+      "slug": "crushridge",
+      "name": "Crushridge",
+      "locale": "en_US",
+      "house": 13,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "55": {
+      "slug": "daggerspine",
+      "name": "Daggerspine",
+      "locale": "en_US",
+      "house": 1,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "56": {
+      "slug": "dalaran",
+      "name": "Dalaran",
+      "locale": "en_US",
+      "house": 45,
+      "canonical": "dalaran",
+      "ownerrealm": null
+    },
+    "57": {
+      "slug": "dalvengyr",
+      "name": "Dalvengyr",
+      "locale": "en_US",
+      "house": 44,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "58": {
+      "slug": "dark-iron",
+      "name": "Dark Iron",
+      "locale": "en_US",
+      "house": 44,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "59": {
+      "slug": "darkspear",
+      "name": "Darkspear",
+      "locale": "en_US",
+      "house": 46,
+      "canonical": "darkspear",
+      "ownerrealm": null
+    },
+    "60": {
+      "slug": "darrowmere",
+      "name": "Darrowmere",
+      "locale": "en_US",
+      "house": 47,
+      "canonical": "darrowmere",
+      "ownerrealm": null
+    },
+    "61": {
+      "slug": "dathremar",
+      "name": "Dath'Remar",
+      "locale": "en_US",
+      "house": 48,
+      "canonical": "dathremar",
+      "ownerrealm": null
+    },
+    "62": {
+      "slug": "dawnbringer",
+      "name": "Dawnbringer",
+      "locale": "en_US",
+      "house": 49,
+      "canonical": "dawnbringer",
+      "ownerrealm": null
+    },
+    "63": {
+      "slug": "deathwing",
+      "name": "Deathwing",
+      "locale": "en_US",
+      "house": 50,
+      "canonical": "deathwing",
+      "ownerrealm": null
+    },
+    "64": {
+      "slug": "demon-soul",
+      "name": "Demon Soul",
+      "locale": "en_US",
+      "house": 44,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "65": {
+      "slug": "dentarg",
+      "name": "Dentarg",
+      "locale": "en_US",
+      "house": 51,
+      "canonical": "dentarg",
+      "ownerrealm": null
+    },
+    "66": {
+      "slug": "destromath",
+      "name": "Destromath",
+      "locale": "en_US",
+      "house": 20,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "67": {
+      "slug": "dethecus",
+      "name": "Dethecus",
+      "locale": "en_US",
+      "house": 30,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "68": {
+      "slug": "detheroc",
+      "name": "Detheroc",
+      "locale": "en_US",
+      "house": 30,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "69": {
+      "slug": "doomhammer",
+      "name": "Doomhammer",
+      "locale": "en_US",
+      "house": 24,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "70": {
+      "slug": "draenor",
+      "name": "Draenor",
+      "locale": "en_US",
+      "house": 52,
+      "canonical": "draenor",
+      "ownerrealm": null
+    },
+    "71": {
+      "slug": "dragonblight",
+      "name": "Dragonblight",
+      "locale": "en_US",
+      "house": 53,
+      "canonical": "dragonblight",
+      "ownerrealm": null
+    },
+    "72": {
+      "slug": "dragonmaw",
+      "name": "Dragonmaw",
+      "locale": "en_US",
+      "house": 5,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "73": {
+      "slug": "draktharon",
+      "name": "Drak'Tharon",
+      "locale": "en_US",
+      "house": 54,
+      "canonical": "draktharon",
+      "ownerrealm": null
+    },
+    "74": {
+      "slug": "drakthul",
+      "name": "Drak'thul",
+      "locale": "en_US",
+      "house": 55,
+      "canonical": "drakthul",
+      "ownerrealm": null
+    },
+    "75": {
+      "slug": "draka",
+      "name": "Draka",
+      "locale": "en_US",
+      "house": 56,
+      "canonical": "draka",
+      "ownerrealm": null
+    },
+    "76": {
+      "slug": "drakkari",
+      "name": "Drakkari",
+      "locale": "es_MX",
+      "house": 57,
+      "canonical": "drakkari",
+      "ownerrealm": "Drakkari"
+    },
+    "77": {
+      "slug": "dreadmaul",
+      "name": "Dreadmaul",
+      "locale": "en_US",
+      "house": 58,
+      "canonical": "dreadmaul",
+      "ownerrealm": null
+    },
+    "78": {
+      "slug": "drenden",
+      "name": "Drenden",
+      "locale": "en_US",
+      "house": 14,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "79": {
+      "slug": "dunemaul",
+      "name": "Dunemaul",
+      "locale": "en_US",
+      "house": 36,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "80": {
+      "slug": "durotan",
+      "name": "Durotan",
+      "locale": "en_US",
+      "house": 59,
+      "canonical": "durotan",
+      "ownerrealm": null
+    },
+    "81": {
+      "slug": "duskwood",
+      "name": "Duskwood",
+      "locale": "en_US",
+      "house": 35,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "82": {
+      "slug": "earthen-ring",
+      "name": "Earthen Ring",
+      "locale": "en_US",
+      "house": 60,
+      "canonical": "earthen-ring",
+      "ownerrealm": null
+    },
+    "83": {
+      "slug": "echo-isles",
+      "name": "Echo Isles",
+      "locale": "en_US",
+      "house": 52,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "84": {
+      "slug": "eitrigg",
+      "name": "Eitrigg",
+      "locale": "en_US",
+      "house": 61,
+      "canonical": "eitrigg",
+      "ownerrealm": null
+    },
+    "85": {
+      "slug": "eldrethalas",
+      "name": "Eldre'Thalas",
+      "locale": "en_US",
+      "house": 62,
+      "canonical": "eldrethalas",
+      "ownerrealm": null
+    },
+    "86": {
+      "slug": "elune",
+      "name": "Elune",
+      "locale": "en_US",
+      "house": 63,
+      "canonical": "elune",
+      "ownerrealm": null
+    },
+    "87": {
+      "slug": "emerald-dream",
+      "name": "Emerald Dream",
+      "locale": "en_US",
+      "house": 64,
+      "canonical": "emerald-dream",
+      "ownerrealm": null
+    },
+    "88": {
+      "slug": "eonar",
+      "name": "Eonar",
+      "locale": "en_US",
+      "house": 65,
+      "canonical": "eonar",
+      "ownerrealm": null
+    },
+    "89": {
+      "slug": "eredar",
+      "name": "Eredar",
+      "locale": "en_US",
+      "house": 66,
+      "canonical": "eredar",
+      "ownerrealm": null
+    },
+    "90": {
+      "slug": "executus",
+      "name": "Executus",
+      "locale": "en_US",
+      "house": 50,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "91": {
+      "slug": "exodar",
+      "name": "Exodar",
+      "locale": "en_US",
+      "house": 67,
+      "canonical": "exodar",
+      "ownerrealm": null
+    },
+    "92": {
+      "slug": "farstriders",
+      "name": "Farstriders",
+      "locale": "en_US",
+      "house": 68,
+      "canonical": "farstriders",
+      "ownerrealm": null
+    },
+    "93": {
+      "slug": "feathermoon",
+      "name": "Feathermoon",
+      "locale": "en_US",
+      "house": 69,
+      "canonical": "feathermoon",
+      "ownerrealm": null
+    },
+    "94": {
+      "slug": "fenris",
+      "name": "Fenris",
+      "locale": "en_US",
+      "house": 53,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "95": {
+      "slug": "firetree",
+      "name": "Firetree",
+      "locale": "en_US",
+      "house": 54,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "96": {
+      "slug": "fizzcrank",
+      "name": "Fizzcrank",
+      "locale": "en_US",
+      "house": 4,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "97": {
+      "slug": "frostmane",
+      "name": "Frostmane",
+      "locale": "en_US",
+      "house": 70,
+      "canonical": "frostmane",
+      "ownerrealm": null
+    },
+    "98": {
+      "slug": "frostmourne",
+      "name": "Frostmourne",
+      "locale": "en_US",
+      "house": 71,
+      "canonical": "frostmourne",
+      "ownerrealm": null
+    },
+    "99": {
+      "slug": "frostwolf",
+      "name": "Frostwolf",
+      "locale": "en_US",
+      "house": 72,
+      "canonical": "frostwolf",
+      "ownerrealm": null
+    },
+    "100": {
+      "slug": "galakrond",
+      "name": "Galakrond",
+      "locale": "en_US",
+      "house": 27,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "101": {
+      "slug": "gallywix",
+      "name": "Gallywix",
+      "locale": "pt_BR",
+      "house": 73,
+      "canonical": "gallywix",
+      "ownerrealm": "Gallywix"
+    },
+    "102": {
+      "slug": "garithos",
+      "name": "Garithos",
+      "locale": "en_US",
+      "house": 13,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "103": {
+      "slug": "garona",
+      "name": "Garona",
+      "locale": "en_US",
+      "house": 74,
+      "canonical": "garona",
+      "ownerrealm": null
+    },
+    "104": {
+      "slug": "garrosh",
+      "name": "Garrosh",
+      "locale": "en_US",
+      "house": 75,
+      "canonical": "garrosh",
+      "ownerrealm": null
+    },
+    "105": {
+      "slug": "ghostlands",
+      "name": "Ghostlands",
+      "locale": "en_US",
+      "house": 76,
+      "canonical": "ghostlands",
+      "ownerrealm": null
+    },
+    "106": {
+      "slug": "gilneas",
+      "name": "Gilneas",
+      "locale": "en_US",
+      "house": 63,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "107": {
+      "slug": "gnomeregan",
+      "name": "Gnomeregan",
+      "locale": "en_US",
+      "house": 77,
+      "canonical": "gnomeregan",
+      "ownerrealm": null
+    },
+    "108": {
+      "slug": "goldrinn",
+      "name": "Goldrinn",
+      "locale": "pt_BR",
+      "house": 78,
+      "canonical": "goldrinn",
+      "ownerrealm": "Goldrinn"
+    },
+    "109": {
+      "slug": "gorefiend",
+      "name": "Gorefiend",
+      "locale": "en_US",
+      "house": 66,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "110": {
+      "slug": "gorgonnash",
+      "name": "Gorgonnash",
+      "locale": "en_US",
+      "house": 9,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "111": {
+      "slug": "greymane",
+      "name": "Greymane",
+      "locale": "en_US",
+      "house": 79,
+      "canonical": "greymane",
+      "ownerrealm": null
+    },
+    "112": {
+      "slug": "grizzly-hills",
+      "name": "Grizzly Hills",
+      "locale": "en_US",
+      "house": 80,
+      "canonical": "grizzly-hills",
+      "ownerrealm": null
+    },
+    "113": {
+      "slug": "guldan",
+      "name": "Gul'dan",
+      "locale": "en_US",
+      "house": 26,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "114": {
+      "slug": "gundrak",
+      "name": "Gundrak",
+      "locale": "en_US",
+      "house": 81,
+      "canonical": "gundrak",
+      "ownerrealm": null
+    },
+    "115": {
+      "slug": "gurubashi",
+      "name": "Gurubashi",
+      "locale": "en_US",
+      "house": 1,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "116": {
+      "slug": "hakkar",
+      "name": "Hakkar",
+      "locale": "en_US",
+      "house": 1,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "117": {
+      "slug": "haomarush",
+      "name": "Haomarush",
+      "locale": "en_US",
+      "house": 30,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "118": {
+      "slug": "hellscream",
+      "name": "Hellscream",
+      "locale": "en_US",
+      "house": 82,
+      "canonical": "hellscream",
+      "ownerrealm": null
+    },
+    "119": {
+      "slug": "hydraxis",
+      "name": "Hydraxis",
+      "locale": "en_US",
+      "house": 83,
+      "canonical": "hydraxis",
+      "ownerrealm": null
+    },
+    "120": {
+      "slug": "hyjal",
+      "name": "Hyjal",
+      "locale": "en_US",
+      "house": 84,
+      "canonical": "hyjal",
+      "ownerrealm": null
+    },
+    "121": {
+      "slug": "icecrown",
+      "name": "Icecrown",
+      "locale": "en_US",
+      "house": 85,
+      "canonical": "icecrown",
+      "ownerrealm": null
+    },
+    "122": {
+      "slug": "illidan",
+      "name": "Illidan",
+      "locale": "en_US",
+      "house": 86,
+      "canonical": "illidan",
+      "ownerrealm": null
+    },
+    "123": {
+      "slug": "jaedenar",
+      "name": "Jaedenar",
+      "locale": "en_US",
+      "house": 3,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "124": {
+      "slug": "jubeithos",
+      "name": "Jubei'Thos",
+      "locale": "en_US",
+      "house": 81,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "125": {
+      "slug": "kaelthas",
+      "name": "Kael'thas",
+      "locale": "en_US",
+      "house": 76,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "126": {
+      "slug": "kalecgos",
+      "name": "Kalecgos",
+      "locale": "en_US",
+      "house": 50,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "127": {
+      "slug": "kargath",
+      "name": "Kargath",
+      "locale": "en_US",
+      "house": 87,
+      "canonical": "kargath",
+      "ownerrealm": null
+    },
+    "128": {
+      "slug": "kelthuzad",
+      "name": "Kel'Thuzad",
+      "locale": "en_US",
+      "house": 88,
+      "canonical": "kelthuzad",
+      "ownerrealm": null
+    },
+    "129": {
+      "slug": "khadgar",
+      "name": "Khadgar",
+      "locale": "en_US",
+      "house": 7,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "130": {
+      "slug": "khaz-modan",
+      "name": "Khaz Modan",
+      "locale": "en_US",
+      "house": 21,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "131": {
+      "slug": "khazgoroth",
+      "name": "Khaz'goroth",
+      "locale": "en_US",
+      "house": 48,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "132": {
+      "slug": "kiljaeden",
+      "name": "Kil'jaeden",
+      "locale": "en_US",
+      "house": 89,
+      "canonical": "kiljaeden",
+      "ownerrealm": null
+    },
+    "133": {
+      "slug": "kilrogg",
+      "name": "Kilrogg",
+      "locale": "en_US",
+      "house": 90,
+      "canonical": "kilrogg",
+      "ownerrealm": null
+    },
+    "134": {
+      "slug": "kirin-tor",
+      "name": "Kirin Tor",
+      "locale": "en_US",
+      "house": 91,
+      "canonical": "kirin-tor",
+      "ownerrealm": null
+    },
+    "135": {
+      "slug": "korgath",
+      "name": "Korgath",
+      "locale": "en_US",
+      "house": 92,
+      "canonical": "korgath",
+      "ownerrealm": null
+    },
+    "136": {
+      "slug": "korialstrasz",
+      "name": "Korialstrasz",
+      "locale": "en_US",
+      "house": 62,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "137": {
+      "slug": "kul-tiras",
+      "name": "Kul Tiras",
+      "locale": "en_US",
+      "house": 32,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "138": {
+      "slug": "laughing-skull",
+      "name": "Laughing Skull",
+      "locale": "en_US",
+      "house": 19,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "139": {
+      "slug": "lethon",
+      "name": "Lethon",
+      "locale": "en_US",
+      "house": 30,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "140": {
+      "slug": "lightbringer",
+      "name": "Lightbringer",
+      "locale": "en_US",
+      "house": 93,
+      "canonical": "lightbringer",
+      "ownerrealm": null
+    },
+    "141": {
+      "slug": "lightnings-blade",
+      "name": "Lightning's Blade",
+      "locale": "en_US",
+      "house": 39,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "142": {
+      "slug": "lightninghoof",
+      "name": "Lightninghoof",
+      "locale": "en_US",
+      "house": 94,
+      "canonical": "lightninghoof",
+      "ownerrealm": null
+    },
+    "143": {
+      "slug": "llane",
+      "name": "Llane",
+      "locale": "en_US",
+      "house": 18,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "144": {
+      "slug": "lothar",
+      "name": "Lothar",
+      "locale": "en_US",
+      "house": 80,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "145": {
+      "slug": "madoran",
+      "name": "Madoran",
+      "locale": "en_US",
+      "house": 49,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "146": {
+      "slug": "maelstrom",
+      "name": "Maelstrom",
+      "locale": "en_US",
+      "house": 94,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "147": {
+      "slug": "magtheridon",
+      "name": "Magtheridon",
+      "locale": "en_US",
+      "house": 8,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "148": {
+      "slug": "maiev",
+      "name": "Maiev",
+      "locale": "en_US",
+      "house": 36,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "149": {
+      "slug": "malganis",
+      "name": "Mal'Ganis",
+      "locale": "en_US",
+      "house": 95,
+      "canonical": "malganis",
+      "ownerrealm": null
+    },
+    "150": {
+      "slug": "malfurion",
+      "name": "Malfurion",
+      "locale": "en_US",
+      "house": 96,
+      "canonical": "malfurion",
+      "ownerrealm": null
+    },
+    "151": {
+      "slug": "malorne",
+      "name": "Malorne",
+      "locale": "en_US",
+      "house": 54,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "152": {
+      "slug": "malygos",
+      "name": "Malygos",
+      "locale": "en_US",
+      "house": 85,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "153": {
+      "slug": "mannoroth",
+      "name": "Mannoroth",
+      "locale": "en_US",
+      "house": 34,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "154": {
+      "slug": "medivh",
+      "name": "Medivh",
+      "locale": "en_US",
+      "house": 67,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "155": {
+      "slug": "misha",
+      "name": "Misha",
+      "locale": "en_US",
+      "house": 97,
+      "canonical": "misha",
+      "ownerrealm": null
+    },
+    "156": {
+      "slug": "moknathal",
+      "name": "Mok'Nathal",
+      "locale": "en_US",
+      "house": 98,
+      "canonical": "moknathal",
+      "ownerrealm": null
+    },
+    "157": {
+      "slug": "moon-guard",
+      "name": "Moon Guard",
+      "locale": "en_US",
+      "house": 99,
+      "canonical": "moon-guard",
+      "ownerrealm": null
+    },
+    "158": {
+      "slug": "moonrunner",
+      "name": "Moonrunner",
+      "locale": "en_US",
+      "house": 77,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "159": {
+      "slug": "mugthol",
+      "name": "Mug'thol",
+      "locale": "en_US",
+      "house": 5,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "160": {
+      "slug": "muradin",
+      "name": "Muradin",
+      "locale": "en_US",
+      "house": 100,
+      "canonical": "muradin",
+      "ownerrealm": null
+    },
+    "161": {
+      "slug": "nagrand",
+      "name": "Nagrand",
+      "locale": "en_US",
+      "house": 40,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "162": {
+      "slug": "nathrezim",
+      "name": "Nathrezim",
+      "locale": "en_US",
+      "house": 13,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "163": {
+      "slug": "nazgrel",
+      "name": "Nazgrel",
+      "locale": "en_US",
+      "house": 101,
+      "canonical": "nazgrel",
+      "ownerrealm": null
+    },
+    "164": {
+      "slug": "nazjatar",
+      "name": "Nazjatar",
+      "locale": "en_US",
+      "house": 34,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "165": {
+      "slug": "nemesis",
+      "name": "Nemesis",
+      "locale": "pt_BR",
+      "house": 102,
+      "canonical": "nemesis",
+      "ownerrealm": "Nemesis"
+    },
+    "166": {
+      "slug": "nerzhul",
+      "name": "Ner'zhul",
+      "locale": "en_US",
+      "house": 70,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "167": {
+      "slug": "nesingwary",
+      "name": "Nesingwary",
+      "locale": "en_US",
+      "house": 101,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "168": {
+      "slug": "nordrassil",
+      "name": "Nordrassil",
+      "locale": "en_US",
+      "house": 100,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "169": {
+      "slug": "norgannon",
+      "name": "Norgannon",
+      "locale": "en_US",
+      "house": 87,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "170": {
+      "slug": "onyxia",
+      "name": "Onyxia",
+      "locale": "en_US",
+      "house": 39,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "171": {
+      "slug": "perenolde",
+      "name": "Perenolde",
+      "locale": "en_US",
+      "house": 41,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "172": {
+      "slug": "proudmoore",
+      "name": "Proudmoore",
+      "locale": "en_US",
+      "house": 103,
+      "canonical": "proudmoore",
+      "ownerrealm": null
+    },
+    "173": {
+      "slug": "quelthalas",
+      "name": "Quel'Thalas",
+      "locale": "es_MX",
+      "house": 104,
+      "canonical": "quelthalas",
+      "ownerrealm": "Quel'Thalas"
+    },
+    "174": {
+      "slug": "queldorei",
+      "name": "Quel'dorei",
+      "locale": "en_US",
+      "house": 105,
+      "canonical": "queldorei",
+      "ownerrealm": null
+    },
+    "175": {
+      "slug": "ragnaros",
+      "name": "Ragnaros",
+      "locale": "es_MX",
+      "house": 106,
+      "canonical": "ragnaros",
+      "ownerrealm": "Ragnaros"
+    },
+    "176": {
+      "slug": "ravencrest",
+      "name": "Ravencrest",
+      "locale": "en_US",
+      "house": 107,
+      "canonical": "ravencrest",
+      "ownerrealm": null
+    },
+    "177": {
+      "slug": "ravenholdt",
+      "name": "Ravenholdt",
+      "locale": "en_US",
+      "house": 108,
+      "canonical": "ravenholdt",
+      "ownerrealm": null
+    },
+    "178": {
+      "slug": "rexxar",
+      "name": "Rexxar",
+      "locale": "en_US",
+      "house": 97,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "179": {
+      "slug": "rivendare",
+      "name": "Rivendare",
+      "locale": "en_US",
+      "house": 54,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "180": {
+      "slug": "runetotem",
+      "name": "Runetotem",
+      "locale": "en_US",
+      "house": 109,
+      "canonical": "runetotem",
+      "ownerrealm": null
+    },
+    "181": {
+      "slug": "sargeras",
+      "name": "Sargeras",
+      "locale": "en_US",
+      "house": 110,
+      "canonical": "sargeras",
+      "ownerrealm": null
+    },
+    "182": {
+      "slug": "saurfang",
+      "name": "Saurfang",
+      "locale": "en_US",
+      "house": 111,
+      "canonical": "saurfang",
+      "ownerrealm": null
+    },
+    "183": {
+      "slug": "scarlet-crusade",
+      "name": "Scarlet Crusade",
+      "locale": "en_US",
+      "house": 69,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "184": {
+      "slug": "scilla",
+      "name": "Scilla",
+      "locale": "en_US",
+      "house": 11,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "185": {
+      "slug": "senjin",
+      "name": "Sen'jin",
+      "locale": "en_US",
+      "house": 105,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "186": {
+      "slug": "sentinels",
+      "name": "Sentinels",
+      "locale": "en_US",
+      "house": 91,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "187": {
+      "slug": "shadow-council",
+      "name": "Shadow Council",
+      "locale": "en_US",
+      "house": 29,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "188": {
+      "slug": "shadowmoon",
+      "name": "Shadowmoon",
+      "locale": "en_US",
+      "house": 30,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "189": {
+      "slug": "shadowsong",
+      "name": "Shadowsong",
+      "locale": "en_US",
+      "house": 37,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "190": {
+      "slug": "shandris",
+      "name": "Shandris",
+      "locale": "en_US",
+      "house": 38,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "191": {
+      "slug": "shattered-halls",
+      "name": "Shattered Halls",
+      "locale": "en_US",
+      "house": 50,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "192": {
+      "slug": "shattered-hand",
+      "name": "Shattered Hand",
+      "locale": "en_US",
+      "house": 44,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "193": {
+      "slug": "shuhalo",
+      "name": "Shu'halo",
+      "locale": "en_US",
+      "house": 61,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "194": {
+      "slug": "silver-hand",
+      "name": "Silver Hand",
+      "locale": "en_US",
+      "house": 68,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "195": {
+      "slug": "silvermoon",
+      "name": "Silvermoon",
+      "locale": "en_US",
+      "house": 98,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "196": {
+      "slug": "sisters-of-elune",
+      "name": "Sisters of Elune",
+      "locale": "en_US",
+      "house": 42,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "197": {
+      "slug": "skullcrusher",
+      "name": "Skullcrusher",
+      "locale": "en_US",
+      "house": 26,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "198": {
+      "slug": "skywall",
+      "name": "Skywall",
+      "locale": "en_US",
+      "house": 55,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "199": {
+      "slug": "smolderthorn",
+      "name": "Smolderthorn",
+      "locale": "en_US",
+      "house": 13,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "200": {
+      "slug": "spinebreaker",
+      "name": "Spinebreaker",
+      "locale": "en_US",
+      "house": 66,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "201": {
+      "slug": "spirestone",
+      "name": "Spirestone",
+      "locale": "en_US",
+      "house": 54,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "202": {
+      "slug": "staghelm",
+      "name": "Staghelm",
+      "locale": "en_US",
+      "house": 23,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "203": {
+      "slug": "steamwheedle-cartel",
+      "name": "Steamwheedle Cartel",
+      "locale": "en_US",
+      "house": 91,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "204": {
+      "slug": "stonemaul",
+      "name": "Stonemaul",
+      "locale": "en_US",
+      "house": 36,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "205": {
+      "slug": "stormrage",
+      "name": "Stormrage",
+      "locale": "en_US",
+      "house": 112,
+      "canonical": "stormrage",
+      "ownerrealm": null
+    },
+    "206": {
+      "slug": "stormreaver",
+      "name": "Stormreaver",
+      "locale": "en_US",
+      "house": 113,
+      "canonical": "stormreaver",
+      "ownerrealm": null
+    },
+    "207": {
+      "slug": "stormscale",
+      "name": "Stormscale",
+      "locale": "en_US",
+      "house": 54,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "208": {
+      "slug": "suramar",
+      "name": "Suramar",
+      "locale": "en_US",
+      "house": 56,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "209": {
+      "slug": "tanaris",
+      "name": "Tanaris",
+      "locale": "en_US",
+      "house": 79,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "210": {
+      "slug": "terenas",
+      "name": "Terenas",
+      "locale": "en_US",
+      "house": 83,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "211": {
+      "slug": "terokkar",
+      "name": "Terokkar",
+      "locale": "en_US",
+      "house": 6,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "212": {
+      "slug": "thaurissan",
+      "name": "Thaurissan",
+      "locale": "en_US",
+      "house": 58,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "213": {
+      "slug": "the-forgotten-coast",
+      "name": "The Forgotten Coast",
+      "locale": "en_US",
+      "house": 9,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "214": {
+      "slug": "the-scryers",
+      "name": "The Scryers",
+      "locale": "en_US",
+      "house": 16,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "215": {
+      "slug": "the-underbog",
+      "name": "The Underbog",
+      "locale": "en_US",
+      "house": 3,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "216": {
+      "slug": "the-venture-co",
+      "name": "The Venture Co",
+      "locale": "en_US",
+      "house": 94,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "217": {
+      "slug": "thorium-brotherhood",
+      "name": "Thorium Brotherhood",
+      "locale": "en_US",
+      "house": 68,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "218": {
+      "slug": "thrall",
+      "name": "Thrall",
+      "locale": "en_US",
+      "house": 114,
+      "canonical": "thrall",
+      "ownerrealm": null
+    },
+    "219": {
+      "slug": "thunderhorn",
+      "name": "Thunderhorn",
+      "locale": "en_US",
+      "house": 31,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "220": {
+      "slug": "thunderlord",
+      "name": "Thunderlord",
+      "locale": "en_US",
+      "house": 20,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "221": {
+      "slug": "tichondrius",
+      "name": "Tichondrius",
+      "locale": "en_US",
+      "house": 115,
+      "canonical": "tichondrius",
+      "ownerrealm": null
+    },
+    "222": {
+      "slug": "tol-barad",
+      "name": "Tol Barad",
+      "locale": "pt_BR",
+      "house": 116,
+      "canonical": "tol-barad",
+      "ownerrealm": "Tol Barad"
+    },
+    "223": {
+      "slug": "tortheldrin",
+      "name": "Tortheldrin",
+      "locale": "en_US",
+      "house": 70,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "224": {
+      "slug": "trollbane",
+      "name": "Trollbane",
+      "locale": "en_US",
+      "house": 96,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "225": {
+      "slug": "turalyon",
+      "name": "Turalyon",
+      "locale": "en_US",
+      "house": 117,
+      "canonical": "turalyon",
+      "ownerrealm": null
+    },
+    "226": {
+      "slug": "twisting-nether",
+      "name": "Twisting Nether",
+      "locale": "en_US",
+      "house": 108,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "227": {
+      "slug": "uldaman",
+      "name": "Uldaman",
+      "locale": "en_US",
+      "house": 107,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "228": {
+      "slug": "uldum",
+      "name": "Uldum",
+      "locale": "en_US",
+      "house": 12,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "229": {
+      "slug": "undermine",
+      "name": "Undermine",
+      "locale": "en_US",
+      "house": 118,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "230": {
+      "slug": "ursin",
+      "name": "Ursin",
+      "locale": "en_US",
+      "house": 11,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "231": {
+      "slug": "uther",
+      "name": "Uther",
+      "locale": "en_US",
+      "house": 109,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "232": {
+      "slug": "vashj",
+      "name": "Vashj",
+      "locale": "en_US",
+      "house": 72,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "233": {
+      "slug": "veknilash",
+      "name": "Vek'nilash",
+      "locale": "en_US",
+      "house": 101,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "234": {
+      "slug": "velen",
+      "name": "Velen",
+      "locale": "en_US",
+      "house": 65,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "235": {
+      "slug": "warsong",
+      "name": "Warsong",
+      "locale": "en_US",
+      "house": 9,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "236": {
+      "slug": "whisperwind",
+      "name": "Whisperwind",
+      "locale": "en_US",
+      "house": 51,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "237": {
+      "slug": "wildhammer",
+      "name": "Wildhammer",
+      "locale": "en_US",
+      "house": 66,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "238": {
+      "slug": "windrunner",
+      "name": "Windrunner",
+      "locale": "en_US",
+      "house": 47,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "239": {
+      "slug": "winterhoof",
+      "name": "Winterhoof",
+      "locale": "en_US",
+      "house": 90,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "240": {
+      "slug": "wyrmrest-accord",
+      "name": "Wyrmrest Accord",
+      "locale": "en_US",
+      "house": 119,
+      "canonical": "wyrmrest-accord",
+      "ownerrealm": null
+    },
+    "242": {
+      "slug": "ysera",
+      "name": "Ysera",
+      "locale": "en_US",
+      "house": 59,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "243": {
+      "slug": "ysondre",
+      "name": "Ysondre",
+      "locale": "en_US",
+      "house": 8,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "244": {
+      "slug": "zangarmarsh",
+      "name": "Zangarmarsh",
+      "locale": "en_US",
+      "house": 82,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "245": {
+      "slug": "zuljin",
+      "name": "Zul'jin",
+      "locale": "en_US",
+      "house": 120,
+      "canonical": "zuljin",
+      "ownerrealm": null
+    },
+    "246": {
+      "slug": "zuluhed",
+      "name": "Zuluhed",
+      "locale": "en_US",
+      "house": 11,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "512": {
+      "slug": "anvilmar",
+      "name": "Anvilmar",
+      "locale": "en_US",
+      "house": 118,
+      "canonical": "anvilmar",
+      "ownerrealm": null
+    }
+  },
+  {
+    "247": {
+      "slug": "aegwynn",
+      "name": "Aegwynn",
+      "locale": "de_DE",
+      "house": 121,
+      "canonical": "aegwynn",
+      "ownerrealm": "Aegwynn"
+    },
+    "248": {
+      "slug": "aerie-peak",
+      "name": "Aerie Peak",
+      "locale": "en_GB",
+      "house": 122,
+      "canonical": "aerie-peak",
+      "ownerrealm": null
+    },
+    "249": {
+      "slug": "agamaggan",
+      "name": "Agamaggan",
+      "locale": "en_GB",
+      "house": 123,
+      "canonical": "agamaggan",
+      "ownerrealm": null
+    },
+    "250": {
+      "slug": "aggra-portugues",
+      "name": "Aggra (Português)",
+      "locale": "pt_BR",
+      "house": 124,
+      "canonical": "aggra-portugues",
+      "ownerrealm": "Aggra (Português)"
+    },
+    "251": {
+      "slug": "aggramar",
+      "name": "Aggramar",
+      "locale": "en_GB",
+      "house": 125,
+      "canonical": "aggramar",
+      "ownerrealm": null
+    },
+    "252": {
+      "slug": "ahnqiraj",
+      "name": "Ahn'Qiraj",
+      "locale": "en_GB",
+      "house": 126,
+      "canonical": "ahnqiraj",
+      "ownerrealm": null
+    },
+    "253": {
+      "slug": "alakir",
+      "name": "Al'Akir",
+      "locale": "en_GB",
+      "house": 127,
+      "canonical": "alakir",
+      "ownerrealm": null
+    },
+    "254": {
+      "slug": "alexstrasza",
+      "name": "Alexstrasza",
+      "locale": "de_DE",
+      "house": 128,
+      "canonical": "alexstrasza",
+      "ownerrealm": "Alexstrasza"
+    },
+    "255": {
+      "slug": "alleria",
+      "name": "Alleria",
+      "locale": "de_DE",
+      "house": 129,
+      "canonical": "alleria",
+      "ownerrealm": "Alleria"
+    },
+    "256": {
+      "slug": "alonsus",
+      "name": "Alonsus",
+      "locale": "en_GB",
+      "house": 130,
+      "canonical": "alonsus",
+      "ownerrealm": null
+    },
+    "257": {
+      "slug": "amanthul",
+      "name": "Aman'Thul",
+      "locale": "de_DE",
+      "house": 131,
+      "canonical": "amanthul",
+      "ownerrealm": "Aman'thul"
+    },
+    "258": {
+      "slug": "ambossar",
+      "name": "Ambossar",
+      "locale": "de_DE",
+      "house": 132,
+      "canonical": "ambossar",
+      "ownerrealm": "Ambossar"
+    },
+    "259": {
+      "slug": "anachronos",
+      "name": "Anachronos",
+      "locale": "en_GB",
+      "house": 130,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "260": {
+      "slug": "anetheron",
+      "name": "Anetheron",
+      "locale": "de_DE",
+      "house": 133,
+      "canonical": null,
+      "ownerrealm": "Anetheron"
+    },
+    "261": {
+      "slug": "antonidas",
+      "name": "Antonidas",
+      "locale": "de_DE",
+      "house": 134,
+      "canonical": "antonidas",
+      "ownerrealm": "Antonidas"
+    },
+    "262": {
+      "slug": "anubarak",
+      "name": "Anub'arak",
+      "locale": "de_DE",
+      "house": 135,
+      "canonical": "anubarak",
+      "ownerrealm": "Anub'arak"
+    },
+    "263": {
+      "slug": "arakarahm",
+      "name": "Arak-arahm",
+      "locale": "fr_FR",
+      "house": 136,
+      "canonical": "arakarahm",
+      "ownerrealm": "Arak-arahm"
+    },
+    "264": {
+      "slug": "arathi",
+      "name": "Arathi",
+      "locale": "fr_FR",
+      "house": 137,
+      "canonical": "arathi",
+      "ownerrealm": "Arathi"
+    },
+    "265": {
+      "slug": "arathor",
+      "name": "Arathor",
+      "locale": "en_GB",
+      "house": 138,
+      "canonical": "arathor",
+      "ownerrealm": null
+    },
+    "266": {
+      "slug": "archimonde",
+      "name": "Archimonde",
+      "locale": "fr_FR",
+      "house": 139,
+      "canonical": "archimonde",
+      "ownerrealm": "Archimonde"
+    },
+    "267": {
+      "slug": "area-52",
+      "name": "Area 52",
+      "locale": "de_DE",
+      "house": 140,
+      "canonical": "area-52",
+      "ownerrealm": "Area 52"
+    },
+    "268": {
+      "slug": "argent-dawn",
+      "name": "Argent Dawn",
+      "locale": "en_GB",
+      "house": 141,
+      "canonical": "argent-dawn",
+      "ownerrealm": null
+    },
+    "269": {
+      "slug": "arthas",
+      "name": "Arthas",
+      "locale": "de_DE",
+      "house": 142,
+      "canonical": "arthas",
+      "ownerrealm": "Arthas"
+    },
+    "270": {
+      "slug": "arygos",
+      "name": "Arygos",
+      "locale": "de_DE",
+      "house": 143,
+      "canonical": "arygos",
+      "ownerrealm": "Arygos"
+    },
+    "271": {
+      "slug": "ashenvale",
+      "name": "Ashenvale",
+      "locale": "ru_RU",
+      "house": 144,
+      "canonical": "ashenvale",
+      "ownerrealm": "Ясеневый лес"
+    },
+    "272": {
+      "slug": "aszune",
+      "name": "Aszune",
+      "locale": "en_GB",
+      "house": 145,
+      "canonical": "aszune",
+      "ownerrealm": null
+    },
+    "273": {
+      "slug": "auchindoun",
+      "name": "Auchindoun",
+      "locale": "en_GB",
+      "house": 146,
+      "canonical": "auchindoun",
+      "ownerrealm": null
+    },
+    "274": {
+      "slug": "azjolnerub",
+      "name": "Azjol-Nerub",
+      "locale": "en_GB",
+      "house": 147,
+      "canonical": "azjolnerub",
+      "ownerrealm": null
+    },
+    "275": {
+      "slug": "azshara",
+      "name": "Azshara",
+      "locale": "de_DE",
+      "house": 148,
+      "canonical": "azshara",
+      "ownerrealm": "Azshara"
+    },
+    "276": {
+      "slug": "azuregos",
+      "name": "Azuregos",
+      "locale": "ru_RU",
+      "house": 149,
+      "canonical": "azuregos",
+      "ownerrealm": "Азурегос"
+    },
+    "277": {
+      "slug": "azuremyst",
+      "name": "Azuremyst",
+      "locale": "en_GB",
+      "house": 150,
+      "canonical": "azuremyst",
+      "ownerrealm": null
+    },
+    "278": {
+      "slug": "baelgun",
+      "name": "Baelgun",
+      "locale": "de_DE",
+      "house": 151,
+      "canonical": "baelgun",
+      "ownerrealm": "Baelgun"
+    },
+    "279": {
+      "slug": "balnazzar",
+      "name": "Balnazzar",
+      "locale": "en_GB",
+      "house": 126,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "280": {
+      "slug": "blackhand",
+      "name": "Blackhand",
+      "locale": "de_DE",
+      "house": 152,
+      "canonical": "blackhand",
+      "ownerrealm": "Blackhand"
+    },
+    "281": {
+      "slug": "blackmoore",
+      "name": "Blackmoore",
+      "locale": "de_DE",
+      "house": 153,
+      "canonical": "blackmoore",
+      "ownerrealm": "Blackmoore"
+    },
+    "282": {
+      "slug": "blackrock",
+      "name": "Blackrock",
+      "locale": "de_DE",
+      "house": 154,
+      "canonical": "blackrock",
+      "ownerrealm": "Blackrock"
+    },
+    "283": {
+      "slug": "blackscar",
+      "name": "Blackscar",
+      "locale": "ru_RU",
+      "house": 155,
+      "canonical": "blackscar",
+      "ownerrealm": "Черный Шрам"
+    },
+    "284": {
+      "slug": "blades-edge",
+      "name": "Blade's Edge",
+      "locale": "en_GB",
+      "house": 157,
+      "canonical": "blades-edge",
+      "ownerrealm": null
+    },
+    "285": {
+      "slug": "bladefist",
+      "name": "Bladefist",
+      "locale": "en_GB",
+      "house": 156,
+      "canonical": "bladefist",
+      "ownerrealm": null
+    },
+    "286": {
+      "slug": "bloodfeather",
+      "name": "Bloodfeather",
+      "locale": "en_GB",
+      "house": 158,
+      "canonical": "bloodfeather",
+      "ownerrealm": null
+    },
+    "287": {
+      "slug": "bloodhoof",
+      "name": "Bloodhoof",
+      "locale": "en_GB",
+      "house": 159,
+      "canonical": "bloodhoof",
+      "ownerrealm": null
+    },
+    "288": {
+      "slug": "bloodscalp",
+      "name": "Bloodscalp",
+      "locale": "en_GB",
+      "house": 123,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "289": {
+      "slug": "blutkessel",
+      "name": "Blutkessel",
+      "locale": "de_DE",
+      "house": 142,
+      "canonical": null,
+      "ownerrealm": "Blutkessel"
+    },
+    "290": {
+      "slug": "booty-bay",
+      "name": "Booty Bay",
+      "locale": "ru_RU",
+      "house": 160,
+      "canonical": "booty-bay",
+      "ownerrealm": "Пиратская бухта"
+    },
+    "291": {
+      "slug": "borean-tundra",
+      "name": "Borean Tundra",
+      "locale": "ru_RU",
+      "house": 161,
+      "canonical": "borean-tundra",
+      "ownerrealm": "Борейская тундра"
+    },
+    "292": {
+      "slug": "boulderfist",
+      "name": "Boulderfist",
+      "locale": "en_GB",
+      "house": 126,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "293": {
+      "slug": "bronze-dragonflight",
+      "name": "Bronze Dragonflight",
+      "locale": "en_GB",
+      "house": 162,
+      "canonical": "bronze-dragonflight",
+      "ownerrealm": null
+    },
+    "294": {
+      "slug": "bronzebeard",
+      "name": "Bronzebeard",
+      "locale": "en_GB",
+      "house": 122,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "295": {
+      "slug": "burning-blade",
+      "name": "Burning Blade",
+      "locale": "en_GB",
+      "house": 163,
+      "canonical": "burning-blade",
+      "ownerrealm": null
+    },
+    "296": {
+      "slug": "burning-steppes",
+      "name": "Burning Steppes",
+      "locale": "en_GB",
+      "house": 158,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "297": {
+      "slug": "cthun",
+      "name": "C'Thun",
+      "locale": "es_ES",
+      "house": 170,
+      "canonical": "cthun",
+      "ownerrealm": "C'Thun"
+    },
+    "298": {
+      "slug": "chamber-of-aspects",
+      "name": "Chamber of Aspects",
+      "locale": "en_GB",
+      "house": 164,
+      "canonical": "chamber-of-aspects",
+      "ownerrealm": null
+    },
+    "299": {
+      "slug": "chants-eternels",
+      "name": "Chants éternels",
+      "locale": "fr_FR",
+      "house": 165,
+      "canonical": "chants-eternels",
+      "ownerrealm": "Chants éternels"
+    },
+    "300": {
+      "slug": "chogall",
+      "name": "Cho'gall",
+      "locale": "fr_FR",
+      "house": 166,
+      "canonical": "chogall",
+      "ownerrealm": "Cho’gall"
+    },
+    "301": {
+      "slug": "chromaggus",
+      "name": "Chromaggus",
+      "locale": "en_GB",
+      "house": 126,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "302": {
+      "slug": "colinas-pardas",
+      "name": "Colinas Pardas",
+      "locale": "es_ES",
+      "house": 167,
+      "canonical": "colinas-pardas",
+      "ownerrealm": "Colinas Pardas"
+    },
+    "303": {
+      "slug": "confrerie-du-thorium",
+      "name": "Confrérie du Thorium",
+      "locale": "fr_FR",
+      "house": 168,
+      "canonical": "confrerie-du-thorium",
+      "ownerrealm": "Confrérie du Thorium"
+    },
+    "304": {
+      "slug": "conseil-des-ombres",
+      "name": "Conseil des Ombres",
+      "locale": "fr_FR",
+      "house": 169,
+      "canonical": "conseil-des-ombres",
+      "ownerrealm": "Conseil des Ombres"
+    },
+    "305": {
+      "slug": "crushridge",
+      "name": "Crushridge",
+      "locale": "en_GB",
+      "house": 123,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "306": {
+      "slug": "culte-de-la-rive-noire",
+      "name": "Culte de la Rive noire",
+      "locale": "fr_FR",
+      "house": 169,
+      "canonical": null,
+      "ownerrealm": "Culte de la Rive noire"
+    },
+    "307": {
+      "slug": "daggerspine",
+      "name": "Daggerspine",
+      "locale": "en_GB",
+      "house": 126,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "308": {
+      "slug": "dalaran",
+      "name": "Dalaran",
+      "locale": "fr_FR",
+      "house": 171,
+      "canonical": "dalaran",
+      "ownerrealm": "Dalaran"
+    },
+    "309": {
+      "slug": "dalvengyr",
+      "name": "Dalvengyr",
+      "locale": "de_DE",
+      "house": 135,
+      "canonical": null,
+      "ownerrealm": "Dalvengyr"
+    },
+    "310": {
+      "slug": "darkmoon-faire",
+      "name": "Darkmoon Faire",
+      "locale": "en_GB",
+      "house": 172,
+      "canonical": "darkmoon-faire",
+      "ownerrealm": null
+    },
+    "311": {
+      "slug": "darksorrow",
+      "name": "Darksorrow",
+      "locale": "en_GB",
+      "house": 173,
+      "canonical": "darksorrow",
+      "ownerrealm": null
+    },
+    "312": {
+      "slug": "darkspear",
+      "name": "Darkspear",
+      "locale": "en_GB",
+      "house": 174,
+      "canonical": "darkspear",
+      "ownerrealm": null
+    },
+    "313": {
+      "slug": "das-konsortium",
+      "name": "Das Konsortium",
+      "locale": "de_DE",
+      "house": 175,
+      "canonical": "das-konsortium",
+      "ownerrealm": "Das Konsortium"
+    },
+    "314": {
+      "slug": "das-syndikat",
+      "name": "Das Syndikat",
+      "locale": "de_DE",
+      "house": 175,
+      "canonical": null,
+      "ownerrealm": "Das Syndikat"
+    },
+    "315": {
+      "slug": "deathguard",
+      "name": "Deathguard",
+      "locale": "ru_RU",
+      "house": 176,
+      "canonical": "deathguard",
+      "ownerrealm": "Страж Смерти"
+    },
+    "316": {
+      "slug": "deathweaver",
+      "name": "Deathweaver",
+      "locale": "ru_RU",
+      "house": 160,
+      "canonical": null,
+      "ownerrealm": "Ткач Смерти"
+    },
+    "317": {
+      "slug": "deathwing",
+      "name": "Deathwing",
+      "locale": "en_GB",
+      "house": 177,
+      "canonical": "deathwing",
+      "ownerrealm": null
+    },
+    "318": {
+      "slug": "deepholm",
+      "name": "Deepholm",
+      "locale": "ru_RU",
+      "house": 178,
+      "canonical": "deepholm",
+      "ownerrealm": "Подземье"
+    },
+    "319": {
+      "slug": "defias-brotherhood",
+      "name": "Defias Brotherhood",
+      "locale": "en_GB",
+      "house": 179,
+      "canonical": "defias-brotherhood",
+      "ownerrealm": null
+    },
+    "320": {
+      "slug": "dentarg",
+      "name": "Dentarg",
+      "locale": "en_GB",
+      "house": 180,
+      "canonical": "dentarg",
+      "ownerrealm": null
+    },
+    "321": {
+      "slug": "der-mithrilorden",
+      "name": "Der Mithrilorden",
+      "locale": "de_DE",
+      "house": 181,
+      "canonical": "der-mithrilorden",
+      "ownerrealm": "Der Mithrilorden"
+    },
+    "322": {
+      "slug": "der-rat-von-dalaran",
+      "name": "Der Rat von Dalaran",
+      "locale": "de_DE",
+      "house": 181,
+      "canonical": null,
+      "ownerrealm": "Der Rat von Dalaran"
+    },
+    "323": {
+      "slug": "der-abyssische-rat",
+      "name": "Der abyssische Rat",
+      "locale": "de_DE",
+      "house": 175,
+      "canonical": null,
+      "ownerrealm": "Der Abyssische Rat"
+    },
+    "324": {
+      "slug": "destromath",
+      "name": "Destromath",
+      "locale": "de_DE",
+      "house": 182,
+      "canonical": "destromath",
+      "ownerrealm": "Destromath"
+    },
+    "325": {
+      "slug": "dethecus",
+      "name": "Dethecus",
+      "locale": "de_DE",
+      "house": 183,
+      "canonical": "dethecus",
+      "ownerrealm": "Dethecus"
+    },
+    "326": {
+      "slug": "die-aldor",
+      "name": "Die Aldor",
+      "locale": "de_DE",
+      "house": 184,
+      "canonical": "die-aldor",
+      "ownerrealm": "Die Aldor"
+    },
+    "327": {
+      "slug": "die-arguswacht",
+      "name": "Die Arguswacht",
+      "locale": "de_DE",
+      "house": 175,
+      "canonical": null,
+      "ownerrealm": "Die Arguswacht"
+    },
+    "328": {
+      "slug": "die-nachtwache",
+      "name": "Die Nachtwache",
+      "locale": "de_DE",
+      "house": 186,
+      "canonical": "die-nachtwache",
+      "ownerrealm": "Die Nachtwache"
+    },
+    "329": {
+      "slug": "die-silberne-hand",
+      "name": "Die Silberne Hand",
+      "locale": "de_DE",
+      "house": 185,
+      "canonical": null,
+      "ownerrealm": "Die Silberne Hand"
+    },
+    "330": {
+      "slug": "die-todeskrallen",
+      "name": "Die Todeskrallen",
+      "locale": "de_DE",
+      "house": 175,
+      "canonical": null,
+      "ownerrealm": "Die Todeskrallen"
+    },
+    "331": {
+      "slug": "die-ewige-wacht",
+      "name": "Die ewige Wacht",
+      "locale": "de_DE",
+      "house": 185,
+      "canonical": "die-ewige-wacht",
+      "ownerrealm": "Die ewige Wacht"
+    },
+    "332": {
+      "slug": "doomhammer",
+      "name": "Doomhammer",
+      "locale": "en_GB",
+      "house": 187,
+      "canonical": "doomhammer",
+      "ownerrealm": null
+    },
+    "333": {
+      "slug": "draenor",
+      "name": "Draenor",
+      "locale": "en_GB",
+      "house": 188,
+      "canonical": "draenor",
+      "ownerrealm": null
+    },
+    "334": {
+      "slug": "dragonblight",
+      "name": "Dragonblight",
+      "locale": "en_GB",
+      "house": 189,
+      "canonical": "dragonblight",
+      "ownerrealm": null
+    },
+    "335": {
+      "slug": "dragonmaw",
+      "name": "Dragonmaw",
+      "locale": "en_GB",
+      "house": 190,
+      "canonical": "dragonmaw",
+      "ownerrealm": null
+    },
+    "336": {
+      "slug": "drakthul",
+      "name": "Drak'thul",
+      "locale": "en_GB",
+      "house": 163,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "337": {
+      "slug": "drekthar",
+      "name": "Drek'Thar",
+      "locale": "fr_FR",
+      "house": 191,
+      "canonical": "drekthar",
+      "ownerrealm": "Drek'Thar"
+    },
+    "338": {
+      "slug": "dun-modr",
+      "name": "Dun Modr",
+      "locale": "es_ES",
+      "house": 192,
+      "canonical": "dun-modr",
+      "ownerrealm": "Dun Modr"
+    },
+    "339": {
+      "slug": "dun-morogh",
+      "name": "Dun Morogh",
+      "locale": "de_DE",
+      "house": 193,
+      "canonical": "dun-morogh",
+      "ownerrealm": "Dun Morogh"
+    },
+    "340": {
+      "slug": "dunemaul",
+      "name": "Dunemaul",
+      "locale": "en_GB",
+      "house": 146,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "341": {
+      "slug": "durotan",
+      "name": "Durotan",
+      "locale": "de_DE",
+      "house": 194,
+      "canonical": "durotan",
+      "ownerrealm": "Durotan"
+    },
+    "342": {
+      "slug": "earthen-ring",
+      "name": "Earthen Ring",
+      "locale": "en_GB",
+      "house": 172,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "343": {
+      "slug": "echsenkessel",
+      "name": "Echsenkessel",
+      "locale": "de_DE",
+      "house": 195,
+      "canonical": "echsenkessel",
+      "ownerrealm": "Echsenkessel"
+    },
+    "344": {
+      "slug": "eitrigg",
+      "name": "Eitrigg",
+      "locale": "fr_FR",
+      "house": 196,
+      "canonical": "eitrigg",
+      "ownerrealm": "Eitrigg"
+    },
+    "345": {
+      "slug": "eldrethalas",
+      "name": "Eldre'Thalas",
+      "locale": "fr_FR",
+      "house": 166,
+      "canonical": null,
+      "ownerrealm": "Eldre'Thalas"
+    },
+    "346": {
+      "slug": "elune",
+      "name": "Elune",
+      "locale": "fr_FR",
+      "house": 197,
+      "canonical": "elune",
+      "ownerrealm": "Elune"
+    },
+    "347": {
+      "slug": "emerald-dream",
+      "name": "Emerald Dream",
+      "locale": "en_GB",
+      "house": 198,
+      "canonical": "emerald-dream",
+      "ownerrealm": null
+    },
+    "348": {
+      "slug": "emeriss",
+      "name": "Emeriss",
+      "locale": "en_GB",
+      "house": 123,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "349": {
+      "slug": "eonar",
+      "name": "Eonar",
+      "locale": "en_GB",
+      "house": 157,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "350": {
+      "slug": "eredar",
+      "name": "Eredar",
+      "locale": "de_DE",
+      "house": 199,
+      "canonical": "eredar",
+      "ownerrealm": "Eredar"
+    },
+    "351": {
+      "slug": "eversong",
+      "name": "Eversong",
+      "locale": "ru_RU",
+      "house": 200,
+      "canonical": "eversong",
+      "ownerrealm": "Вечная Песня"
+    },
+    "352": {
+      "slug": "executus",
+      "name": "Executus",
+      "locale": "en_GB",
+      "house": 158,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "353": {
+      "slug": "exodar",
+      "name": "Exodar",
+      "locale": "es_ES",
+      "house": 201,
+      "canonical": "exodar",
+      "ownerrealm": "Exodar"
+    },
+    "354": {
+      "slug": "festung-der-sturme",
+      "name": "Festung der Stürme",
+      "locale": "de_DE",
+      "house": 133,
+      "canonical": null,
+      "ownerrealm": "Festung der Stürme"
+    },
+    "355": {
+      "slug": "fordragon",
+      "name": "Fordragon",
+      "locale": "ru_RU",
+      "house": 202,
+      "canonical": "fordragon",
+      "ownerrealm": "Дракономор"
+    },
+    "356": {
+      "slug": "forscherliga",
+      "name": "Forscherliga",
+      "locale": "de_DE",
+      "house": 186,
+      "canonical": null,
+      "ownerrealm": "Forscherliga"
+    },
+    "357": {
+      "slug": "frostmane",
+      "name": "Frostmane",
+      "locale": "en_GB",
+      "house": 203,
+      "canonical": "frostmane",
+      "ownerrealm": null
+    },
+    "358": {
+      "slug": "frostmourne",
+      "name": "Frostmourne",
+      "locale": "de_DE",
+      "house": 135,
+      "canonical": null,
+      "ownerrealm": "Frostmourne"
+    },
+    "359": {
+      "slug": "frostwhisper",
+      "name": "Frostwhisper",
+      "locale": "en_GB",
+      "house": 156,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "360": {
+      "slug": "frostwolf",
+      "name": "Frostwolf",
+      "locale": "de_DE",
+      "house": 204,
+      "canonical": "frostwolf",
+      "ownerrealm": "Frostwolf"
+    },
+    "361": {
+      "slug": "galakrond",
+      "name": "Galakrond",
+      "locale": "ru_RU",
+      "house": 205,
+      "canonical": "galakrond",
+      "ownerrealm": "Галакронд"
+    },
+    "362": {
+      "slug": "garona",
+      "name": "Garona",
+      "locale": "fr_FR",
+      "house": 206,
+      "canonical": "garona",
+      "ownerrealm": "Garona"
+    },
+    "363": {
+      "slug": "garrosh",
+      "name": "Garrosh",
+      "locale": "de_DE",
+      "house": 207,
+      "canonical": "garrosh",
+      "ownerrealm": "Garrosh"
+    },
+    "364": {
+      "slug": "genjuros",
+      "name": "Genjuros",
+      "locale": "en_GB",
+      "house": 173,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "365": {
+      "slug": "ghostlands",
+      "name": "Ghostlands",
+      "locale": "en_GB",
+      "house": 189,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "366": {
+      "slug": "gilneas",
+      "name": "Gilneas",
+      "locale": "de_DE",
+      "house": 208,
+      "canonical": "gilneas",
+      "ownerrealm": "Gilneas"
+    },
+    "367": {
+      "slug": "goldrinn",
+      "name": "Goldrinn",
+      "locale": "ru_RU",
+      "house": 209,
+      "canonical": "goldrinn",
+      "ownerrealm": "Голдринн"
+    },
+    "368": {
+      "slug": "gordunni",
+      "name": "Gordunni",
+      "locale": "ru_RU",
+      "house": 210,
+      "canonical": "gordunni",
+      "ownerrealm": "Гордунни"
+    },
+    "369": {
+      "slug": "gorgonnash",
+      "name": "Gorgonnash",
+      "locale": "de_DE",
+      "house": 182,
+      "canonical": null,
+      "ownerrealm": "Gorgonnash"
+    },
+    "370": {
+      "slug": "greymane",
+      "name": "Greymane",
+      "locale": "ru_RU",
+      "house": 211,
+      "canonical": "greymane",
+      "ownerrealm": "Седогрив"
+    },
+    "371": {
+      "slug": "grim-batol",
+      "name": "Grim Batol",
+      "locale": "en_GB",
+      "house": 124,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "372": {
+      "slug": "grom",
+      "name": "Grom",
+      "locale": "ru_RU",
+      "house": 212,
+      "canonical": "grom",
+      "ownerrealm": "Гром"
+    },
+    "373": {
+      "slug": "guldan",
+      "name": "Gul'dan",
+      "locale": "de_DE",
+      "house": 133,
+      "canonical": "guldan",
+      "ownerrealm": "Gul'dan"
+    },
+    "374": {
+      "slug": "hakkar",
+      "name": "Hakkar",
+      "locale": "en_GB",
+      "house": 123,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "375": {
+      "slug": "haomarush",
+      "name": "Haomarush",
+      "locale": "en_GB",
+      "house": 190,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "376": {
+      "slug": "hellfire",
+      "name": "Hellfire",
+      "locale": "en_GB",
+      "house": 138,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "377": {
+      "slug": "hellscream",
+      "name": "Hellscream",
+      "locale": "en_GB",
+      "house": 125,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "378": {
+      "slug": "howling-fjord",
+      "name": "Howling Fjord",
+      "locale": "ru_RU",
+      "house": 213,
+      "canonical": "howling-fjord",
+      "ownerrealm": "Ревущий фьорд"
+    },
+    "379": {
+      "slug": "hyjal",
+      "name": "Hyjal",
+      "locale": "fr_FR",
+      "house": 214,
+      "canonical": "hyjal",
+      "ownerrealm": "Hyjal"
+    },
+    "380": {
+      "slug": "illidan",
+      "name": "Illidan",
+      "locale": "fr_FR",
+      "house": 137,
+      "canonical": null,
+      "ownerrealm": "Illidan"
+    },
+    "381": {
+      "slug": "jaedenar",
+      "name": "Jaedenar",
+      "locale": "en_GB",
+      "house": 146,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "382": {
+      "slug": "kaelthas",
+      "name": "Kael'thas",
+      "locale": "fr_FR",
+      "house": 136,
+      "canonical": null,
+      "ownerrealm": "Kael'thas"
+    },
+    "383": {
+      "slug": "karazhan",
+      "name": "Karazhan",
+      "locale": "en_GB",
+      "house": 177,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "384": {
+      "slug": "kargath",
+      "name": "Kargath",
+      "locale": "de_DE",
+      "house": 132,
+      "canonical": null,
+      "ownerrealm": "Kargath"
+    },
+    "385": {
+      "slug": "kazzak",
+      "name": "Kazzak",
+      "locale": "en_GB",
+      "house": 215,
+      "canonical": "kazzak",
+      "ownerrealm": null
+    },
+    "386": {
+      "slug": "kelthuzad",
+      "name": "Kel'Thuzad",
+      "locale": "de_DE",
+      "house": 142,
+      "canonical": null,
+      "ownerrealm": "Kel'Thuzad"
+    },
+    "387": {
+      "slug": "khadgar",
+      "name": "Khadgar",
+      "locale": "en_GB",
+      "house": 159,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "388": {
+      "slug": "khaz-modan",
+      "name": "Khaz Modan",
+      "locale": "fr_FR",
+      "house": 216,
+      "canonical": "khaz-modan",
+      "ownerrealm": "Khaz Modan"
+    },
+    "389": {
+      "slug": "khazgoroth",
+      "name": "Khaz'goroth",
+      "locale": "de_DE",
+      "house": 143,
+      "canonical": null,
+      "ownerrealm": "Khaz'goroth"
+    },
+    "390": {
+      "slug": "kiljaeden",
+      "name": "Kil'jaeden",
+      "locale": "de_DE",
+      "house": 133,
+      "canonical": null,
+      "ownerrealm": "Kil'jaeden"
+    },
+    "391": {
+      "slug": "kilrogg",
+      "name": "Kilrogg",
+      "locale": "en_GB",
+      "house": 217,
+      "canonical": "kilrogg",
+      "ownerrealm": null
+    },
+    "392": {
+      "slug": "kirin-tor",
+      "name": "Kirin Tor",
+      "locale": "fr_FR",
+      "house": 218,
+      "canonical": "kirin-tor",
+      "ownerrealm": "Kirin Tor"
+    },
+    "393": {
+      "slug": "korgall",
+      "name": "Kor'gall",
+      "locale": "en_GB",
+      "house": 158,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "394": {
+      "slug": "kragjin",
+      "name": "Krag'jin",
+      "locale": "de_DE",
+      "house": 148,
+      "canonical": null,
+      "ownerrealm": "Krag'jin"
+    },
+    "395": {
+      "slug": "krasus",
+      "name": "Krasus",
+      "locale": "fr_FR",
+      "house": 196,
+      "canonical": null,
+      "ownerrealm": "Krasus"
+    },
+    "396": {
+      "slug": "kul-tiras",
+      "name": "Kul Tiras",
+      "locale": "en_GB",
+      "house": 130,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "397": {
+      "slug": "kult-der-verdammten",
+      "name": "Kult der Verdammten",
+      "locale": "de_DE",
+      "house": 175,
+      "canonical": null,
+      "ownerrealm": "Kult der Verdammten"
+    },
+    "398": {
+      "slug": "la-croisade-ecarlate",
+      "name": "La Croisade écarlate",
+      "locale": "fr_FR",
+      "house": 169,
+      "canonical": null,
+      "ownerrealm": "La Croisade écarlate"
+    },
+    "399": {
+      "slug": "laughing-skull",
+      "name": "Laughing Skull",
+      "locale": "en_GB",
+      "house": 126,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "400": {
+      "slug": "les-clairvoyants",
+      "name": "Les Clairvoyants",
+      "locale": "fr_FR",
+      "house": 168,
+      "canonical": null,
+      "ownerrealm": "Les Clairvoyants"
+    },
+    "401": {
+      "slug": "les-sentinelles",
+      "name": "Les Sentinelles",
+      "locale": "fr_FR",
+      "house": 168,
+      "canonical": null,
+      "ownerrealm": "Les Sentinelles"
+    },
+    "402": {
+      "slug": "lich-king",
+      "name": "Lich King",
+      "locale": "ru_RU",
+      "house": 211,
+      "canonical": null,
+      "ownerrealm": "Король-лич"
+    },
+    "403": {
+      "slug": "lightbringer",
+      "name": "Lightbringer",
+      "locale": "en_GB",
+      "house": 219,
+      "canonical": "lightbringer",
+      "ownerrealm": null
+    },
+    "404": {
+      "slug": "lightnings-blade",
+      "name": "Lightning's Blade",
+      "locale": "en_GB",
+      "house": 177,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "405": {
+      "slug": "lordaeron",
+      "name": "Lordaeron",
+      "locale": "de_DE",
+      "house": 220,
+      "canonical": "lordaeron",
+      "ownerrealm": "Lordaeron"
+    },
+    "406": {
+      "slug": "los-errantes",
+      "name": "Los Errantes",
+      "locale": "es_ES",
+      "house": 167,
+      "canonical": null,
+      "ownerrealm": "Los Errantes"
+    },
+    "407": {
+      "slug": "lothar",
+      "name": "Lothar",
+      "locale": "de_DE",
+      "house": 151,
+      "canonical": null,
+      "ownerrealm": "Lothar"
+    },
+    "408": {
+      "slug": "madmortem",
+      "name": "Madmortem",
+      "locale": "de_DE",
+      "house": 221,
+      "canonical": "madmortem",
+      "ownerrealm": "Madmortem"
+    },
+    "409": {
+      "slug": "magtheridon",
+      "name": "Magtheridon",
+      "locale": "en_GB",
+      "house": 222,
+      "canonical": "magtheridon",
+      "ownerrealm": null
+    },
+    "410": {
+      "slug": "malganis",
+      "name": "Mal'Ganis",
+      "locale": "de_DE",
+      "house": 195,
+      "canonical": null,
+      "ownerrealm": "Mal'Ganis"
+    },
+    "411": {
+      "slug": "malfurion",
+      "name": "Malfurion",
+      "locale": "de_DE",
+      "house": 223,
+      "canonical": "malfurion",
+      "ownerrealm": "Malfurion"
+    },
+    "412": {
+      "slug": "malorne",
+      "name": "Malorne",
+      "locale": "de_DE",
+      "house": 224,
+      "canonical": "malorne",
+      "ownerrealm": "Malorne"
+    },
+    "413": {
+      "slug": "malygos",
+      "name": "Malygos",
+      "locale": "de_DE",
+      "house": 223,
+      "canonical": null,
+      "ownerrealm": "Malygos"
+    },
+    "414": {
+      "slug": "mannoroth",
+      "name": "Mannoroth",
+      "locale": "de_DE",
+      "house": 182,
+      "canonical": null,
+      "ownerrealm": "Mannoroth"
+    },
+    "415": {
+      "slug": "marecage-de-zangar",
+      "name": "Marécage de Zangar",
+      "locale": "fr_FR",
+      "house": 171,
+      "canonical": null,
+      "ownerrealm": "Marécage de Zangar"
+    },
+    "416": {
+      "slug": "mazrigos",
+      "name": "Mazrigos",
+      "locale": "en_GB",
+      "house": 219,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "417": {
+      "slug": "medivh",
+      "name": "Medivh",
+      "locale": "fr_FR",
+      "house": 225,
+      "canonical": "medivh",
+      "ownerrealm": "Medivh"
+    },
+    "418": {
+      "slug": "minahonda",
+      "name": "Minahonda",
+      "locale": "es_ES",
+      "house": 201,
+      "canonical": null,
+      "ownerrealm": "Minahonda"
+    },
+    "419": {
+      "slug": "moonglade",
+      "name": "Moonglade",
+      "locale": "en_GB",
+      "house": 226,
+      "canonical": "moonglade",
+      "ownerrealm": null
+    },
+    "420": {
+      "slug": "mugthol",
+      "name": "Mug'thol",
+      "locale": "de_DE",
+      "house": 183,
+      "canonical": null,
+      "ownerrealm": "Mug'thol"
+    },
+    "421": {
+      "slug": "nagrand",
+      "name": "Nagrand",
+      "locale": "en_GB",
+      "house": 217,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "422": {
+      "slug": "nathrezim",
+      "name": "Nathrezim",
+      "locale": "de_DE",
+      "house": 133,
+      "canonical": null,
+      "ownerrealm": "Nathrezim"
+    },
+    "423": {
+      "slug": "naxxramas",
+      "name": "Naxxramas",
+      "locale": "fr_FR",
+      "house": 137,
+      "canonical": null,
+      "ownerrealm": "Naxxramas"
+    },
+    "424": {
+      "slug": "nazjatar",
+      "name": "Nazjatar",
+      "locale": "de_DE",
+      "house": 135,
+      "canonical": null,
+      "ownerrealm": "Nazjatar"
+    },
+    "425": {
+      "slug": "nefarian",
+      "name": "Nefarian",
+      "locale": "de_DE",
+      "house": 182,
+      "canonical": null,
+      "ownerrealm": "Nefarian"
+    },
+    "426": {
+      "slug": "nemesis",
+      "name": "Nemesis",
+      "locale": "it_IT",
+      "house": 227,
+      "canonical": "nemesis",
+      "ownerrealm": "Nemesis"
+    },
+    "427": {
+      "slug": "neptulon",
+      "name": "Neptulon",
+      "locale": "en_GB",
+      "house": 173,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "428": {
+      "slug": "nerzhul",
+      "name": "Ner'zhul",
+      "locale": "fr_FR",
+      "house": 206,
+      "canonical": null,
+      "ownerrealm": "Ner’zhul"
+    },
+    "429": {
+      "slug": "nerathor",
+      "name": "Nera'thor",
+      "locale": "de_DE",
+      "house": 182,
+      "canonical": null,
+      "ownerrealm": "Nera'thor"
+    },
+    "430": {
+      "slug": "nethersturm",
+      "name": "Nethersturm",
+      "locale": "de_DE",
+      "house": 128,
+      "canonical": null,
+      "ownerrealm": "Nethersturm"
+    },
+    "431": {
+      "slug": "nordrassil",
+      "name": "Nordrassil",
+      "locale": "en_GB",
+      "house": 162,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "432": {
+      "slug": "norgannon",
+      "name": "Norgannon",
+      "locale": "de_DE",
+      "house": 193,
+      "canonical": null,
+      "ownerrealm": "Norgannon"
+    },
+    "433": {
+      "slug": "nozdormu",
+      "name": "Nozdormu",
+      "locale": "de_DE",
+      "house": 207,
+      "canonical": null,
+      "ownerrealm": "Nozdormu"
+    },
+    "434": {
+      "slug": "onyxia",
+      "name": "Onyxia",
+      "locale": "de_DE",
+      "house": 183,
+      "canonical": null,
+      "ownerrealm": "Onyxia"
+    },
+    "435": {
+      "slug": "outland",
+      "name": "Outland",
+      "locale": "en_GB",
+      "house": 228,
+      "canonical": "outland",
+      "ownerrealm": null
+    },
+    "436": {
+      "slug": "perenolde",
+      "name": "Perenolde",
+      "locale": "de_DE",
+      "house": 229,
+      "canonical": "perenolde",
+      "ownerrealm": "Perenolde"
+    },
+    "437": {
+      "slug": "pozzo-delleternita",
+      "name": "Pozzo dell'Eternità",
+      "locale": "it_IT",
+      "house": 230,
+      "canonical": "pozzo-delleternita",
+      "ownerrealm": "Pozzo dell'Eternità"
+    },
+    "438": {
+      "slug": "proudmoore",
+      "name": "Proudmoore",
+      "locale": "de_DE",
+      "house": 221,
+      "canonical": null,
+      "ownerrealm": "Proudmoore"
+    },
+    "439": {
+      "slug": "quelthalas",
+      "name": "Quel'Thalas",
+      "locale": "en_GB",
+      "house": 147,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "440": {
+      "slug": "ragnaros",
+      "name": "Ragnaros",
+      "locale": "en_GB",
+      "house": 231,
+      "canonical": "ragnaros",
+      "ownerrealm": null
+    },
+    "441": {
+      "slug": "rajaxx",
+      "name": "Rajaxx",
+      "locale": "de_DE",
+      "house": 133,
+      "canonical": null,
+      "ownerrealm": "Rajaxx"
+    },
+    "442": {
+      "slug": "rashgarroth",
+      "name": "Rashgarroth",
+      "locale": "fr_FR",
+      "house": 136,
+      "canonical": null,
+      "ownerrealm": "Rashgarroth"
+    },
+    "443": {
+      "slug": "ravencrest",
+      "name": "Ravencrest",
+      "locale": "en_GB",
+      "house": 232,
+      "canonical": "ravencrest",
+      "ownerrealm": null
+    },
+    "444": {
+      "slug": "ravenholdt",
+      "name": "Ravenholdt",
+      "locale": "en_GB",
+      "house": 179,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "445": {
+      "slug": "razuvious",
+      "name": "Razuvious",
+      "locale": "ru_RU",
+      "house": 178,
+      "canonical": null,
+      "ownerrealm": "Разувий"
+    },
+    "446": {
+      "slug": "rexxar",
+      "name": "Rexxar",
+      "locale": "de_DE",
+      "house": 129,
+      "canonical": null,
+      "ownerrealm": "Rexxar"
+    },
+    "447": {
+      "slug": "runetotem",
+      "name": "Runetotem",
+      "locale": "en_GB",
+      "house": 217,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "448": {
+      "slug": "sanguino",
+      "name": "Sanguino",
+      "locale": "es_ES",
+      "house": 233,
+      "canonical": "sanguino",
+      "ownerrealm": "Sanguino"
+    },
+    "449": {
+      "slug": "sargeras",
+      "name": "Sargeras",
+      "locale": "fr_FR",
+      "house": 206,
+      "canonical": null,
+      "ownerrealm": "Sargeras"
+    },
+    "450": {
+      "slug": "saurfang",
+      "name": "Saurfang",
+      "locale": "en_GB",
+      "house": 174,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "451": {
+      "slug": "scarshield-legion",
+      "name": "Scarshield Legion",
+      "locale": "en_GB",
+      "house": 179,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "452": {
+      "slug": "senjin",
+      "name": "Sen'jin",
+      "locale": "de_DE",
+      "house": 140,
+      "canonical": null,
+      "ownerrealm": "Sen'jin"
+    },
+    "453": {
+      "slug": "shadowsong",
+      "name": "Shadowsong",
+      "locale": "en_GB",
+      "house": 145,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "454": {
+      "slug": "shattered-halls",
+      "name": "Shattered Halls",
+      "locale": "en_GB",
+      "house": 126,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "455": {
+      "slug": "shattered-hand",
+      "name": "Shattered Hand",
+      "locale": "en_GB",
+      "house": 158,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "456": {
+      "slug": "shattrath",
+      "name": "Shattrath",
+      "locale": "de_DE",
+      "house": 207,
+      "canonical": null,
+      "ownerrealm": "Shattrath"
+    },
+    "457": {
+      "slug": "shendralar",
+      "name": "Shen'dralar",
+      "locale": "es_ES",
+      "house": 233,
+      "canonical": null,
+      "ownerrealm": "Shen'dralar"
+    },
+    "458": {
+      "slug": "silvermoon",
+      "name": "Silvermoon",
+      "locale": "en_GB",
+      "house": 234,
+      "canonical": "silvermoon",
+      "ownerrealm": null
+    },
+    "459": {
+      "slug": "sinstralis",
+      "name": "Sinstralis",
+      "locale": "fr_FR",
+      "house": 166,
+      "canonical": null,
+      "ownerrealm": "Sinstralis"
+    },
+    "460": {
+      "slug": "skullcrusher",
+      "name": "Skullcrusher",
+      "locale": "en_GB",
+      "house": 127,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "461": {
+      "slug": "soulflayer",
+      "name": "Soulflayer",
+      "locale": "ru_RU",
+      "house": 235,
+      "canonical": "soulflayer",
+      "ownerrealm": "Свежеватель Душ"
+    },
+    "462": {
+      "slug": "spinebreaker",
+      "name": "Spinebreaker",
+      "locale": "en_GB",
+      "house": 190,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "463": {
+      "slug": "sporeggar",
+      "name": "Sporeggar",
+      "locale": "en_GB",
+      "house": 179,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "464": {
+      "slug": "steamwheedle-cartel",
+      "name": "Steamwheedle Cartel",
+      "locale": "en_GB",
+      "house": 226,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "465": {
+      "slug": "stormrage",
+      "name": "Stormrage",
+      "locale": "en_GB",
+      "house": 150,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "466": {
+      "slug": "stormreaver",
+      "name": "Stormreaver",
+      "locale": "en_GB",
+      "house": 190,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "467": {
+      "slug": "stormscale",
+      "name": "Stormscale",
+      "locale": "en_GB",
+      "house": 236,
+      "canonical": "stormscale",
+      "ownerrealm": null
+    },
+    "468": {
+      "slug": "sunstrider",
+      "name": "Sunstrider",
+      "locale": "en_GB",
+      "house": 126,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "469": {
+      "slug": "sylvanas",
+      "name": "Sylvanas",
+      "locale": "en_GB",
+      "house": 237,
+      "canonical": "sylvanas",
+      "ownerrealm": null
+    },
+    "470": {
+      "slug": "taerar",
+      "name": "Taerar",
+      "locale": "de_DE",
+      "house": 195,
+      "canonical": null,
+      "ownerrealm": "Taerar"
+    },
+    "471": {
+      "slug": "talnivarr",
+      "name": "Talnivarr",
+      "locale": "en_GB",
+      "house": 126,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "472": {
+      "slug": "tarren-mill",
+      "name": "Tarren Mill",
+      "locale": "en_GB",
+      "house": 180,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "473": {
+      "slug": "teldrassil",
+      "name": "Teldrassil",
+      "locale": "de_DE",
+      "house": 229,
+      "canonical": null,
+      "ownerrealm": "Teldrassil"
+    },
+    "474": {
+      "slug": "temple-noir",
+      "name": "Temple noir",
+      "locale": "fr_FR",
+      "house": 137,
+      "canonical": null,
+      "ownerrealm": "Temple noir"
+    },
+    "475": {
+      "slug": "terenas",
+      "name": "Terenas",
+      "locale": "en_GB",
+      "house": 198,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "476": {
+      "slug": "terokkar",
+      "name": "Terokkar",
+      "locale": "en_GB",
+      "house": 174,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "477": {
+      "slug": "terrordar",
+      "name": "Terrordar",
+      "locale": "de_DE",
+      "house": 183,
+      "canonical": null,
+      "ownerrealm": "Terrordar"
+    },
+    "478": {
+      "slug": "the-maelstrom",
+      "name": "The Maelstrom",
+      "locale": "en_GB",
+      "house": 177,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "479": {
+      "slug": "the-shatar",
+      "name": "The Sha'tar",
+      "locale": "en_GB",
+      "house": 226,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "480": {
+      "slug": "the-venture-co",
+      "name": "The Venture Co",
+      "locale": "en_GB",
+      "house": 179,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "481": {
+      "slug": "theradras",
+      "name": "Theradras",
+      "locale": "de_DE",
+      "house": 183,
+      "canonical": null,
+      "ownerrealm": "Theradras"
+    },
+    "482": {
+      "slug": "thermaplugg",
+      "name": "Thermaplugg",
+      "locale": "ru_RU",
+      "house": 212,
+      "canonical": null,
+      "ownerrealm": "Термоштепсель"
+    },
+    "483": {
+      "slug": "thrall",
+      "name": "Thrall",
+      "locale": "de_DE",
+      "house": 238,
+      "canonical": "thrall",
+      "ownerrealm": "Thrall"
+    },
+    "484": {
+      "slug": "throkferoth",
+      "name": "Throk'Feroth",
+      "locale": "fr_FR",
+      "house": 136,
+      "canonical": null,
+      "ownerrealm": "Throk'Feroth"
+    },
+    "485": {
+      "slug": "thunderhorn",
+      "name": "Thunderhorn",
+      "locale": "en_GB",
+      "house": 239,
+      "canonical": "thunderhorn",
+      "ownerrealm": null
+    },
+    "486": {
+      "slug": "tichondrius",
+      "name": "Tichondrius",
+      "locale": "de_DE",
+      "house": 220,
+      "canonical": null,
+      "ownerrealm": "Tichondrius"
+    },
+    "487": {
+      "slug": "tirion",
+      "name": "Tirion",
+      "locale": "de_DE",
+      "house": 194,
+      "canonical": null,
+      "ownerrealm": "Tirion"
+    },
+    "488": {
+      "slug": "todeswache",
+      "name": "Todeswache",
+      "locale": "de_DE",
+      "house": 240,
+      "canonical": "todeswache",
+      "ownerrealm": "Todeswache"
+    },
+    "489": {
+      "slug": "trollbane",
+      "name": "Trollbane",
+      "locale": "en_GB",
+      "house": 126,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "490": {
+      "slug": "turalyon",
+      "name": "Turalyon",
+      "locale": "en_GB",
+      "house": 187,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "491": {
+      "slug": "twilights-hammer",
+      "name": "Twilight's Hammer",
+      "locale": "en_GB",
+      "house": 123,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "492": {
+      "slug": "twisting-nether",
+      "name": "Twisting Nether",
+      "locale": "en_GB",
+      "house": 241,
+      "canonical": "twisting-nether",
+      "ownerrealm": null
+    },
+    "493": {
+      "slug": "tyrande",
+      "name": "Tyrande",
+      "locale": "es_ES",
+      "house": 167,
+      "canonical": null,
+      "ownerrealm": "Tyrande"
+    },
+    "494": {
+      "slug": "uldaman",
+      "name": "Uldaman",
+      "locale": "fr_FR",
+      "house": 191,
+      "canonical": null,
+      "ownerrealm": "Uldaman"
+    },
+    "495": {
+      "slug": "ulduar",
+      "name": "Ulduar",
+      "locale": "de_DE",
+      "house": 208,
+      "canonical": null,
+      "ownerrealm": "Ulduar"
+    },
+    "496": {
+      "slug": "uldum",
+      "name": "Uldum",
+      "locale": "es_ES",
+      "house": 233,
+      "canonical": null,
+      "ownerrealm": "Uldum"
+    },
+    "497": {
+      "slug": "ungoro",
+      "name": "Un'Goro",
+      "locale": "de_DE",
+      "house": 140,
+      "canonical": null,
+      "ownerrealm": "Un'Goro"
+    },
+    "498": {
+      "slug": "varimathras",
+      "name": "Varimathras",
+      "locale": "fr_FR",
+      "house": 197,
+      "canonical": null,
+      "ownerrealm": "Varimathras"
+    },
+    "499": {
+      "slug": "vashj",
+      "name": "Vashj",
+      "locale": "en_GB",
+      "house": 190,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "500": {
+      "slug": "veklor",
+      "name": "Vek'lor",
+      "locale": "de_DE",
+      "house": 142,
+      "canonical": null,
+      "ownerrealm": "Vek'lor"
+    },
+    "501": {
+      "slug": "veknilash",
+      "name": "Vek'nilash",
+      "locale": "en_GB",
+      "house": 157,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "502": {
+      "slug": "voljin",
+      "name": "Vol'jin",
+      "locale": "fr_FR",
+      "house": 165,
+      "canonical": null,
+      "ownerrealm": "Vol'jin"
+    },
+    "503": {
+      "slug": "wildhammer",
+      "name": "Wildhammer",
+      "locale": "en_GB",
+      "house": 239,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "504": {
+      "slug": "wrathbringer",
+      "name": "Wrathbringer",
+      "locale": "de_DE",
+      "house": 142,
+      "canonical": null,
+      "ownerrealm": "Wrathbringer"
+    },
+    "505": {
+      "slug": "xavius",
+      "name": "Xavius",
+      "locale": "en_GB",
+      "house": 127,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "506": {
+      "slug": "ysera",
+      "name": "Ysera",
+      "locale": "de_DE",
+      "house": 224,
+      "canonical": null,
+      "ownerrealm": "Ysera"
+    },
+    "507": {
+      "slug": "ysondre",
+      "name": "Ysondre",
+      "locale": "fr_FR",
+      "house": 242,
+      "canonical": "ysondre",
+      "ownerrealm": "Ysondre"
+    },
+    "508": {
+      "slug": "zenedar",
+      "name": "Zenedar",
+      "locale": "en_GB",
+      "house": 156,
+      "canonical": null,
+      "ownerrealm": null
+    },
+    "509": {
+      "slug": "zirkel-des-cenarius",
+      "name": "Zirkel des Cenarius",
+      "locale": "de_DE",
+      "house": 240,
+      "canonical": null,
+      "ownerrealm": "Zirkel des Cenarius"
+    },
+    "510": {
+      "slug": "zuljin",
+      "name": "Zul'jin",
+      "locale": "es_ES",
+      "house": 233,
+      "canonical": null,
+      "ownerrealm": "Zul'jin"
+    },
+    "511": {
+      "slug": "zuluhed",
+      "name": "Zuluhed",
+      "locale": "de_DE",
+      "house": 135,
+      "canonical": null,
+      "ownerrealm": "Zuluhed"
+    },
+    "531": {
+      "slug": "burning-legion",
+      "name": "Burning Legion",
+      "locale": "en_GB",
+      "house": 245,
+      "canonical": "burning-legion",
+      "ownerrealm": null
+    },
+    "562": {
+      "slug": "suramar",
+      "name": "Suramar",
+      "locale": "fr_FR",
+      "house": 225,
+      "canonical": null,
+      "ownerrealm": null
+    }
+  }
+]
