@@ -1,5 +1,5 @@
 const CONSTANTS = require('./const.js');
-const API_KEYS = require('./api_keys.js');
+//const API_KEYS = require('./api_keys.js');
 const rp = require('request-promise');
 
 const returnMessage = (bot, channelID, message) => {
@@ -122,7 +122,7 @@ const createTokenString = (data, normedRegion, validatedTokenRegion) => {
   return overviewString;
 };
 
-const token = (bot, channelID, region) => {
+const token = async region => {
   let [normedRegion, jsonURL, validatedTokenRegion] = ['', '', false];
 
   if (region) {
@@ -143,12 +143,20 @@ const token = (bot, channelID, region) => {
       const string = createTokenString(jsonResponse, normedRegion, validatedTokenRegion);
       return string;
     }
-    getTokenData().then(string => {
-      returnMessage(bot, channelID, string);
-    });
+    return getTokenData();
+  }
+}; /*
+
+async () => {
+  try {
+    const jsoNResponse = await rp({ uri: CONSTANTS.WoWTokenURL, json: true });
+    const string = createTokenString(jsoNResponse, 'EU', true);
+    return string;
+  } catch (e) {
+    return CONSTANTS.ERROR_MSG.WoWTokenError(e);
   }
 };
-
+*/
 module.exports = {
   returnMessage,
   showHelp,

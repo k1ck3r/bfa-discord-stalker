@@ -43,7 +43,9 @@ const ERROR_MSG = {
   invalidCharacter: (character, region, realm) => `Sorry, ${character.toUpperCase} on ${region}-${realm} could not be found!`,
   cmdNotFound: 'Command not found - use `!help` if you are lost.',
   paramMissing: 'Parameter missing - use `!help` if you are lost.',
-  WoWTokenError: error => `Sorry, WoWToken.info appears to be unavailable currently (error message: ${error})`
+  WoWTokenError: error => `Sorry, WoWToken.info appears to be unavailable currently (error message: ${error})`,
+  LookupError: error => `Sorry, could not fetch this characters information (error message: ${error})`,
+  AffixError: error => `Sorry, couldn't fetch affix data - please try again later (error message: ${error})`
 };
 
 const WoWTokenURL = 'https://data.wowtoken.info/snapshot.json';
