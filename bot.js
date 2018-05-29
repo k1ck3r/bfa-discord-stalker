@@ -1,8 +1,6 @@
-require('babel-core/register');
-require('babel-polyfill');
-
 const Discord = require('discord.io');
 const logger = require('winston');
+
 const auth = require('./auth.json');
 const METHODS = require('./methods.js');
 
@@ -43,8 +41,8 @@ const returnAnswer = async (cmd, args) => {
 bot.on('message', async (user, userID, channelID, message) => {
   if (message.substring(0, 1) === '!') {
     let args = message.substring(1).split(' ');
-    const cmd = args[0];
 
+    const cmd = args[0];
     args = args.splice(1);
 
     const string = await returnAnswer(cmd, args);

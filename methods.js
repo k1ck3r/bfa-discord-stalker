@@ -180,18 +180,8 @@ const token = async region => {
     }
     return getTokenData();
   }
-}; /*
-
-async () => {
-  try {
-    const jsoNResponse = await rp({ uri: CONSTANTS.WoWTokenURL, json: true });
-    const string = createTokenString(jsoNResponse, 'EU', true);
-    return string;
-  } catch (e) {
-    return CONSTANTS.ERROR_MSG.WoWTokenError(e);
-  }
 };
-*/
+
 module.exports = {
   returnMessage,
   showHelp,
