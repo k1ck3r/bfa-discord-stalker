@@ -27,9 +27,9 @@ const HELP = {
     ex: '!progress xepheris eu blackmoore'
   },
   affix: {
-    params: ['{ REGION }', '{ SCHEDULE }'],
-    desc: 'displays current affixes of specified region or all regions',
-    ex: '!affix eu or !affix eu schedule'
+    params: ['[ REGION ]'],
+    desc: 'displays current affixes of specified region',
+    ex: '!affix eu'
   },
   token: {
     params: ['{ REGION }'],
@@ -58,10 +58,15 @@ const ERROR_MSG = {
   })
 };
 
-const WoWTokenURL = 'https://data.wowtoken.info/snapshot.json';
+const CAN_HEAL = ['Paladin', 'Druid', 'Priest', 'Monk', 'Shaman'];
+const CAN_TANK = ['Demon Hunter', 'Death Knight', 'Warrior', 'Monk', 'Druid'];
 
-const RaiderIoURL = (character, region, realm) =>
-  `https://raider.io/api/v1/characters/profile?region=${region}&realm=${realm}&name=${character}&fields=mythic_plus_scores`;
+const URLS = {
+  WoWToken: 'https://data.wowtoken.info/snapshot.json',
+  MPlus: (character, region, realm) =>
+    `https://raider.io/api/v1/characters/profile?region=${region}&realm=${realm}&name=${character}&fields=mythic_plus_scores`,
+  Affixes: region => `https://raider.io/api/v1/mythic-plus/affixes?region=${region}&locale=en`
+};
 
 const REGIONS = ['EU', 'US'];
 const TOKEN_REGIONS = ['EU', 'NA', 'CN', 'TW', 'KR'];
@@ -76,7 +81,8 @@ module.exports = {
   REGIONS,
   ERROR_MSG,
   REALMS,
-  WoWTokenURL,
-  RaiderIoURL,
-  TOKEN_REGIONS
+  URLS,
+  TOKEN_REGIONS,
+  CAN_HEAL,
+  CAN_TANK
 };

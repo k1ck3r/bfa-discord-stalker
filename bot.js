@@ -40,6 +40,13 @@ const returnAnswer = async (cmd, args) => {
         answer = METHODS.CONSTANTS.ERROR_MSG.LookupError(e);
       }
       break;
+    case 'affix':
+      try {
+        answer = await METHODS.affix(args[0]);
+      } catch (e) {
+        answer = METHODS.CONSTANTS.ERROR_MSG.AffixError(e);
+      }
+      break;
     default:
       answer = METHODS.CONSTANTS.ERROR_MSG.cmdNotFound;
       break;

@@ -101,10 +101,7 @@ const returnSpecAgnosticMPlusScores = (className, mplusScores) => {
     }
   ];
 
-  const canHeal = ['Paladin', 'Druid', 'Priest', 'Monk', 'Shaman'];
-  const canTank = ['Demon Hunter', 'Death Knight', 'Warrior', 'Monk', 'Druid'];
-
-  if (canHeal.includes(className)) {
+  if (CONSTANTS.CAN_HEAL.includes(className)) {
     result.push({
       name: 'Healer',
       value: mplusScores.healer.toString(),
@@ -112,7 +109,7 @@ const returnSpecAgnosticMPlusScores = (className, mplusScores) => {
     });
   }
 
-  if (canTank.includes(className)) {
+  if (CONSTANTS.CAN_TANK.includes(className)) {
     result.push({
       name: 'Tank',
       value: mplusScores.tank.toString(),
@@ -146,7 +143,7 @@ const mplus = async (character, region, realm) => {
     const [normedRealm, normedRegion, normedCharacter] = normCharacterInformation(character, region, realm);
 
     if (validateRegion(normedRegion) && validateRealm(normedRegion, normedRealm)) {
-      const jsonURL = CONSTANTS.RaiderIoURL(normedCharacter, normedRegion, normedRealm);
+      const jsonURL = CONSTANTS.URLS.MPlus(normedCharacter, normedRegion, normedRealm);
       const jsonResponse = await rp({ uri: jsonURL, json: true });
 
       return createMPlusString(jsonResponse);
@@ -163,9 +160,50 @@ const logs = (character, region, realm) => [character, region, realm];
 
 const progress = (character, region, realm) => [character, region, realm];
 
-const affix = (region, schedule) => [region, schedule];
-
 */
+
+const createAffixMessage = data => {
+  const fields = [];
+
+  for (let i = 0; i < data.affix_details.length; i += 1) {
+    fields.push({
+      name: data.affix_details[i].name,
+      value: data.affix_details[i].description
+    });
+  }
+
+  return {
+    embed: {
+      description: data.title,
+      timestamp: new Date(),
+      author: {
+        name: `Current affixes of ${normalize.upperCase(data.region)}`,
+        url: data.leaderboard_url
+      },
+      fields: fields
+    }
+  };
+};
+
+const affix = async region => {
+  let [normedRegion, jsonURL] = ['', ''];
+
+  if (region) {
+    normedRegion = normalize.upperCase(region);
+
+    if (validateRegion(normedRegion)) {
+      jsonURL = CONSTANTS.URLS.Affixes(normedRegion);
+      const jsonResponse = await rp({ uri: jsonURL, json: true });
+
+      const message = createAffixMessage(jsonResponse);
+
+      return message;
+    }
+    return CONSTANTS.ERROR_MSG.invalidRegion(normedRegion);
+  }
+
+  return CONSTANTS.ERROR_MSG.invalidRegion(region);
+};
 
 const prettyPrintSeconds = s => {
   s = parseInt(s, 10);
@@ -194,9 +232,9 @@ const returnDataAge = (now, then) => prettyPrintSeconds(now / 1000 - then / 1000
 
 const createTokenMessage = (data, normedRegion, validatedTokenRegion) => {
   const now = Date.now();
-  let obj = { message: '' };
-
-  obj.message += '```region | price    | last updated\n';
+  const obj = {
+    message: '```region | price    | last updated\n'
+  };
 
   if (normedRegion !== '' && validatedTokenRegion) {
     const age = returnDataAge(now, Date.parse(data[normedRegion].raw.updatedISO8601));
@@ -223,12 +261,12 @@ const token = async region => {
     validatedTokenRegion = validateTokenRegion(normedRegion);
 
     if (validatedTokenRegion) {
-      jsonURL = CONSTANTS.WoWTokenURL;
+      jsonURL = CONSTANTS.URLS.WoWToken;
     } else {
       return CONSTANTS.ERROR_MSG.invalidRegion(normedRegion);
     }
   } else {
-    jsonURL = CONSTANTS.WoWTokenURL;
+    jsonURL = CONSTANTS.URLS.WoWToken;
   }
 
   if (jsonURL !== '') {
@@ -248,9 +286,10 @@ module.exports = {
   stalk,
   mplus,
   token,
-  CONSTANTS
+  CONSTANTS,
+  affix
   /*azerite,
   logs,
   progress,
-  affix, */
+  , */
 };
