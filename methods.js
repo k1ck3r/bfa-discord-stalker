@@ -8,8 +8,6 @@ const returnMessage = (bot, channelID, message) => {
     message.to = channelID;
   }
 
-  console.log(message);
-
   bot.sendMessage(message);
 };
 
@@ -94,11 +92,11 @@ const returnSpecAgnosticMPlusScores = (className, mplusScores) => {
   const result = [
     {
       name: 'All',
-      value: mplusScores.all
+      value: mplusScores.all.toString()
     },
     {
       name: 'DPS',
-      value: mplusScores.dps,
+      value: mplusScores.dps.toString(),
       inline: true
     }
   ];
@@ -109,7 +107,7 @@ const returnSpecAgnosticMPlusScores = (className, mplusScores) => {
   if (canHeal.includes(className)) {
     result.push({
       name: 'Healer',
-      value: mplusScores.healer,
+      value: mplusScores.healer.toString(),
       inline: true
     });
   }
@@ -117,7 +115,7 @@ const returnSpecAgnosticMPlusScores = (className, mplusScores) => {
   if (canTank.includes(className)) {
     result.push({
       name: 'Tank',
-      value: mplusScores.tank,
+      value: mplusScores.tank.toString(),
       inline: true
     });
   }
@@ -126,7 +124,7 @@ const returnSpecAgnosticMPlusScores = (className, mplusScores) => {
 };
 
 const createMPlusString = data => {
-  const obj = {
+  return {
     embed: {
       description: `${data.race} ${data.class}`,
       timestamp: new Date(),
@@ -141,8 +139,6 @@ const createMPlusString = data => {
       fields: returnSpecAgnosticMPlusScores(data.class, data.mythic_plus_scores)
     }
   };
-
-  return obj;
 };
 
 const mplus = async (character, region, realm) => {
