@@ -26,8 +26,18 @@ const returnAnswer = async (cmd, args) => {
     case 'token':
       try {
         answer = await METHODS.token(args[0]);
-      } catch (err) {
-        answer = METHODS.CONSTANTS.ERROR_MSG.WoWTokenError(err);
+      } catch (e) {
+        answer = METHODS.CONSTANTS.ERROR_MSG.WoWTokenError(e);
+      }
+      break;
+    case 'help':
+      answer = METHODS.showHelp();
+      break;
+    case 'mplus':
+      try {
+        answer = await METHODS.mplus(args[0], args[1], args[2]);
+      } catch (e) {
+        answer = METHODS.CONSTANTS.ERROR_MSG.LookupError(e);
       }
       break;
     default:
@@ -45,8 +55,8 @@ bot.on('message', async (user, userID, channelID, message) => {
     const cmd = args[0];
     args = args.splice(1);
 
-    const string = await returnAnswer(cmd, args);
+    const answer = await returnAnswer(cmd, args);
 
-    METHODS.returnMessage(bot, channelID, string);
+    METHODS.returnMessage(bot, channelID, answer);
   }
 });

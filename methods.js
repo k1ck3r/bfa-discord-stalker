@@ -1,17 +1,22 @@
 const CONSTANTS = require('./const.js');
+const Discord = require('discord.io');
 //const API_KEYS = require('./api_keys.js');
 const rp = require('request-promise');
 
 const returnMessage = (bot, channelID, message) => {
-  bot.sendMessage({
-    to: channelID,
-    message
-  });
+  if (!message.to) {
+    message.to = channelID;
+  }
+
+  console.log(message);
+
+  bot.sendMessage(message);
 };
 
 const showHelp = () => {
-  let helpString = `
-  World of Warcraft: Discord Stalker Bot - HELP
+  let obj = { message: '' };
+
+  obj.message += `World of Warcraft: Discord Stalker Bot - HELP
   v1.0.0 <closed alpha>
 
   \`{ }\` signal OPTIONAL parameters whilst \`[ ]\` signal REQUIRED parameters`;
@@ -20,48 +25,36 @@ const showHelp = () => {
   const cmdInfo = cmds.map(key => CONSTANTS.HELP[key]);
 
   for (let i = 0; i < cmds.length; i += 1) {
-    helpString += `\n
+    obj.message += `\n
     \`!${cmds[i]} `;
 
     const currentInfo = cmdInfo[i];
 
     for (let k = 0; k < currentInfo.params.length; k += 1) {
-      helpString += `${currentInfo.params[k]} `;
+      obj.message += `${currentInfo.params[k]} `;
     }
 
-    helpString += `\`
+    obj.message += `\`
     ex. \`${currentInfo.ex}\`
     *${currentInfo.desc}*
     `;
   }
 
-  return helpString;
+  return obj;
 };
 
 const capitalize = word => word.charAt(0).toUpperCase() + word.slice(1);
 
 const stalk = (character, region, realm) => [character, region, realm];
 
-const validateRegion = region => {
-  if (CONSTANTS.REGIONS.includes(region)) {
-    return true;
-  }
-  return false;
-};
+const validateRegion = region => (CONSTANTS.REGIONS.includes(region) ? true : false);
 
-const validateTokenRegion = region => {
-  if (CONSTANTS.TOKEN_REGIONS.includes(region)) {
-    return true;
-  }
-
-  return false;
-};
+const validateTokenRegion = region => (CONSTANTS.TOKEN_REGIONS.includes(region) ? true : false);
 
 const validateRealm = (region, realm) => {
-  if (CONSTANTS.REGIONS[region].includes(realm)) {
-    return true;
-  }
-  return false;
+  const [sanitizedRealm, realmContainer] = [realm.toLowerCase().replace(/[áéíóú\- ']/g, ''), CONSTANTS.REALMS[region]];
+
+  return Object.values(realmContainer).some(realmObj => realmObj.sanitized === sanitizedRealm);
 };
 
 const normalize = {
@@ -69,20 +62,15 @@ const normalize = {
   upperCase: string => string.toUpperCase()
 };
 
+const normCharacterInformation = (character, region, realm) => [
+  normalize.lowerCaseCapitalization(realm),
+  normalize.upperCase(region),
+  normalize.lowerCaseCapitalization(character).slice(0, 12)
+];
+
+/*
 const azerite = (character, region, realm) => {
-  let [normedRealm, normedRegion, normedCharacter] = ['', '', ''];
-
-  if (realm) {
-    normedRealm = normalize.lowerCaseCapitalization(realm);
-  }
-
-  if (region) {
-    normedRegion = normalize.upperCase(region);
-  }
-
-  if (character) {
-    normedCharacter = normalize.lowerCaseCapitalization(character);
-  }
+  const [normedRealm, normedRegion, normedCharacter] = normCharacterInformation(character, region, realm);
 
   if (character && region && realm) {
     if (validateRegion(normedRegion) && validateRealm(normedRegion, normedRealm)) {
@@ -100,13 +88,88 @@ const azerite = (character, region, realm) => {
   return CONSTANTS.ERROR_MSG.paramMissing;
 };
 
-const mplus = (character, region, realm) => [character, region, realm];
+*/
+
+const returnSpecAgnosticMPlusScores = (className, mplusScores) => {
+  const result = [
+    {
+      name: 'All',
+      value: mplusScores.all
+    },
+    {
+      name: 'DPS',
+      value: mplusScores.dps,
+      inline: true
+    }
+  ];
+
+  const canHeal = ['Paladin', 'Druid', 'Priest', 'Monk', 'Shaman'];
+  const canTank = ['Demon Hunter', 'Death Knight', 'Warrior', 'Monk', 'Druid'];
+
+  if (canHeal.includes(className)) {
+    result.push({
+      name: 'Healer',
+      value: mplusScores.healer,
+      inline: true
+    });
+  }
+
+  if (canTank.includes(className)) {
+    result.push({
+      name: 'Tank',
+      value: mplusScores.tank,
+      inline: true
+    });
+  }
+
+  return result;
+};
+
+const createMPlusString = data => {
+  const obj = {
+    embed: {
+      description: `${data.race} ${data.class}`,
+      timestamp: new Date(),
+      thumbnail: {
+        url: data.thumbnail_url
+      },
+      author: {
+        name: `${data.name} @ ${normalize.upperCase(data.region)}-${data.realm}`,
+        url: data.profile_url,
+        icon_url: data.thumbnail_url
+      },
+      fields: returnSpecAgnosticMPlusScores(data.class, data.mythic_plus_scores)
+    }
+  };
+
+  return obj;
+};
+
+const mplus = async (character, region, realm) => {
+  if (character && region && realm) {
+    const [normedRealm, normedRegion, normedCharacter] = normCharacterInformation(character, region, realm);
+
+    if (validateRegion(normedRegion) && validateRealm(normedRegion, normedRealm)) {
+      const jsonURL = CONSTANTS.RaiderIoURL(normedCharacter, normedRegion, normedRealm);
+      const jsonResponse = await rp({ uri: jsonURL, json: true });
+
+      return createMPlusString(jsonResponse);
+    }
+    return CONSTANTS.ERROR_MSG.invalidRealmOrRegion(normedRegion, normedRealm);
+  }
+
+  return CONSTANTS.ERROR_MSG.paramMissing;
+};
+
+/*
 
 const logs = (character, region, realm) => [character, region, realm];
 
 const progress = (character, region, realm) => [character, region, realm];
 
 const affix = (region, schedule) => [region, schedule];
+
+*/
 
 const prettyPrintSeconds = s => {
   s = parseInt(s, 10);
@@ -131,30 +194,29 @@ const prettyPrintSeconds = s => {
   return '' + d + ' day' + (d == 1 ? '' : 's') + ', ' + h + ' hour' + (h == 1 ? '' : 's');
 };
 
-const returnDataAge = (now, then) => {
-  return prettyPrintSeconds(now / 1000 - then / 1000);
-};
+const returnDataAge = (now, then) => prettyPrintSeconds(now / 1000 - then / 1000);
 
-const createTokenString = (data, normedRegion, validatedTokenRegion) => {
+const createTokenMessage = (data, normedRegion, validatedTokenRegion) => {
   const now = Date.now();
+  let obj = { message: '' };
 
-  let overviewString = '```region | price    | last updated\n';
+  obj.message += '```region | price    | last updated\n';
 
   if (normedRegion !== '' && validatedTokenRegion) {
     const age = returnDataAge(now, Date.parse(data[normedRegion].raw.updatedISO8601));
 
-    overviewString += `    ${normedRegion} | ${data[normedRegion].formatted.buy} | ${age} ago`;
+    obj.message += `    ${normedRegion} | ${data[normedRegion].formatted.buy} | ${age} ago`;
   } else {
     CONSTANTS.TOKEN_REGIONS.forEach(tokenRegion => {
       const age = returnDataAge(now, Date.parse(data[tokenRegion].raw.updatedISO8601));
 
-      overviewString += `    ${tokenRegion} | ${data[tokenRegion].formatted.buy} | ${age} ago\n`;
+      obj.message += `    ${tokenRegion} | ${data[tokenRegion].formatted.buy} | ${age} ago\n`;
     });
   }
 
-  overviewString += '```';
+  obj.message += '```';
 
-  return overviewString;
+  return obj;
 };
 
 const token = async region => {
@@ -163,6 +225,7 @@ const token = async region => {
   if (region) {
     normedRegion = normalize.upperCase(region);
     validatedTokenRegion = validateTokenRegion(normedRegion);
+
     if (validatedTokenRegion) {
       jsonURL = CONSTANTS.WoWTokenURL;
     } else {
@@ -175,8 +238,8 @@ const token = async region => {
   if (jsonURL !== '') {
     async function getTokenData() {
       const jsonResponse = await rp({ uri: jsonURL, json: true });
-      const string = createTokenString(jsonResponse, normedRegion, validatedTokenRegion);
-      return string;
+      const message = createTokenMessage(jsonResponse, normedRegion, validatedTokenRegion);
+      return message;
     }
     return getTokenData();
   }
@@ -187,11 +250,11 @@ module.exports = {
   showHelp,
   capitalize,
   stalk,
-  azerite,
   mplus,
-  logs,
-  progress,
-  affix,
   token,
   CONSTANTS
+  /*azerite,
+  logs,
+  progress,
+  affix, */
 };

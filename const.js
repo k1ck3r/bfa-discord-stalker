@@ -1,3 +1,5 @@
+const realmJSON = require('./realms.json');
+
 const HELP = {
   stalk: {
     params: ['[ CHARACTER ]', '[ REGION ]', '[ REALM ]'],
@@ -37,25 +39,36 @@ const HELP = {
 };
 
 const ERROR_MSG = {
-  apiError: 'Sorry, the official API currently does not provide this information yet!',
-  invalidRegion: region => `Sorry, ${region} is not supported or does not exist!`,
-  invalidRealmOrRegion: (region, realm) => `Sorry, ${region}-${realm} could not be found!`,
-  invalidCharacter: (character, region, realm) => `Sorry, ${character.toUpperCase} on ${region}-${realm} could not be found!`,
-  cmdNotFound: 'Command not found - use `!help` if you are lost.',
-  paramMissing: 'Parameter missing - use `!help` if you are lost.',
-  WoWTokenError: error => `Sorry, WoWToken.info appears to be unavailable currently (error message: ${error})`,
-  LookupError: error => `Sorry, could not fetch this characters information (error message: ${error})`,
-  AffixError: error => `Sorry, couldn't fetch affix data - please try again later (error message: ${error})`
+  apiError: { message: 'Sorry, the official API currently does not provide this information yet!' },
+  invalidRegion: region => ({ message: `Sorry, \`${region}\` is not supported or does not exist!` }),
+  invalidRealmOrRegion: (region, realm) => ({ message: `Sorry, \`${region}-${realm}\` could not be found!` }),
+  invalidCharacter: (character, region, realm) => ({
+    message: `Sorry, \`${character.toUpperCase()}\` on \`${region}-${realm}\` could not be found!`
+  }),
+  cmdNotFound: { message: 'Command not found - use `!help` if you are lost.' },
+  paramMissing: { message: 'Parameter missing - use `!help` if you are lost.' },
+  WoWTokenError: error => ({
+    message: `Sorry, WoWToken.info appears to be unavailable currently (error message: \`${error}\`)`
+  }),
+  LookupError: error => ({
+    message: `Sorry, could not fetch this characters information (error message: \`${error}\`)`
+  }),
+  AffixError: error => ({
+    message: `Sorry, couldn't fetch affix data - please try again later (error message: \`${error}\`)`
+  })
 };
 
 const WoWTokenURL = 'https://data.wowtoken.info/snapshot.json';
+
+const RaiderIoURL = (character, region, realm) =>
+  `https://raider.io/api/v1/characters/profile?region=${region}&realm=${realm}&name=${character}&fields=mythic_plus_scores`;
 
 const REGIONS = ['EU', 'US'];
 const TOKEN_REGIONS = ['EU', 'NA', 'CN', 'TW', 'KR'];
 
 const REALMS = {
-  EU: [],
-  US: []
+  US: realmJSON[0],
+  EU: realmJSON[1]
 };
 
 module.exports = {
@@ -64,5 +77,6 @@ module.exports = {
   ERROR_MSG,
   REALMS,
   WoWTokenURL,
+  RaiderIoURL,
   TOKEN_REGIONS
 };
