@@ -108,16 +108,51 @@ const progress = (character, region, realm) => [character, region, realm];
 
 const affix = (region, schedule) => [region, schedule];
 
+const prettyPrintSeconds = s => {
+  s = parseInt(s, 10);
+
+  if (s <= 1) {
+    return 'Immediately';
+  }
+  if (s <= 90) {
+    return '' + s + ' seconds';
+  }
+  let m = Math.round(s / 60);
+  if (m <= 90) {
+    return '' + m + ' minute' + (m == 1 ? '' : 's');
+  }
+  let h = Math.floor(m / 60);
+  m = m % 60;
+  if (h <= 36) {
+    return '' + h + ' hour' + (h == 1 ? '' : 's') + ', ' + m + ' minute' + (m == 1 ? '' : 's');
+  }
+  let d = Math.floor(h / 24);
+  h = h % 24;
+  return '' + d + ' day' + (d == 1 ? '' : 's') + ', ' + h + ' hour' + (h == 1 ? '' : 's');
+};
+
+const returnDataAge = (now, then) => {
+  return prettyPrintSeconds(now / 1000 - then / 1000);
+};
+
 const createTokenString = (data, normedRegion, validatedTokenRegion) => {
-  let overviewString = 'region | price | last updated\n';
+  const now = Date.now();
+
+  let overviewString = '```region | price    | last updated\n';
 
   if (normedRegion !== '' && validatedTokenRegion) {
-    overviewString += `${normedRegion} | ${data[normedRegion].formatted.buy} | ${data[normedRegion].raw.updatedISO8601}`;
+    const age = returnDataAge(now, Date.parse(data[normedRegion].raw.updatedISO8601));
+
+    overviewString += `    ${normedRegion} | ${data[normedRegion].formatted.buy} | ${age} ago`;
   } else {
     CONSTANTS.TOKEN_REGIONS.forEach(tokenRegion => {
-      overviewString += `${tokenRegion} | ${data[tokenRegion].formatted.buy} | ${data[tokenRegion].raw.updatedISO8601}\n`;
+      const age = returnDataAge(now, Date.parse(data[tokenRegion].raw.updatedISO8601));
+
+      overviewString += `    ${tokenRegion} | ${data[tokenRegion].formatted.buy} | ${age} ago\n`;
     });
   }
+
+  overviewString += '```';
 
   return overviewString;
 };
