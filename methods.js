@@ -1,6 +1,5 @@
 const CONSTANTS = require('./const.js');
 const Discord = require('discord.io');
-//const API_KEYS = require('./api_keys.js');
 const rp = require('request-promise');
 
 const returnMessage = (bot, channelID, message) => {
@@ -212,20 +211,20 @@ const prettyPrintSeconds = s => {
     return 'Immediately';
   }
   if (s <= 90) {
-    return '' + s + ' seconds';
+    return `${s} seconds`;
   }
   let m = Math.round(s / 60);
   if (m <= 90) {
-    return '' + m + ' minute' + (m == 1 ? '' : 's');
+    return '' + m + ' minute' + (m === 1 ? '' : 's');
   }
   let h = Math.floor(m / 60);
   m = m % 60;
   if (h <= 36) {
-    return '' + h + ' hour' + (h == 1 ? '' : 's') + ', ' + m + ' minute' + (m == 1 ? '' : 's');
+    return '' + h + ' hour' + (h === 1 ? '' : 's') + ', ' + m + ' minute' + (m === 1 ? '' : 's');
   }
   let d = Math.floor(h / 24);
   h = h % 24;
-  return '' + d + ' day' + (d == 1 ? '' : 's') + ', ' + h + ' hour' + (h == 1 ? '' : 's');
+  return '' + d + ' day' + (d === 1 ? '' : 's') + ', ' + h + ' hour' + (h === 1 ? '' : 's');
 };
 
 const returnDataAge = (now, then) => prettyPrintSeconds(now / 1000 - then / 1000);
@@ -279,17 +278,139 @@ const token = async region => {
   }
 };
 
+const returnClassByID = id => CONSTANTS.CLASSES[id];
+
+const returnRaceById = id => {
+  let race;
+  switch (id) {
+    case 1:
+      race = 'Human';
+      break;
+    case 3:
+      race = 'Dwarf';
+      break;
+    case 4:
+      race = 'Night Elf';
+      break;
+    case 7:
+      race = 'Gnome';
+      break;
+    case 11:
+      race = 'Draenei';
+      break;
+    case 22:
+      race = 'Worgen';
+      break;
+    case 25:
+      race = 'Pandaren';
+      break;
+    case 2:
+      race = 'Orc';
+      break;
+    case 5:
+      race = 'Undead';
+      break;
+    case 6:
+      race = 'Tauren';
+      break;
+    case 8:
+      race = 'Troll';
+      break;
+    case 9:
+      race = 'Goblin';
+      break;
+    case 10:
+      race = 'Blood Elf';
+      break;
+    case 26:
+      race = 'Pandaren';
+      break;
+  }
+
+  return race;
+};
+
+const createProgressString = (data, region) => {
+  const dataAge = returnDataAge(Date.now(), data.lastModified);
+
+  console.log(dataAge);
+
+  return {
+    embed: {
+      description: `${returnRaceById(data.race)} ${returnClassByID(data.class)}`,
+      timestamp: new Date(),
+      thumbnail: {
+        url: `https://render-eu.worldofwarcraft.com/character/${data.thumbnail}`
+      },
+      author: {
+        name: `${data.name} @ ${region}-${data.realm}`,
+        icon_url: `https://render-eu.worldofwarcraft.com/character/${data.thumbnail}`
+      },
+      fields: []
+    }
+  };
+};
+
+const progress = async (character, region, realm) => {
+  if (character && region && realm) {
+    const [normedRealm, normedRegion, normedCharacter] = normCharacterInformation(character, region, realm);
+
+    if (validateRegion(normedRegion) && validateRealm(normedRegion, normedRealm)) {
+      const jsonURL = CONSTANTS.URLS.Progress(normedCharacter, normedRegion, normedRealm);
+      const jsonResponse = await rp({ uri: jsonURL, json: true });
+
+      return createProgressString(jsonResponse, normedRegion);
+    }
+    return CONSTANTS.ERROR_MSG.invalidRealmOrRegion(normedRegion, normedRealm);
+  }
+
+  return CONSTANTS.ERROR_MSG.paramMissing;
+};
+
+const returnAnswer = async (cmd, args) => {
+  let answer = '';
+
+  switch (cmd) {
+    case 'token':
+      try {
+        answer = await token(args[0]);
+      } catch (e) {
+        answer = CONSTANTS.ERROR_MSG.WoWTokenError(e);
+      }
+      break;
+    case 'help':
+      answer = showHelp();
+      break;
+    case 'mplus':
+      try {
+        answer = await mplus(args[0], args[1], args[2]);
+      } catch (e) {
+        answer = CONSTANTS.ERROR_MSG.LookupError(e);
+      }
+      break;
+    case 'affix':
+      try {
+        answer = await affix(args[0]);
+      } catch (e) {
+        answer = CONSTANTS.ERROR_MSG.AffixError(e);
+      }
+      break;
+    case 'progress':
+      try {
+        answer = await progress(args[0], args[1], args[2]);
+      } catch (e) {
+        answer = CONSTANTS.ERROR_MSG.LookupError(e);
+      }
+      break;
+    default:
+      answer = CONSTANTS.ERROR_MSG.cmdNotFound;
+      break;
+  }
+
+  return await answer;
+};
+
 module.exports = {
   returnMessage,
-  showHelp,
-  capitalize,
-  stalk,
-  mplus,
-  token,
-  CONSTANTS,
-  affix
-  /*azerite,
-  logs,
-  progress,
-  , */
+  returnAnswer
 };

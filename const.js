@@ -1,4 +1,5 @@
 const realmJSON = require('./realms.json');
+const API = require('./api_keys.js');
 
 const HELP = {
   stalk: {
@@ -58,18 +59,21 @@ const ERROR_MSG = {
   })
 };
 
-const CAN_HEAL = ['Paladin', 'Druid', 'Priest', 'Monk', 'Shaman'];
-const CAN_TANK = ['Demon Hunter', 'Death Knight', 'Warrior', 'Monk', 'Druid'];
-
 const URLS = {
   WoWToken: 'https://data.wowtoken.info/snapshot.json',
   MPlus: (character, region, realm) =>
     `https://raider.io/api/v1/characters/profile?region=${region}&realm=${realm}&name=${character}&fields=mythic_plus_scores`,
-  Affixes: region => `https://raider.io/api/v1/mythic-plus/affixes?region=${region}&locale=en`
+  Affixes: region => `https://raider.io/api/v1/mythic-plus/affixes?region=${region}&locale=en`,
+  Progress: (character, region, realm) =>
+    `https://${region}.api.battle.net/wow/character/${realm}/${character}?fields=progression&locale=en_GB&apikey=${API.KEYS.battleNet}`
 };
 
 const REGIONS = ['EU', 'US'];
 const TOKEN_REGIONS = ['EU', 'NA', 'CN', 'TW', 'KR'];
+
+const CAN_HEAL = ['Paladin', 'Druid', 'Priest', 'Monk', 'Shaman'];
+const CAN_TANK = ['Demon Hunter', 'Death Knight', 'Warrior', 'Monk', 'Druid'];
+const CLASSES = ['', 'Warrior', 'Paladin', 'Hunter', 'Rogue', 'Priest', 'Death Knight', 'Shaman', 'Mage', 'Warlock', 'Monk', 'Druid', 'Demon Hunter'];
 
 const REALMS = {
   US: realmJSON[0],
@@ -84,5 +88,6 @@ module.exports = {
   URLS,
   TOKEN_REGIONS,
   CAN_HEAL,
-  CAN_TANK
+  CAN_TANK,
+  CLASSES
 };

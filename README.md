@@ -2,11 +2,10 @@
 
 just a small Discord bot for competitive Mythic+ players, built upon
 
-
-1. [WoWToken.info](https://WoWToken.info) 
-2. [raider.io API](https://raider.io)
-3. [warcraftlogs.com API](https://warcraftlogs.com)
-4. [battle.net API](https://dev.battle.net)
+1.  [WoWToken.info](https://WoWToken.info)
+2.  [raider.io API](https://raider.io)
+3.  [warcraftlogs.com API](https://warcraftlogs.com)
+4.  [battle.net API](https://dev.battle.net)
 
 # Setup
 
@@ -30,7 +29,11 @@ and change line 6
 GATEWAY_VERSION = 5,
 ```
 
-to 6
+to
+
+```js
+GATEWAY_VERSION = 6,
+```
 
 then you may start it with
 
