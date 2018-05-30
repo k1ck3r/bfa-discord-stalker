@@ -63,28 +63,6 @@ const normCharacterInformation = (character, region, realm) => [
   normalize.lowerCaseCapitalization(character).slice(0, 12)
 ];
 
-/*
-const azerite = (character, region, realm) => {
-  const [normedRealm, normedRegion, normedCharacter] = normCharacterInformation(character, region, realm);
-
-  if (character && region && realm) {
-    if (validateRegion(normedRegion) && validateRealm(normedRegion, normedRealm)) {
-      return CONSTANTS.ERROR_MSG.apiError;
-    }
-    return CONSTANTS.ERROR_MSG.invalidRealmOrRegion(normedRegion, normedRealm);
-  } else if (region) {
-    if (validateRegion(normedRegion)) {
-      return CONSTANTS.ERROR_MSG.apiError;
-    }
-    return CONSTANTS.ERROR_MSG.invalidRealmOrRegion(normedRegion, normedRealm);
-  } else if (!normedCharacter && !region && !realm) {
-    return CONSTANTS.ERROR_MSG.apiError;
-  }
-  return CONSTANTS.ERROR_MSG.paramMissing;
-};
-
-*/
-
 const returnSpecAgnosticMPlusScores = (className, mplusScores, header) => {
   const result = [];
 
@@ -126,14 +104,6 @@ const returnSpecAgnosticMPlusScores = (className, mplusScores, header) => {
   return result;
 };
 
-/*
-
-const logs = (character, region, realm) => [character, region, realm];
-
-const progress = (character, region, realm) => [character, region, realm];
-
-*/
-
 const createAffixMessage = data => {
   const fields = [];
 
@@ -164,7 +134,7 @@ const affix = async region => {
     normedRegion = normalize.upperCase(region);
 
     if (validateRegion(normedRegion)) {
-      jsonURL = CONSTANTS.URLS.Affixes(normedRegion);
+      jsonURL = CONSTANTS.URLS.RaiderIOAffixes(normedRegion);
       const jsonResponse = await rp({ uri: jsonURL, json: true });
 
       const message = createAffixMessage(jsonResponse);
@@ -280,72 +250,6 @@ const token = async region => {
     }
     return getTokenData();
   }
-};
-
-const returnClassByID = id => CONSTANTS.CLASSES[id];
-
-const returnRaceById = id => {
-  let race;
-  switch (id) {
-    case 1:
-      race = 'Human';
-      break;
-    case 3:
-      race = 'Dwarf';
-      break;
-    case 4:
-      race = 'Night Elf';
-      break;
-    case 7:
-      race = 'Gnome';
-      break;
-    case 11:
-      race = 'Draenei';
-      break;
-    case 22:
-      race = 'Worgen';
-      break;
-    case 25:
-      race = 'Pandaren';
-      break;
-    case 2:
-      race = 'Orc';
-      break;
-    case 5:
-      race = 'Undead';
-      break;
-    case 6:
-      race = 'Tauren';
-      break;
-    case 8:
-      race = 'Troll';
-      break;
-    case 9:
-      race = 'Goblin';
-      break;
-    case 10:
-      race = 'Blood Elf';
-      break;
-    case 26:
-      race = 'Pandaren';
-      break;
-  }
-
-  return race;
-};
-
-const getItemlevelThresholds = items => {
-  let [lowest, highest] = [Infinity, -Infinity];
-  Reflect.deleteProperty(items, 'tabard');
-
-  Object.values(items).forEach(function(item) {
-    if (typeof item === 'object' && item !== undefined) {
-      item.itemLevel < lowest ? (lowest = item.itemLevel) : void 0;
-      item.itemLevel > highest ? (highest = item.itemLevel) : void 0;
-    }
-  });
-
-  return `${lowest} / ${highest}`;
 };
 
 const getMPlusRunData = (data, type) => {
@@ -472,41 +376,50 @@ const getRaidProgression = (progressionData, achievementContainer) => {
 };
 
 const getCharacterProgression = (progress, achievementContainer) => {
-  const [result, gear, MPlusData] = [[], progress.gear, returnSpecAgnosticMPlusScores(progress.class, progress.mythic_plus_scores, true)];
+  const [result, gear] = [[], progress.gear];
 
+  // extract current gear
   result.push({
     name: 'Itemlevel',
     value: `${gear.item_level_equipped} / ${gear.item_level_total}`,
     inline: true
   });
 
+  // extract Artifact Traits respectively Azerite/Heart of Azeroth level
   result.push({
     name: 'AP/Azerite Level',
     value: gear.artifact_traits.toString(),
     inline: true
   });
 
+  // extract highest KeystoneAchievements
   result.push({
     name: '--------------------------------------------------------------------------------Highest Mythic+ achievement',
     value: getHighestKeystoneAchievement(achievementContainer)
   });
 
+  // extract MPlusScores
+  const MPlusData = returnSpecAgnosticMPlusScores(progress.class, progress.mythic_plus_scores, true);
+
   for (let i = 0; i < MPlusData.length; i += 1) {
     result.push(MPlusData[i]);
   }
 
+  // extract highest MPlus runs
   const highestRuns = getMPlusRunData(progress.mythic_plus_highest_level_runs, 'highest');
 
   for (let i = 0; i < highestRuns.length; i += 1) {
     result.push(highestRuns[i]);
   }
 
+  // extract most recent MPlus runs
   const recentRuns = getMPlusRunData(progress.mythic_plus_recent_runs, 'recent');
 
   for (let i = 0; i < recentRuns.length; i += 1) {
     result.push(recentRuns[i]);
   }
 
+  // extract raid progression & achievement
   const raidProgression = getRaidProgression(progress.raid_progression, achievementContainer);
 
   for (let i = 0; i < raidProgression.length; i += 1) {
@@ -539,16 +452,13 @@ const stalk = async (character, region, realm) => {
     const [normedRealm, normedRegion, normedCharacter] = normCharacterInformation(character, region, realm);
 
     if (validateRegion(normedRegion) && validateRealm(normedRegion, normedRealm)) {
-      const jsonURL = CONSTANTS.URLS.Progress(normedCharacter, normedRegion, normedRealm);
-
       const urls = [
-        CONSTANTS.URLS.Progress(normedCharacter, normedRegion, normedRealm),
-        CONSTANTS.URLS.Achievements(normedCharacter, normedRegion, normedRealm)
+        CONSTANTS.URLS.RaiderIOProgress(normedCharacter, normedRegion, normedRealm),
+        CONSTANTS.URLS.BlizzardAchievements(normedCharacter, normedRegion, normedRealm)
       ];
 
       const progress = await rp({ uri: urls[0], json: true });
       const achievementContainer = await rp({ uri: urls[1], json: true });
-      console.log(urls[1]);
 
       return createProgressString(progress, achievementContainer);
     }

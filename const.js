@@ -46,12 +46,10 @@ const ERROR_MSG = {
 
 const URLS = {
   WoWToken: 'https://data.wowtoken.info/snapshot.json',
-  MPlus: (character, region, realm) =>
-    `https://raider.io/api/v1/characters/profile?region=${region}&realm=${realm}&name=${character}&fields=mythic_plus_scores`,
-  Affixes: region => `https://raider.io/api/v1/mythic-plus/affixes?region=${region}&locale=en`,
-  Progress: (character, region, realm) =>
+  RaiderIOAffixes: region => `https://raider.io/api/v1/mythic-plus/affixes?region=${region}&locale=en`,
+  RaiderIOProgress: (character, region, realm) =>
     `https://raider.io/api/v1/characters/profile?region=${region}&realm=${realm}&name=${character}&fields=gear%2Craid_progression%2Cmythic_plus_scores%2Cmythic_plus_recent_runs%2Cmythic_plus_highest_level_runs`,
-  Achievements: (character, region, realm) =>
+  BlizzardAchievements: (character, region, realm) =>
     `https://${region}.api.battle.net/wow/character/${realm}/${character}?fields=achievements&locale=en_GB&apikey=${API.KEYS.battleNet}`
 };
 
