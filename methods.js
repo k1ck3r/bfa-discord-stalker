@@ -69,7 +69,7 @@ const returnSpecAgnosticMPlusScores = (className, mplusScores, header) => {
   if (header) {
     result.push({
       name: '--------------------------------------------------------------------------------Mythic+ Scores',
-      value: '_powered by raider.io_'
+      value: '_via raider.io_'
     });
   }
 
@@ -257,7 +257,7 @@ const getMPlusRunData = (data, type) => {
 
   let headerObj = {
     name: '--------------------------------------------------------------------------------',
-    value: '_powered by raider.io_'
+    value: '_via raider.io_'
   };
 
   type === 'highest' ? (headerObj.name += 'Mythic+ Highest Runs') : void 0;
@@ -277,7 +277,29 @@ const getMPlusRunData = (data, type) => {
   return result;
 };
 
-const sanitizeRaidName = raidName => {
+const getRaidAchievement = (raidName, achievementContainer) => {
+  let achievementInfoString = '';
+
+  const [achievementsCompleted, achievementsCompletedTimestamp] = [
+    achievementContainer.achievements.achievementsCompleted,
+    achievementContainer.achievements.achievementsCompletedTimestamp
+  ];
+
+  if (CONSTANTS.RAID_NAMES.includes(raidName)) {
+    const index = CONSTANTS.RAID_NAMES.indexOf(raidName);
+    const [aotcID, ceID] = [CONSTANTS.AHEAD_OF_THE_CURVE_ACHIEVEMENTS[index], CONSTANTS.CUTTING_EDGE_ACHIEVEMENTS[index]];
+
+    if (achievementsCompleted.includes(ceID)) {
+      achievementInfoString = ' | AOTC & CE';
+    } else if (achievementsCompleted.includes(aotcID)) {
+      achievementInfoString = ' | AOTC';
+    }
+  }
+
+  return achievementInfoString;
+};
+
+const sanitizeRaidName = (raidName, achievementContainer) => {
   let correctName = '';
 
   raidName
@@ -294,6 +316,8 @@ const sanitizeRaidName = raidName => {
       correctName += `${part} `;
     });
 
+  correctName += getRaidAchievement(raidName, achievementContainer);
+
   return correctName;
 };
 
@@ -304,9 +328,7 @@ const getKeystoneProgress = (achievementsCompleted, achievementsCompletedTimesta
     completedTimestamp: 0
   };
 
-  let achievementContainer;
-  let achievementLevels;
-  let result;
+  let [achievementContainer, achievementLevels, result] = [, ,];
 
   if (type === 'General') {
     achievementContainer = CONSTANTS.MPLUS_ACHIEVEMENTS;
@@ -326,15 +348,11 @@ const getKeystoneProgress = (achievementsCompleted, achievementsCompletedTimesta
     }
   });
 
-  if (obj.maxLevelCompleted > 0) {
-    obj.completedTimestamp = achievementsCompletedTimestamp[obj.completedIndex];
-  }
+  obj.maxLevelCompleted > 0 ? (obj.completedTimestamp = achievementsCompletedTimestamp[obj.completedIndex]) : void 0;
 
   result = `${type}: ${obj.maxLevelCompleted}`;
 
-  if (obj.completedTimestamp > 0) {
-    result += ` - ${returnDataAge(obj.completedTimestamp)} ago`;
-  }
+  obj.completedTimestamp > 0 ? (result += ` - ${returnDataAge(obj.completedTimestamp)} ago`) : void 0;
 
   return result;
 };
@@ -366,7 +384,7 @@ const getRaidProgression = (progressionData, achievementContainer) => {
 
   for (let i = 0; i < progression.length; i += 1) {
     result.push({
-      name: `${sanitizeRaidName(raids[i])}`,
+      name: `${sanitizeRaidName(raids[i], achievementContainer)}`,
       value: `${progression[i].normal_bosses_killed} | ${progression[i].heroic_bosses_killed} | ${progression[i]
         .mythic_bosses_killed} of ${progression[i].total_bosses}`
     });
