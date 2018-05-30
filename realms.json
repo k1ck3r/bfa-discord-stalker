@@ -3,432 +3,518 @@
     "1": {
       "slug": "aegwynn",
       "name": "Aegwynn",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "aegwynn"
     },
     "2": {
       "slug": "aerie-peak",
       "name": "Aerie Peak",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "aeriepeak"
     },
     "3": {
       "slug": "agamaggan",
       "name": "Agamaggan",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "agamaggan"
     },
     "4": {
       "slug": "aggramar",
       "name": "Aggramar",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "aggramar"
     },
     "5": {
       "slug": "akama",
       "name": "Akama",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "akama"
     },
     "6": {
       "slug": "alexstrasza",
       "name": "Alexstrasza",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "alexstrasza"
     },
     "7": {
       "slug": "alleria",
       "name": "Alleria",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "alleria"
     },
     "8": {
       "slug": "altar-of-storms",
       "name": "Altar of Storms",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "altarofstorms"
     },
     "9": {
       "slug": "alterac-mountains",
       "name": "Alterac Mountains",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "alteracmountains"
     },
     "10": {
       "slug": "amanthul",
       "name": "Aman'Thul",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "amanthul"
     },
     "11": {
       "slug": "andorhal",
       "name": "Andorhal",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "andorhal"
     },
     "12": {
       "slug": "anetheron",
       "name": "Anetheron",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "anetheron"
     },
     "13": {
       "slug": "antonidas",
       "name": "Antonidas",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "antonidas"
     },
     "14": {
       "slug": "anubarak",
       "name": "Anub'arak",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "anubarak"
     },
     "15": {
       "slug": "arathor",
       "name": "Arathor",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "arathor"
     },
     "16": {
       "slug": "archimonde",
       "name": "Archimonde",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "archimonde"
     },
     "17": {
       "slug": "area-52",
       "name": "Area 52",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "area52"
     },
     "18": {
       "slug": "argent-dawn",
       "name": "Argent Dawn",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "argentdawn"
     },
     "19": {
       "slug": "arthas",
       "name": "Arthas",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "arthas"
     },
     "20": {
       "slug": "arygos",
       "name": "Arygos",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "arygos"
     },
     "21": {
       "slug": "auchindoun",
       "name": "Auchindoun",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "auchindoun"
     },
     "22": {
       "slug": "azgalor",
       "name": "Azgalor",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "azgalor"
     },
     "23": {
       "slug": "azjolnerub",
       "name": "Azjol-Nerub",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "azjolnerub"
     },
     "24": {
       "slug": "azralon",
       "name": "Azralon",
-      "ownerrealm": "Azralon"
+      "ownerrealm": "Azralon",
+      "sanitized": "azralon"
     },
     "25": {
       "slug": "azshara",
       "name": "Azshara",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "azshara"
     },
     "26": {
       "slug": "azuremyst",
       "name": "Azuremyst",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "azuremyst"
     },
     "27": {
       "slug": "baelgun",
       "name": "Baelgun",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "baelgun"
     },
     "28": {
       "slug": "balnazzar",
       "name": "Balnazzar",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "balnazzar"
     },
     "29": {
       "slug": "barthilas",
       "name": "Barthilas",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "barthilas"
     },
     "30": {
       "slug": "black-dragonflight",
       "name": "Black Dragonflight",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "blackdragonflight"
     },
     "31": {
       "slug": "blackhand",
       "name": "Blackhand",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "blackhand"
     },
     "32": {
       "slug": "blackrock",
       "name": "Blackrock",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "blackrock"
     },
     "33": {
       "slug": "blackwater-raiders",
       "name": "Blackwater Raiders",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "blackwaterraiders"
     },
     "34": {
       "slug": "blackwing-lair",
       "name": "Blackwing Lair",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "blackwinglair"
     },
     "35": {
       "slug": "blades-edge",
       "name": "Blade's Edge",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "bladesedge"
     },
     "36": {
       "slug": "bladefist",
       "name": "Bladefist",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "bladefist"
     },
     "37": {
       "slug": "bleeding-hollow",
       "name": "Bleeding Hollow",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "bleedinghollow"
     },
     "38": {
       "slug": "blood-furnace",
       "name": "Blood Furnace",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "bloodfurnace"
     },
     "39": {
       "slug": "bloodhoof",
       "name": "Bloodhoof",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "bloodhoof"
     },
     "40": {
       "slug": "bloodscalp",
       "name": "Bloodscalp",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "bloodscalp"
     },
     "41": {
       "slug": "bonechewer",
       "name": "Bonechewer",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "bonechewer"
     },
     "42": {
       "slug": "borean-tundra",
       "name": "Borean Tundra",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "boreantundra"
     },
     "43": {
       "slug": "boulderfist",
       "name": "Boulderfist",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "boulderfist"
     },
     "44": {
       "slug": "bronzebeard",
       "name": "Bronzebeard",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "bronzebeard"
     },
     "45": {
       "slug": "burning-blade",
       "name": "Burning Blade",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "burningblade"
     },
     "46": {
       "slug": "burning-legion",
       "name": "Burning Legion",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "burninglegion"
     },
     "47": {
       "slug": "caelestrasz",
       "name": "Caelestrasz",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "caelestrasz"
     },
     "48": {
       "slug": "cairne",
       "name": "Cairne",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "cairne"
     },
     "49": {
       "slug": "cenarion-circle",
       "name": "Cenarion Circle",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "cenarioncircle"
     },
     "50": {
       "slug": "cenarius",
       "name": "Cenarius",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "cenarius"
     },
     "51": {
       "slug": "chogall",
       "name": "Cho'gall",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "chogall"
     },
     "52": {
       "slug": "chromaggus",
       "name": "Chromaggus",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "chromaggus"
     },
     "53": {
       "slug": "coilfang",
       "name": "Coilfang",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "coilfang"
     },
     "54": {
       "slug": "crushridge",
       "name": "Crushridge",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "crushridge"
     },
     "55": {
       "slug": "daggerspine",
       "name": "Daggerspine",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "daggerspine"
     },
     "56": {
       "slug": "dalaran",
       "name": "Dalaran",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "dalaran"
     },
     "57": {
       "slug": "dalvengyr",
       "name": "Dalvengyr",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "dalvengyr"
     },
     "58": {
       "slug": "dark-iron",
       "name": "Dark Iron",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "darkiron"
     },
     "59": {
       "slug": "darkspear",
       "name": "Darkspear",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "darkspear"
     },
     "60": {
       "slug": "darrowmere",
       "name": "Darrowmere",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "darrowmere"
     },
     "61": {
       "slug": "dathremar",
       "name": "Dath'Remar",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "dathremar"
     },
     "62": {
       "slug": "dawnbringer",
       "name": "Dawnbringer",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "dawnbringer"
     },
     "63": {
       "slug": "deathwing",
       "name": "Deathwing",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "deathwing"
     },
     "64": {
       "slug": "demon-soul",
       "name": "Demon Soul",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "demonsoul"
     },
     "65": {
       "slug": "dentarg",
       "name": "Dentarg",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "dentarg"
     },
     "66": {
       "slug": "destromath",
       "name": "Destromath",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "destromath"
     },
     "67": {
       "slug": "dethecus",
       "name": "Dethecus",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "dethecus"
     },
     "68": {
       "slug": "detheroc",
       "name": "Detheroc",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "detheroc"
     },
     "69": {
       "slug": "doomhammer",
       "name": "Doomhammer",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "doomhammer"
     },
     "70": {
       "slug": "draenor",
       "name": "Draenor",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "draenor"
     },
     "71": {
       "slug": "dragonblight",
       "name": "Dragonblight",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "dragonblight"
     },
     "72": {
       "slug": "dragonmaw",
       "name": "Dragonmaw",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "dragonmaw"
     },
     "73": {
       "slug": "draktharon",
       "name": "Drak'Tharon",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "draktharon"
     },
     "74": {
       "slug": "drakthul",
       "name": "Drak'thul",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "drakthul"
     },
     "75": {
       "slug": "draka",
       "name": "Draka",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "draka"
     },
     "76": {
       "slug": "drakkari",
       "name": "Drakkari",
-      "ownerrealm": "Drakkari"
+      "ownerrealm": "Drakkari",
+      "sanitized": "drakkari"
     },
     "77": {
       "slug": "dreadmaul",
       "name": "Dreadmaul",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "dreadmaul"
     },
     "78": {
       "slug": "drenden",
       "name": "Drenden",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "drenden"
     },
     "79": {
       "slug": "dunemaul",
       "name": "Dunemaul",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "dunemaul"
     },
     "80": {
       "slug": "durotan",
       "name": "Durotan",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "durotan"
     },
     "81": {
       "slug": "duskwood",
       "name": "Duskwood",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "duskwood"
     },
     "82": {
       "slug": "earthen-ring",
       "name": "Earthen Ring",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "earthenring"
     },
     "83": {
       "slug": "echo-isles",
       "name": "Echo Isles",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "echoisles"
     },
     "84": {
       "slug": "eitrigg",
       "name": "Eitrigg",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "eitrigg"
     },
     "85": {
       "slug": "eldrethalas",
       "name": "Eldre'Thalas",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "eldrethalas"
     },
     "86": {
       "slug": "elune",
       "name": "Elune",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "elune"
     },
     "87": {
       "slug": "emerald-dream",
@@ -437,2134 +523,2560 @@
     "88": {
       "slug": "eonar",
       "name": "Eonar",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "eonar"
     },
     "89": {
       "slug": "eredar",
       "name": "Eredar",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "eredar"
     },
     "90": {
       "slug": "executus",
       "name": "Executus",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "executus"
     },
     "91": {
       "slug": "exodar",
       "name": "Exodar",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "exodar"
     },
     "92": {
       "slug": "farstriders",
       "name": "Farstriders",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "farstriders"
     },
     "93": {
       "slug": "feathermoon",
       "name": "Feathermoon",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "feathermoon"
     },
     "94": {
       "slug": "fenris",
       "name": "Fenris",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "fenris"
     },
     "95": {
       "slug": "firetree",
       "name": "Firetree",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "firetree"
     },
     "96": {
       "slug": "fizzcrank",
       "name": "Fizzcrank",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "fizzcrank"
     },
     "97": {
       "slug": "frostmane",
       "name": "Frostmane",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "frostmane"
     },
     "98": {
       "slug": "frostmourne",
       "name": "Frostmourne",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "frostmourne"
     },
     "99": {
       "slug": "frostwolf",
       "name": "Frostwolf",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "frostwolf"
     },
     "100": {
       "slug": "galakrond",
       "name": "Galakrond",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "galakrond"
     },
     "101": {
       "slug": "gallywix",
       "name": "Gallywix",
-      "ownerrealm": "Gallywix"
+      "ownerrealm": "Gallywix",
+      "sanitized": "gallywix"
     },
     "102": {
       "slug": "garithos",
       "name": "Garithos",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "garithos"
     },
     "103": {
       "slug": "garona",
       "name": "Garona",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "garona"
     },
     "104": {
       "slug": "garrosh",
       "name": "Garrosh",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "garrosh"
     },
     "105": {
       "slug": "ghostlands",
       "name": "Ghostlands",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "ghostlands"
     },
     "106": {
       "slug": "gilneas",
       "name": "Gilneas",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "gilneas"
     },
     "107": {
       "slug": "gnomeregan",
       "name": "Gnomeregan",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "gnomeregan"
     },
     "108": {
       "slug": "goldrinn",
       "name": "Goldrinn",
-      "ownerrealm": "Goldrinn"
+      "ownerrealm": "Goldrinn",
+      "sanitized": "goldrinn"
     },
     "109": {
       "slug": "gorefiend",
       "name": "Gorefiend",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "gorefiend"
     },
     "110": {
       "slug": "gorgonnash",
       "name": "Gorgonnash",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "gorgonnash"
     },
     "111": {
       "slug": "greymane",
       "name": "Greymane",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "greymane"
     },
     "112": {
       "slug": "grizzly-hills",
       "name": "Grizzly Hills",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "grizzlyhills"
     },
     "113": {
       "slug": "guldan",
       "name": "Gul'dan",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "guldan"
     },
     "114": {
       "slug": "gundrak",
       "name": "Gundrak",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "gundrak"
     },
     "115": {
       "slug": "gurubashi",
       "name": "Gurubashi",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "gurubashi"
     },
     "116": {
       "slug": "hakkar",
       "name": "Hakkar",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "hakkar"
     },
     "117": {
       "slug": "haomarush",
       "name": "Haomarush",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "haomarush"
     },
     "118": {
       "slug": "hellscream",
       "name": "Hellscream",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "hellscream"
     },
     "119": {
       "slug": "hydraxis",
       "name": "Hydraxis",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "hydraxis"
     },
     "120": {
       "slug": "hyjal",
       "name": "Hyjal",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "hyjal"
     },
     "121": {
       "slug": "icecrown",
       "name": "Icecrown",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "icecrown"
     },
     "122": {
       "slug": "illidan",
       "name": "Illidan",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "illidan"
     },
     "123": {
       "slug": "jaedenar",
       "name": "Jaedenar",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "jaedenar"
     },
     "124": {
       "slug": "jubeithos",
       "name": "Jubei'Thos",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "jubeithos"
     },
     "125": {
       "slug": "kaelthas",
       "name": "Kael'thas",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "kaelthas"
     },
     "126": {
       "slug": "kalecgos",
       "name": "Kalecgos",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "kalecgos"
     },
     "127": {
       "slug": "kargath",
       "name": "Kargath",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "kargath"
     },
     "128": {
       "slug": "kelthuzad",
       "name": "Kel'Thuzad",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "kelthuzad"
     },
     "129": {
       "slug": "khadgar",
       "name": "Khadgar",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "khadgar"
     },
     "130": {
       "slug": "khaz-modan",
       "name": "Khaz Modan",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "khazmodan"
     },
     "131": {
       "slug": "khazgoroth",
       "name": "Khaz'goroth",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "khazgoroth"
     },
     "132": {
       "slug": "kiljaeden",
       "name": "Kil'jaeden",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "kiljaeden"
     },
     "133": {
       "slug": "kilrogg",
       "name": "Kilrogg",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "kilrogg"
     },
     "134": {
       "slug": "kirin-tor",
       "name": "Kirin Tor",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "kirintor"
     },
     "135": {
       "slug": "korgath",
       "name": "Korgath",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "korgath"
     },
     "136": {
       "slug": "korialstrasz",
       "name": "Korialstrasz",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "korialstrasz"
     },
     "137": {
       "slug": "kul-tiras",
       "name": "Kul Tiras",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "kultiras"
     },
     "138": {
       "slug": "laughing-skull",
       "name": "Laughing Skull",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "laughingskull"
     },
     "139": {
       "slug": "lethon",
       "name": "Lethon",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "lethon"
     },
     "140": {
       "slug": "lightbringer",
       "name": "Lightbringer",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "lightbringer"
     },
     "141": {
       "slug": "lightnings-blade",
       "name": "Lightning's Blade",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "lightningsblade"
     },
     "142": {
       "slug": "lightninghoof",
       "name": "Lightninghoof",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "lightninghoof"
     },
     "143": {
       "slug": "llane",
       "name": "Llane",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "llane"
     },
     "144": {
       "slug": "lothar",
       "name": "Lothar",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "lothar"
     },
     "145": {
       "slug": "madoran",
       "name": "Madoran",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "madoran"
     },
     "146": {
       "slug": "maelstrom",
       "name": "Maelstrom",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "maelstrom"
     },
     "147": {
       "slug": "magtheridon",
       "name": "Magtheridon",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "magtheridon"
     },
     "148": {
       "slug": "maiev",
       "name": "Maiev",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "maiev"
     },
     "149": {
       "slug": "malganis",
       "name": "Mal'Ganis",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "malganis"
     },
     "150": {
       "slug": "malfurion",
       "name": "Malfurion",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "malfurion"
     },
     "151": {
       "slug": "malorne",
       "name": "Malorne",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "malorne"
     },
     "152": {
       "slug": "malygos",
       "name": "Malygos",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "malygos"
     },
     "153": {
       "slug": "mannoroth",
       "name": "Mannoroth",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "mannoroth"
     },
     "154": {
       "slug": "medivh",
       "name": "Medivh",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "medivh"
     },
     "155": {
       "slug": "misha",
       "name": "Misha",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "misha"
     },
     "156": {
       "slug": "moknathal",
       "name": "Mok'Nathal",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "moknathal"
     },
     "157": {
       "slug": "moon-guard",
       "name": "Moon Guard",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "moonguard"
     },
     "158": {
       "slug": "moonrunner",
       "name": "Moonrunner",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "moonrunner"
     },
     "159": {
       "slug": "mugthol",
       "name": "Mug'thol",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "mugthol"
     },
     "160": {
       "slug": "muradin",
       "name": "Muradin",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "muradin"
     },
     "161": {
       "slug": "nagrand",
       "name": "Nagrand",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "nagrand"
     },
     "162": {
       "slug": "nathrezim",
       "name": "Nathrezim",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "nathrezim"
     },
     "163": {
       "slug": "nazgrel",
       "name": "Nazgrel",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "nazgrel"
     },
     "164": {
       "slug": "nazjatar",
       "name": "Nazjatar",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "nazjatar"
     },
     "165": {
       "slug": "nemesis",
       "name": "Nemesis",
-      "ownerrealm": "Nemesis"
+      "ownerrealm": "Nemesis",
+      "sanitized": "nemesis"
     },
     "166": {
       "slug": "nerzhul",
       "name": "Ner'zhul",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "nerzhul"
     },
     "167": {
       "slug": "nesingwary",
       "name": "Nesingwary",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "nesingwary"
     },
     "168": {
       "slug": "nordrassil",
       "name": "Nordrassil",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "nordrassil"
     },
     "169": {
       "slug": "norgannon",
       "name": "Norgannon",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "norgannon"
     },
     "170": {
       "slug": "onyxia",
       "name": "Onyxia",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "onyxia"
     },
     "171": {
       "slug": "perenolde",
       "name": "Perenolde",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "perenolde"
     },
     "172": {
       "slug": "proudmoore",
       "name": "Proudmoore",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "proudmoore"
     },
     "173": {
       "slug": "quelthalas",
       "name": "Quel'Thalas",
-      "ownerrealm": "Quel'Thalas"
+      "ownerrealm": "Quel'Thalas",
+      "sanitized": "quelthalas"
     },
     "174": {
       "slug": "queldorei",
       "name": "Quel'dorei",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "queldorei"
     },
     "175": {
       "slug": "ragnaros",
       "name": "Ragnaros",
-      "ownerrealm": "Ragnaros"
+      "ownerrealm": "Ragnaros",
+      "sanitized": "ragnaros"
     },
     "176": {
       "slug": "ravencrest",
       "name": "Ravencrest",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "ravencrest"
     },
     "177": {
       "slug": "ravenholdt",
       "name": "Ravenholdt",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "ravenholdt"
     },
     "178": {
       "slug": "rexxar",
       "name": "Rexxar",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "rexxar"
     },
     "179": {
       "slug": "rivendare",
       "name": "Rivendare",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "rivendare"
     },
     "180": {
       "slug": "runetotem",
       "name": "Runetotem",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "runetotem"
     },
     "181": {
       "slug": "sargeras",
       "name": "Sargeras",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "sargeras"
     },
     "182": {
       "slug": "saurfang",
       "name": "Saurfang",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "saurfang"
     },
     "183": {
       "slug": "scarlet-crusade",
       "name": "Scarlet Crusade",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "scarletcrusade"
     },
     "184": {
       "slug": "scilla",
       "name": "Scilla",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "scilla"
     },
     "185": {
       "slug": "senjin",
       "name": "Sen'jin",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "senjin"
     },
     "186": {
       "slug": "sentinels",
       "name": "Sentinels",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "sentinels"
     },
     "187": {
       "slug": "shadow-council",
       "name": "Shadow Council",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "shadowcouncil"
     },
     "188": {
       "slug": "shadowmoon",
       "name": "Shadowmoon",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "shadowmoon"
     },
     "189": {
       "slug": "shadowsong",
       "name": "Shadowsong",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "shadowsong"
     },
     "190": {
       "slug": "shandris",
       "name": "Shandris",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "shandris"
     },
     "191": {
       "slug": "shattered-halls",
       "name": "Shattered Halls",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "shatteredhalls"
     },
     "192": {
       "slug": "shattered-hand",
       "name": "Shattered Hand",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "shatteredhand"
     },
     "193": {
       "slug": "shuhalo",
       "name": "Shu'halo",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "shuhalo"
     },
     "194": {
       "slug": "silver-hand",
       "name": "Silver Hand",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "silverhand"
     },
     "195": {
       "slug": "silvermoon",
       "name": "Silvermoon",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "silvermoon"
     },
     "196": {
       "slug": "sisters-of-elune",
       "name": "Sisters of Elune",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "sistersofelune"
     },
     "197": {
       "slug": "skullcrusher",
       "name": "Skullcrusher",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "skullcrusher"
     },
     "198": {
       "slug": "skywall",
       "name": "Skywall",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "skywall"
     },
     "199": {
       "slug": "smolderthorn",
       "name": "Smolderthorn",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "smolderthorn"
     },
     "200": {
       "slug": "spinebreaker",
       "name": "Spinebreaker",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "spinebreaker"
     },
     "201": {
       "slug": "spirestone",
       "name": "Spirestone",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "spirestone"
     },
     "202": {
       "slug": "staghelm",
       "name": "Staghelm",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "staghelm"
     },
     "203": {
       "slug": "steamwheedle-cartel",
       "name": "Steamwheedle Cartel",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "steamwheedlecartel"
     },
     "204": {
       "slug": "stonemaul",
       "name": "Stonemaul",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "stonemaul"
     },
     "205": {
       "slug": "stormrage",
       "name": "Stormrage",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "stormrage"
     },
     "206": {
       "slug": "stormreaver",
       "name": "Stormreaver",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "stormreaver"
     },
     "207": {
       "slug": "stormscale",
       "name": "Stormscale",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "stormscale"
     },
     "208": {
       "slug": "suramar",
       "name": "Suramar",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "suramar"
     },
     "209": {
       "slug": "tanaris",
       "name": "Tanaris",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "tanaris"
     },
     "210": {
       "slug": "terenas",
       "name": "Terenas",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "terenas"
     },
     "211": {
       "slug": "terokkar",
       "name": "Terokkar",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "terokkar"
     },
     "212": {
       "slug": "thaurissan",
       "name": "Thaurissan",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "thaurissan"
     },
     "213": {
       "slug": "the-forgotten-coast",
       "name": "The Forgotten Coast",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "theforgottencoast"
     },
     "214": {
       "slug": "the-scryers",
       "name": "The Scryers",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "thescryers"
     },
     "215": {
       "slug": "the-underbog",
       "name": "The Underbog",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "theunderbog"
     },
     "216": {
       "slug": "the-venture-co",
       "name": "The Venture Co",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "theventureco"
     },
     "217": {
       "slug": "thorium-brotherhood",
       "name": "Thorium Brotherhood",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "thoriumbrotherhood"
     },
     "218": {
       "slug": "thrall",
       "name": "Thrall",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "thrall"
     },
     "219": {
       "slug": "thunderhorn",
       "name": "Thunderhorn",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "thunderhorn"
     },
     "220": {
       "slug": "thunderlord",
       "name": "Thunderlord",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "thunderlord"
     },
     "221": {
       "slug": "tichondrius",
       "name": "Tichondrius",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "tichondrius"
     },
     "222": {
       "slug": "tol-barad",
       "name": "Tol Barad",
-      "ownerrealm": "Tol Barad"
+      "ownerrealm": "Tol Barad",
+      "sanitized": "tolbarad"
     },
     "223": {
       "slug": "tortheldrin",
       "name": "Tortheldrin",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "tortheldrin"
     },
     "224": {
       "slug": "trollbane",
       "name": "Trollbane",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "trollbane"
     },
     "225": {
       "slug": "turalyon",
       "name": "Turalyon",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "turalyon"
     },
     "226": {
       "slug": "twisting-nether",
       "name": "Twisting Nether",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "twistingnether"
     },
     "227": {
       "slug": "uldaman",
       "name": "Uldaman",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "uldaman"
     },
     "228": {
       "slug": "uldum",
       "name": "Uldum",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "uldum"
     },
     "229": {
       "slug": "undermine",
       "name": "Undermine",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "undermine"
     },
     "230": {
       "slug": "ursin",
       "name": "Ursin",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "ursin"
     },
     "231": {
       "slug": "uther",
       "name": "Uther",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "uther"
     },
     "232": {
       "slug": "vashj",
       "name": "Vashj",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "vashj"
     },
     "233": {
       "slug": "veknilash",
       "name": "Vek'nilash",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "veknilash"
     },
     "234": {
       "slug": "velen",
       "name": "Velen",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "velen"
     },
     "235": {
       "slug": "warsong",
       "name": "Warsong",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "warsong"
     },
     "236": {
       "slug": "whisperwind",
       "name": "Whisperwind",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "whisperwind"
     },
     "237": {
       "slug": "wildhammer",
       "name": "Wildhammer",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "wildhammer"
     },
     "238": {
       "slug": "windrunner",
       "name": "Windrunner",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "windrunner"
     },
     "239": {
       "slug": "winterhoof",
       "name": "Winterhoof",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "winterhoof"
     },
     "240": {
       "slug": "wyrmrest-accord",
       "name": "Wyrmrest Accord",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "wyrmrestaccord"
     },
     "242": {
       "slug": "ysera",
       "name": "Ysera",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "ysera"
     },
     "243": {
       "slug": "ysondre",
       "name": "Ysondre",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "ysondre"
     },
     "244": {
       "slug": "zangarmarsh",
       "name": "Zangarmarsh",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "zangarmarsh"
     },
     "245": {
       "slug": "zuljin",
       "name": "Zul'jin",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "zuljin"
     },
     "246": {
       "slug": "zuluhed",
       "name": "Zuluhed",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "zuluhed"
     },
     "512": {
       "slug": "anvilmar",
       "name": "Anvilmar",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "anvilmar"
     }
   },
   {
     "247": {
       "slug": "aegwynn",
       "name": "Aegwynn",
-      "ownerrealm": "Aegwynn"
+      "ownerrealm": "Aegwynn",
+      "sanitized": "aegwynn"
     },
     "248": {
       "slug": "aerie-peak",
       "name": "Aerie Peak",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "aeriepeak"
     },
     "249": {
       "slug": "agamaggan",
       "name": "Agamaggan",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "agamaggan"
     },
     "250": {
       "slug": "aggra-portugues",
       "name": "Aggra (Português)",
-      "ownerrealm": "Aggra (Português)"
+      "ownerrealm": "Aggra (Português)",
+      "sanitized": "aggra(português)"
     },
     "251": {
       "slug": "aggramar",
       "name": "Aggramar",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "aggramar"
     },
     "252": {
       "slug": "ahnqiraj",
       "name": "Ahn'Qiraj",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "ahnqiraj"
     },
     "253": {
       "slug": "alakir",
       "name": "Al'Akir",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "alakir"
     },
     "254": {
       "slug": "alexstrasza",
       "name": "Alexstrasza",
-      "ownerrealm": "Alexstrasza"
+      "ownerrealm": "Alexstrasza",
+      "sanitized": "alexstrasza"
     },
     "255": {
       "slug": "alleria",
       "name": "Alleria",
-      "ownerrealm": "Alleria"
+      "ownerrealm": "Alleria",
+      "sanitized": "alleria"
     },
     "256": {
       "slug": "alonsus",
       "name": "Alonsus",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "alonsus"
     },
     "257": {
       "slug": "amanthul",
       "name": "Aman'Thul",
-      "ownerrealm": "Aman'thul"
+      "ownerrealm": "Aman'thul",
+      "sanitized": "amanthul"
     },
     "258": {
       "slug": "ambossar",
       "name": "Ambossar",
-      "ownerrealm": "Ambossar"
+      "ownerrealm": "Ambossar",
+      "sanitized": "ambossar"
     },
     "259": {
       "slug": "anachronos",
       "name": "Anachronos",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "anachronos"
     },
     "260": {
       "slug": "anetheron",
       "name": "Anetheron",
-      "ownerrealm": "Anetheron"
+      "ownerrealm": "Anetheron",
+      "sanitized": "anetheron"
     },
     "261": {
       "slug": "antonidas",
       "name": "Antonidas",
-      "ownerrealm": "Antonidas"
+      "ownerrealm": "Antonidas",
+      "sanitized": "antonidas"
     },
     "262": {
       "slug": "anubarak",
       "name": "Anub'arak",
-      "ownerrealm": "Anub'arak"
+      "ownerrealm": "Anub'arak",
+      "sanitized": "anubarak"
     },
     "263": {
       "slug": "arakarahm",
       "name": "Arak-arahm",
-      "ownerrealm": "Arak-arahm"
+      "ownerrealm": "Arak-arahm",
+      "sanitized": "arakarahm"
     },
     "264": {
       "slug": "arathi",
       "name": "Arathi",
-      "ownerrealm": "Arathi"
+      "ownerrealm": "Arathi",
+      "sanitized": "arathi"
     },
     "265": {
       "slug": "arathor",
       "name": "Arathor",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "arathor"
     },
     "266": {
       "slug": "archimonde",
       "name": "Archimonde",
-      "ownerrealm": "Archimonde"
+      "ownerrealm": "Archimonde",
+      "sanitized": "archimonde"
     },
     "267": {
       "slug": "area-52",
       "name": "Area 52",
-      "ownerrealm": "Area 52"
+      "ownerrealm": "Area 52",
+      "sanitized": "area52"
     },
     "268": {
       "slug": "argent-dawn",
       "name": "Argent Dawn",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "argentdawn"
     },
     "269": {
       "slug": "arthas",
       "name": "Arthas",
-      "ownerrealm": "Arthas"
+      "ownerrealm": "Arthas",
+      "sanitized": "arthas"
     },
     "270": {
       "slug": "arygos",
       "name": "Arygos",
-      "ownerrealm": "Arygos"
+      "ownerrealm": "Arygos",
+      "sanitized": "arygos"
     },
     "271": {
       "slug": "ashenvale",
       "name": "Ashenvale",
-      "ownerrealm": "Ясеневый лес"
+      "ownerrealm": "Ясеневый лес",
+      "sanitized": "ashenvale"
     },
     "272": {
       "slug": "aszune",
       "name": "Aszune",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "aszune"
     },
     "273": {
       "slug": "auchindoun",
       "name": "Auchindoun",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "auchindoun"
     },
     "274": {
       "slug": "azjolnerub",
       "name": "Azjol-Nerub",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "azjolnerub"
     },
     "275": {
       "slug": "azshara",
       "name": "Azshara",
-      "ownerrealm": "Azshara"
+      "ownerrealm": "Azshara",
+      "sanitized": "azshara"
     },
     "276": {
       "slug": "azuregos",
       "name": "Azuregos",
-      "ownerrealm": "Азурегос"
+      "ownerrealm": "Азурегос",
+      "sanitized": "azuregos"
     },
     "277": {
       "slug": "azuremyst",
       "name": "Azuremyst",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "azuremyst"
     },
     "278": {
       "slug": "baelgun",
       "name": "Baelgun",
-      "ownerrealm": "Baelgun"
+      "ownerrealm": "Baelgun",
+      "sanitized": "baelgun"
     },
     "279": {
       "slug": "balnazzar",
       "name": "Balnazzar",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "balnazzar"
     },
     "280": {
       "slug": "blackhand",
       "name": "Blackhand",
-      "ownerrealm": "Blackhand"
+      "ownerrealm": "Blackhand",
+      "sanitized": "blackhand"
     },
     "281": {
       "slug": "blackmoore",
       "name": "Blackmoore",
-      "ownerrealm": "Blackmoore"
+      "ownerrealm": "Blackmoore",
+      "sanitized": "blackmoore"
     },
     "282": {
       "slug": "blackrock",
       "name": "Blackrock",
-      "ownerrealm": "Blackrock"
+      "ownerrealm": "Blackrock",
+      "sanitized": "blackrock"
     },
     "283": {
       "slug": "blackscar",
       "name": "Blackscar",
-      "ownerrealm": "Черный Шрам"
+      "ownerrealm": "Черный Шрам",
+      "sanitized": "blackscar"
     },
     "284": {
       "slug": "blades-edge",
       "name": "Blade's Edge",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "bladesedge"
     },
     "285": {
       "slug": "bladefist",
       "name": "Bladefist",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "bladefist"
     },
     "286": {
       "slug": "bloodfeather",
       "name": "Bloodfeather",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "bloodfeather"
     },
     "287": {
       "slug": "bloodhoof",
       "name": "Bloodhoof",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "bloodhoof"
     },
     "288": {
       "slug": "bloodscalp",
       "name": "Bloodscalp",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "bloodscalp"
     },
     "289": {
       "slug": "blutkessel",
       "name": "Blutkessel",
-      "ownerrealm": "Blutkessel"
+      "ownerrealm": "Blutkessel",
+      "sanitized": "blutkessel"
     },
     "290": {
       "slug": "booty-bay",
       "name": "Booty Bay",
-      "ownerrealm": "Пиратская бухта"
+      "ownerrealm": "Пиратская бухта",
+      "sanitized": "bootybay"
     },
     "291": {
       "slug": "borean-tundra",
       "name": "Borean Tundra",
-      "ownerrealm": "Борейская тундра"
+      "ownerrealm": "Борейская тундра",
+      "sanitized": "boreantundra"
     },
     "292": {
       "slug": "boulderfist",
       "name": "Boulderfist",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "boulderfist"
     },
     "293": {
       "slug": "bronze-dragonflight",
       "name": "Bronze Dragonflight",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "bronzedragonflight"
     },
     "294": {
       "slug": "bronzebeard",
       "name": "Bronzebeard",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "bronzebeard"
     },
     "295": {
       "slug": "burning-blade",
       "name": "Burning Blade",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "burningblade"
     },
     "296": {
       "slug": "burning-steppes",
       "name": "Burning Steppes",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "burningsteppes"
     },
     "297": {
       "slug": "cthun",
       "name": "C'Thun",
-      "ownerrealm": "C'Thun"
+      "ownerrealm": "C'Thun",
+      "sanitized": "cthun"
     },
     "298": {
       "slug": "chamber-of-aspects",
       "name": "Chamber of Aspects",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "chamberofaspects"
     },
     "299": {
       "slug": "chants-eternels",
       "name": "Chants éternels",
-      "ownerrealm": "Chants éternels"
+      "ownerrealm": "Chants éternels",
+      "sanitized": "chantsternels"
     },
     "300": {
       "slug": "chogall",
       "name": "Cho'gall",
-      "ownerrealm": "Cho’gall"
+      "ownerrealm": "Cho’gall",
+      "sanitized": "chogall"
     },
     "301": {
       "slug": "chromaggus",
       "name": "Chromaggus",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "chromaggus"
     },
     "302": {
       "slug": "colinas-pardas",
       "name": "Colinas Pardas",
-      "ownerrealm": "Colinas Pardas"
+      "ownerrealm": "Colinas Pardas",
+      "sanitized": "colinaspardas"
     },
     "303": {
       "slug": "confrerie-du-thorium",
       "name": "Confrérie du Thorium",
-      "ownerrealm": "Confrérie du Thorium"
+      "ownerrealm": "Confrérie du Thorium",
+      "sanitized": "confrrieduthorium"
     },
     "304": {
       "slug": "conseil-des-ombres",
       "name": "Conseil des Ombres",
-      "ownerrealm": "Conseil des Ombres"
+      "ownerrealm": "Conseil des Ombres",
+      "sanitized": "conseildesombres"
     },
     "305": {
       "slug": "crushridge",
       "name": "Crushridge",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "crushridge"
     },
     "306": {
       "slug": "culte-de-la-rive-noire",
       "name": "Culte de la Rive noire",
-      "ownerrealm": "Culte de la Rive noire"
+      "ownerrealm": "Culte de la Rive noire",
+      "sanitized": "cultedelarivenoire"
     },
     "307": {
       "slug": "daggerspine",
       "name": "Daggerspine",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "daggerspine"
     },
     "308": {
       "slug": "dalaran",
       "name": "Dalaran",
-      "ownerrealm": "Dalaran"
+      "ownerrealm": "Dalaran",
+      "sanitized": "dalaran"
     },
     "309": {
       "slug": "dalvengyr",
       "name": "Dalvengyr",
-      "ownerrealm": "Dalvengyr"
+      "ownerrealm": "Dalvengyr",
+      "sanitized": "dalvengyr"
     },
     "310": {
       "slug": "darkmoon-faire",
       "name": "Darkmoon Faire",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "darkmoonfaire"
     },
     "311": {
       "slug": "darksorrow",
       "name": "Darksorrow",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "darksorrow"
     },
     "312": {
       "slug": "darkspear",
       "name": "Darkspear",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "darkspear"
     },
     "313": {
       "slug": "das-konsortium",
       "name": "Das Konsortium",
-      "ownerrealm": "Das Konsortium"
+      "ownerrealm": "Das Konsortium",
+      "sanitized": "daskonsortium"
     },
     "314": {
       "slug": "das-syndikat",
       "name": "Das Syndikat",
-      "ownerrealm": "Das Syndikat"
+      "ownerrealm": "Das Syndikat",
+      "sanitized": "dassyndikat"
     },
     "315": {
       "slug": "deathguard",
       "name": "Deathguard",
-      "ownerrealm": "Страж Смерти"
+      "ownerrealm": "Страж Смерти",
+      "sanitized": "deathguard"
     },
     "316": {
       "slug": "deathweaver",
       "name": "Deathweaver",
-      "ownerrealm": "Ткач Смерти"
+      "ownerrealm": "Ткач Смерти",
+      "sanitized": "deathweaver"
     },
     "317": {
       "slug": "deathwing",
       "name": "Deathwing",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "deathwing"
     },
     "318": {
       "slug": "deepholm",
       "name": "Deepholm",
-      "ownerrealm": "Подземье"
+      "ownerrealm": "Подземье",
+      "sanitized": "deepholm"
     },
     "319": {
       "slug": "defias-brotherhood",
       "name": "Defias Brotherhood",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "defiasbrotherhood"
     },
     "320": {
       "slug": "dentarg",
       "name": "Dentarg",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "dentarg"
     },
     "321": {
       "slug": "der-mithrilorden",
       "name": "Der Mithrilorden",
-      "ownerrealm": "Der Mithrilorden"
+      "ownerrealm": "Der Mithrilorden",
+      "sanitized": "dermithrilorden"
     },
     "322": {
       "slug": "der-rat-von-dalaran",
       "name": "Der Rat von Dalaran",
-      "ownerrealm": "Der Rat von Dalaran"
+      "ownerrealm": "Der Rat von Dalaran",
+      "sanitized": "derratvondalaran"
     },
     "323": {
       "slug": "der-abyssische-rat",
       "name": "Der abyssische Rat",
-      "ownerrealm": "Der Abyssische Rat"
+      "ownerrealm": "Der Abyssische Rat",
+      "sanitized": "derabyssischerat"
     },
     "324": {
       "slug": "destromath",
       "name": "Destromath",
-      "ownerrealm": "Destromath"
+      "ownerrealm": "Destromath",
+      "sanitized": "destromath"
     },
     "325": {
       "slug": "dethecus",
       "name": "Dethecus",
-      "ownerrealm": "Dethecus"
+      "ownerrealm": "Dethecus",
+      "sanitized": "dethecus"
     },
     "326": {
       "slug": "die-aldor",
       "name": "Die Aldor",
-      "ownerrealm": "Die Aldor"
+      "ownerrealm": "Die Aldor",
+      "sanitized": "diealdor"
     },
     "327": {
       "slug": "die-arguswacht",
       "name": "Die Arguswacht",
-      "ownerrealm": "Die Arguswacht"
+      "ownerrealm": "Die Arguswacht",
+      "sanitized": "diearguswacht"
     },
     "328": {
       "slug": "die-nachtwache",
       "name": "Die Nachtwache",
-      "ownerrealm": "Die Nachtwache"
+      "ownerrealm": "Die Nachtwache",
+      "sanitized": "dienachtwache"
     },
     "329": {
       "slug": "die-silberne-hand",
       "name": "Die Silberne Hand",
-      "ownerrealm": "Die Silberne Hand"
+      "ownerrealm": "Die Silberne Hand",
+      "sanitized": "diesilbernehand"
     },
     "330": {
       "slug": "die-todeskrallen",
       "name": "Die Todeskrallen",
-      "ownerrealm": "Die Todeskrallen"
+      "ownerrealm": "Die Todeskrallen",
+      "sanitized": "dietodeskrallen"
     },
     "331": {
       "slug": "die-ewige-wacht",
       "name": "Die ewige Wacht",
-      "ownerrealm": "Die ewige Wacht"
+      "ownerrealm": "Die ewige Wacht",
+      "sanitized": "dieewigewacht"
     },
     "332": {
       "slug": "doomhammer",
       "name": "Doomhammer",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "doomhammer"
     },
     "333": {
       "slug": "draenor",
       "name": "Draenor",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "draenor"
     },
     "334": {
       "slug": "dragonblight",
       "name": "Dragonblight",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "dragonblight"
     },
     "335": {
       "slug": "dragonmaw",
       "name": "Dragonmaw",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "dragonmaw"
     },
     "336": {
       "slug": "drakthul",
       "name": "Drak'thul",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "drakthul"
     },
     "337": {
       "slug": "drekthar",
       "name": "Drek'Thar",
-      "ownerrealm": "Drek'Thar"
+      "ownerrealm": "Drek'Thar",
+      "sanitized": "drekthar"
     },
     "338": {
       "slug": "dun-modr",
       "name": "Dun Modr",
-      "ownerrealm": "Dun Modr"
+      "ownerrealm": "Dun Modr",
+      "sanitized": "dunmodr"
     },
     "339": {
       "slug": "dun-morogh",
       "name": "Dun Morogh",
-      "ownerrealm": "Dun Morogh"
+      "ownerrealm": "Dun Morogh",
+      "sanitized": "dunmorogh"
     },
     "340": {
       "slug": "dunemaul",
       "name": "Dunemaul",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "dunemaul"
     },
     "341": {
       "slug": "durotan",
       "name": "Durotan",
-      "ownerrealm": "Durotan"
+      "ownerrealm": "Durotan",
+      "sanitized": "durotan"
     },
     "342": {
       "slug": "earthen-ring",
       "name": "Earthen Ring",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "earthenring"
     },
     "343": {
       "slug": "echsenkessel",
       "name": "Echsenkessel",
-      "ownerrealm": "Echsenkessel"
+      "ownerrealm": "Echsenkessel",
+      "sanitized": "echsenkessel"
     },
     "344": {
       "slug": "eitrigg",
       "name": "Eitrigg",
-      "ownerrealm": "Eitrigg"
+      "ownerrealm": "Eitrigg",
+      "sanitized": "eitrigg"
     },
     "345": {
       "slug": "eldrethalas",
       "name": "Eldre'Thalas",
-      "ownerrealm": "Eldre'Thalas"
+      "ownerrealm": "Eldre'Thalas",
+      "sanitized": "eldrethalas"
     },
     "346": {
       "slug": "elune",
       "name": "Elune",
-      "ownerrealm": "Elune"
+      "ownerrealm": "Elune",
+      "sanitized": "elune"
     },
     "347": {
       "slug": "emerald-dream",
       "name": "Emerald Dream",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "emeralddream"
     },
     "348": {
       "slug": "emeriss",
       "name": "Emeriss",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "emeriss"
     },
     "349": {
       "slug": "eonar",
       "name": "Eonar",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "eonar"
     },
     "350": {
       "slug": "eredar",
       "name": "Eredar",
-      "ownerrealm": "Eredar"
+      "ownerrealm": "Eredar",
+      "sanitized": "eredar"
     },
     "351": {
       "slug": "eversong",
       "name": "Eversong",
-      "ownerrealm": "Вечная Песня"
+      "ownerrealm": "Вечная Песня",
+      "sanitized": "eversong"
     },
     "352": {
       "slug": "executus",
       "name": "Executus",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "executus"
     },
     "353": {
       "slug": "exodar",
       "name": "Exodar",
-      "ownerrealm": "Exodar"
+      "ownerrealm": "Exodar",
+      "sanitized": "exodar"
     },
     "354": {
       "slug": "festung-der-sturme",
       "name": "Festung der Stürme",
-      "ownerrealm": "Festung der Stürme"
+      "ownerrealm": "Festung der Stürme",
+      "sanitized": "festungderstürme"
     },
     "355": {
       "slug": "fordragon",
       "name": "Fordragon",
-      "ownerrealm": "Дракономор"
+      "ownerrealm": "Дракономор",
+      "sanitized": "fordragon"
     },
     "356": {
       "slug": "forscherliga",
       "name": "Forscherliga",
-      "ownerrealm": "Forscherliga"
+      "ownerrealm": "Forscherliga",
+      "sanitized": "forscherliga"
     },
     "357": {
       "slug": "frostmane",
       "name": "Frostmane",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "frostmane"
     },
     "358": {
       "slug": "frostmourne",
       "name": "Frostmourne",
-      "ownerrealm": "Frostmourne"
+      "ownerrealm": "Frostmourne",
+      "sanitized": "frostmourne"
     },
     "359": {
       "slug": "frostwhisper",
       "name": "Frostwhisper",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "frostwhisper"
     },
     "360": {
       "slug": "frostwolf",
       "name": "Frostwolf",
-      "ownerrealm": "Frostwolf"
+      "ownerrealm": "Frostwolf",
+      "sanitized": "frostwolf"
     },
     "361": {
       "slug": "galakrond",
       "name": "Galakrond",
-      "ownerrealm": "Галакронд"
+      "ownerrealm": "Галакронд",
+      "sanitized": "galakrond"
     },
     "362": {
       "slug": "garona",
       "name": "Garona",
-      "ownerrealm": "Garona"
+      "ownerrealm": "Garona",
+      "sanitized": "garona"
     },
     "363": {
       "slug": "garrosh",
       "name": "Garrosh",
-      "ownerrealm": "Garrosh"
+      "ownerrealm": "Garrosh",
+      "sanitized": "garrosh"
     },
     "364": {
       "slug": "genjuros",
       "name": "Genjuros",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "genjuros"
     },
     "365": {
       "slug": "ghostlands",
       "name": "Ghostlands",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "ghostlands"
     },
     "366": {
       "slug": "gilneas",
       "name": "Gilneas",
-      "ownerrealm": "Gilneas"
+      "ownerrealm": "Gilneas",
+      "sanitized": "gilneas"
     },
     "367": {
       "slug": "goldrinn",
       "name": "Goldrinn",
-      "ownerrealm": "Голдринн"
+      "ownerrealm": "Голдринн",
+      "sanitized": "goldrinn"
     },
     "368": {
       "slug": "gordunni",
       "name": "Gordunni",
-      "ownerrealm": "Гордунни"
+      "ownerrealm": "Гордунни",
+      "sanitized": "gordunni"
     },
     "369": {
       "slug": "gorgonnash",
       "name": "Gorgonnash",
-      "ownerrealm": "Gorgonnash"
+      "ownerrealm": "Gorgonnash",
+      "sanitized": "gorgonnash"
     },
     "370": {
       "slug": "greymane",
       "name": "Greymane",
-      "ownerrealm": "Седогрив"
+      "ownerrealm": "Седогрив",
+      "sanitized": "greymane"
     },
     "371": {
       "slug": "grim-batol",
       "name": "Grim Batol",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "grimbatol"
     },
     "372": {
       "slug": "grom",
       "name": "Grom",
-      "ownerrealm": "Гром"
+      "ownerrealm": "Гром",
+      "sanitized": "grom"
     },
     "373": {
       "slug": "guldan",
       "name": "Gul'dan",
-      "ownerrealm": "Gul'dan"
+      "ownerrealm": "Gul'dan",
+      "sanitized": "guldan"
     },
     "374": {
       "slug": "hakkar",
       "name": "Hakkar",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "hakkar"
     },
     "375": {
       "slug": "haomarush",
       "name": "Haomarush",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "haomarush"
     },
     "376": {
       "slug": "hellfire",
       "name": "Hellfire",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "hellfire"
     },
     "377": {
       "slug": "hellscream",
       "name": "Hellscream",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "hellscream"
     },
     "378": {
       "slug": "howling-fjord",
       "name": "Howling Fjord",
-      "ownerrealm": "Ревущий фьорд"
+      "ownerrealm": "Ревущий фьорд",
+      "sanitized": "howlingfjord"
     },
     "379": {
       "slug": "hyjal",
       "name": "Hyjal",
-      "ownerrealm": "Hyjal"
+      "ownerrealm": "Hyjal",
+      "sanitized": "hyjal"
     },
     "380": {
       "slug": "illidan",
       "name": "Illidan",
-      "ownerrealm": "Illidan"
+      "ownerrealm": "Illidan",
+      "sanitized": "illidan"
     },
     "381": {
       "slug": "jaedenar",
       "name": "Jaedenar",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "jaedenar"
     },
     "382": {
       "slug": "kaelthas",
       "name": "Kael'thas",
-      "ownerrealm": "Kael'thas"
+      "ownerrealm": "Kael'thas",
+      "sanitized": "kaelthas"
     },
     "383": {
       "slug": "karazhan",
       "name": "Karazhan",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "karazhan"
     },
     "384": {
       "slug": "kargath",
       "name": "Kargath",
-      "ownerrealm": "Kargath"
+      "ownerrealm": "Kargath",
+      "sanitized": "kargath"
     },
     "385": {
       "slug": "kazzak",
       "name": "Kazzak",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "kazzak"
     },
     "386": {
       "slug": "kelthuzad",
       "name": "Kel'Thuzad",
-      "ownerrealm": "Kel'Thuzad"
+      "ownerrealm": "Kel'Thuzad",
+      "sanitized": "kelthuzad"
     },
     "387": {
       "slug": "khadgar",
       "name": "Khadgar",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "khadgar"
     },
     "388": {
       "slug": "khaz-modan",
       "name": "Khaz Modan",
-      "ownerrealm": "Khaz Modan"
+      "ownerrealm": "Khaz Modan",
+      "sanitized": "khazmodan"
     },
     "389": {
       "slug": "khazgoroth",
       "name": "Khaz'goroth",
-      "ownerrealm": "Khaz'goroth"
+      "ownerrealm": "Khaz'goroth",
+      "sanitized": "khazgoroth"
     },
     "390": {
       "slug": "kiljaeden",
       "name": "Kil'jaeden",
-      "ownerrealm": "Kil'jaeden"
+      "ownerrealm": "Kil'jaeden",
+      "sanitized": "kiljaeden"
     },
     "391": {
       "slug": "kilrogg",
       "name": "Kilrogg",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "kilrogg"
     },
     "392": {
       "slug": "kirin-tor",
       "name": "Kirin Tor",
-      "ownerrealm": "Kirin Tor"
+      "ownerrealm": "Kirin Tor",
+      "sanitized": "kirintor"
     },
     "393": {
       "slug": "korgall",
       "name": "Kor'gall",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "korgall"
     },
     "394": {
       "slug": "kragjin",
       "name": "Krag'jin",
-      "ownerrealm": "Krag'jin"
+      "ownerrealm": "Krag'jin",
+      "sanitized": "kragjin"
     },
     "395": {
       "slug": "krasus",
       "name": "Krasus",
-      "ownerrealm": "Krasus"
+      "ownerrealm": "Krasus",
+      "sanitized": "krasus"
     },
     "396": {
       "slug": "kul-tiras",
       "name": "Kul Tiras",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "kultiras"
     },
     "397": {
       "slug": "kult-der-verdammten",
       "name": "Kult der Verdammten",
-      "ownerrealm": "Kult der Verdammten"
+      "ownerrealm": "Kult der Verdammten",
+      "sanitized": "kultderverdammten"
     },
     "398": {
       "slug": "la-croisade-ecarlate",
       "name": "La Croisade écarlate",
-      "ownerrealm": "La Croisade écarlate"
+      "ownerrealm": "La Croisade écarlate",
+      "sanitized": "lacroisadecarlate"
     },
     "399": {
       "slug": "laughing-skull",
       "name": "Laughing Skull",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "laughingskull"
     },
     "400": {
       "slug": "les-clairvoyants",
       "name": "Les Clairvoyants",
-      "ownerrealm": "Les Clairvoyants"
+      "ownerrealm": "Les Clairvoyants",
+      "sanitized": "lesclairvoyants"
     },
     "401": {
       "slug": "les-sentinelles",
       "name": "Les Sentinelles",
-      "ownerrealm": "Les Sentinelles"
+      "ownerrealm": "Les Sentinelles",
+      "sanitized": "lessentinelles"
     },
     "402": {
       "slug": "lich-king",
       "name": "Lich King",
-      "ownerrealm": "Король-лич"
+      "ownerrealm": "Король-лич",
+      "sanitized": "lichking"
     },
     "403": {
       "slug": "lightbringer",
       "name": "Lightbringer",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "lightbringer"
     },
     "404": {
       "slug": "lightnings-blade",
       "name": "Lightning's Blade",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "lightningsblade"
     },
     "405": {
       "slug": "lordaeron",
       "name": "Lordaeron",
-      "ownerrealm": "Lordaeron"
+      "ownerrealm": "Lordaeron",
+      "sanitized": "lordaeron"
     },
     "406": {
       "slug": "los-errantes",
       "name": "Los Errantes",
-      "ownerrealm": "Los Errantes"
+      "ownerrealm": "Los Errantes",
+      "sanitized": "loserrantes"
     },
     "407": {
       "slug": "lothar",
       "name": "Lothar",
-      "ownerrealm": "Lothar"
+      "ownerrealm": "Lothar",
+      "sanitized": "lothar"
     },
     "408": {
       "slug": "madmortem",
       "name": "Madmortem",
-      "ownerrealm": "Madmortem"
+      "ownerrealm": "Madmortem",
+      "sanitized": "madmortem"
     },
     "409": {
       "slug": "magtheridon",
       "name": "Magtheridon",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "magtheridon"
     },
     "410": {
       "slug": "malganis",
       "name": "Mal'Ganis",
-      "ownerrealm": "Mal'Ganis"
+      "ownerrealm": "Mal'Ganis",
+      "sanitized": "malganis"
     },
     "411": {
       "slug": "malfurion",
       "name": "Malfurion",
-      "ownerrealm": "Malfurion"
+      "ownerrealm": "Malfurion",
+      "sanitized": "malfurion"
     },
     "412": {
       "slug": "malorne",
       "name": "Malorne",
-      "ownerrealm": "Malorne"
+      "ownerrealm": "Malorne",
+      "sanitized": "malorne"
     },
     "413": {
       "slug": "malygos",
       "name": "Malygos",
-      "ownerrealm": "Malygos"
+      "ownerrealm": "Malygos",
+      "sanitized": "malygos"
     },
     "414": {
       "slug": "mannoroth",
       "name": "Mannoroth",
-      "ownerrealm": "Mannoroth"
+      "ownerrealm": "Mannoroth",
+      "sanitized": "mannoroth"
     },
     "415": {
       "slug": "marecage-de-zangar",
       "name": "Marécage de Zangar",
-      "ownerrealm": "Marécage de Zangar"
+      "ownerrealm": "Marécage de Zangar",
+      "sanitized": "marcagedezangar"
     },
     "416": {
       "slug": "mazrigos",
       "name": "Mazrigos",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "mazrigos"
     },
     "417": {
       "slug": "medivh",
       "name": "Medivh",
-      "ownerrealm": "Medivh"
+      "ownerrealm": "Medivh",
+      "sanitized": "medivh"
     },
     "418": {
       "slug": "minahonda",
       "name": "Minahonda",
-      "ownerrealm": "Minahonda"
+      "ownerrealm": "Minahonda",
+      "sanitized": "minahonda"
     },
     "419": {
       "slug": "moonglade",
       "name": "Moonglade",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "moonglade"
     },
     "420": {
       "slug": "mugthol",
       "name": "Mug'thol",
-      "ownerrealm": "Mug'thol"
+      "ownerrealm": "Mug'thol",
+      "sanitized": "mugthol"
     },
     "421": {
       "slug": "nagrand",
       "name": "Nagrand",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "nagrand"
     },
     "422": {
       "slug": "nathrezim",
       "name": "Nathrezim",
-      "ownerrealm": "Nathrezim"
+      "ownerrealm": "Nathrezim",
+      "sanitized": "nathrezim"
     },
     "423": {
       "slug": "naxxramas",
       "name": "Naxxramas",
-      "ownerrealm": "Naxxramas"
+      "ownerrealm": "Naxxramas",
+      "sanitized": "naxxramas"
     },
     "424": {
       "slug": "nazjatar",
       "name": "Nazjatar",
-      "ownerrealm": "Nazjatar"
+      "ownerrealm": "Nazjatar",
+      "sanitized": "nazjatar"
     },
     "425": {
       "slug": "nefarian",
       "name": "Nefarian",
-      "ownerrealm": "Nefarian"
+      "ownerrealm": "Nefarian",
+      "sanitized": "nefarian"
     },
     "426": {
       "slug": "nemesis",
       "name": "Nemesis",
-      "ownerrealm": "Nemesis"
+      "ownerrealm": "Nemesis",
+      "sanitized": "nemesis"
     },
     "427": {
       "slug": "neptulon",
       "name": "Neptulon",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "neptulon"
     },
     "428": {
       "slug": "nerzhul",
       "name": "Ner'zhul",
-      "ownerrealm": "Ner’zhul"
+      "ownerrealm": "Ner’zhul",
+      "sanitized": "nerzhul"
     },
     "429": {
       "slug": "nerathor",
       "name": "Nera'thor",
-      "ownerrealm": "Nera'thor"
+      "ownerrealm": "Nera'thor",
+      "sanitized": "nerathor"
     },
     "430": {
       "slug": "nethersturm",
       "name": "Nethersturm",
-      "ownerrealm": "Nethersturm"
+      "ownerrealm": "Nethersturm",
+      "sanitized": "nethersturm"
     },
     "431": {
       "slug": "nordrassil",
       "name": "Nordrassil",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "nordrassil"
     },
     "432": {
       "slug": "norgannon",
       "name": "Norgannon",
-      "ownerrealm": "Norgannon"
+      "ownerrealm": "Norgannon",
+      "sanitized": "norgannon"
     },
     "433": {
       "slug": "nozdormu",
       "name": "Nozdormu",
-      "ownerrealm": "Nozdormu"
+      "ownerrealm": "Nozdormu",
+      "sanitized": "nozdormu"
     },
     "434": {
       "slug": "onyxia",
       "name": "Onyxia",
-      "ownerrealm": "Onyxia"
+      "ownerrealm": "Onyxia",
+      "sanitized": "onyxia"
     },
     "435": {
       "slug": "outland",
       "name": "Outland",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "outland"
     },
     "436": {
       "slug": "perenolde",
       "name": "Perenolde",
-      "ownerrealm": "Perenolde"
+      "ownerrealm": "Perenolde",
+      "sanitized": "perenolde"
     },
     "437": {
       "slug": "pozzo-delleternita",
       "name": "Pozzo dell'Eternità",
-      "ownerrealm": "Pozzo dell'Eternità"
+      "ownerrealm": "Pozzo dell'Eternità",
+      "sanitized": "pozzodelleternità"
     },
     "438": {
       "slug": "proudmoore",
       "name": "Proudmoore",
-      "ownerrealm": "Proudmoore"
+      "ownerrealm": "Proudmoore",
+      "sanitized": "proudmoore"
     },
     "439": {
       "slug": "quelthalas",
       "name": "Quel'Thalas",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "quelthalas"
     },
     "440": {
       "slug": "ragnaros",
       "name": "Ragnaros",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "ragnaros"
     },
     "441": {
       "slug": "rajaxx",
       "name": "Rajaxx",
-      "ownerrealm": "Rajaxx"
+      "ownerrealm": "Rajaxx",
+      "sanitized": "rajaxx"
     },
     "442": {
       "slug": "rashgarroth",
       "name": "Rashgarroth",
-      "ownerrealm": "Rashgarroth"
+      "ownerrealm": "Rashgarroth",
+      "sanitized": "rashgarroth"
     },
     "443": {
       "slug": "ravencrest",
       "name": "Ravencrest",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "ravencrest"
     },
     "444": {
       "slug": "ravenholdt",
       "name": "Ravenholdt",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "ravenholdt"
     },
     "445": {
       "slug": "razuvious",
       "name": "Razuvious",
-      "ownerrealm": "Разувий"
+      "ownerrealm": "Разувий",
+      "sanitized": "razuvious"
     },
     "446": {
       "slug": "rexxar",
       "name": "Rexxar",
-      "ownerrealm": "Rexxar"
+      "ownerrealm": "Rexxar",
+      "sanitized": "rexxar"
     },
     "447": {
       "slug": "runetotem",
       "name": "Runetotem",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "runetotem"
     },
     "448": {
       "slug": "sanguino",
       "name": "Sanguino",
-      "ownerrealm": "Sanguino"
+      "ownerrealm": "Sanguino",
+      "sanitized": "sanguino"
     },
     "449": {
       "slug": "sargeras",
       "name": "Sargeras",
-      "ownerrealm": "Sargeras"
+      "ownerrealm": "Sargeras",
+      "sanitized": "sargeras"
     },
     "450": {
       "slug": "saurfang",
       "name": "Saurfang",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "saurfang"
     },
     "451": {
       "slug": "scarshield-legion",
       "name": "Scarshield Legion",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "scarshieldlegion"
     },
     "452": {
       "slug": "senjin",
       "name": "Sen'jin",
-      "ownerrealm": "Sen'jin"
+      "ownerrealm": "Sen'jin",
+      "sanitized": "senjin"
     },
     "453": {
       "slug": "shadowsong",
       "name": "Shadowsong",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "shadowsong"
     },
     "454": {
       "slug": "shattered-halls",
       "name": "Shattered Halls",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "shatteredhalls"
     },
     "455": {
       "slug": "shattered-hand",
       "name": "Shattered Hand",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "shatteredhand"
     },
     "456": {
       "slug": "shattrath",
       "name": "Shattrath",
-      "ownerrealm": "Shattrath"
+      "ownerrealm": "Shattrath",
+      "sanitized": "shattrath"
     },
     "457": {
       "slug": "shendralar",
       "name": "Shen'dralar",
-      "ownerrealm": "Shen'dralar"
+      "ownerrealm": "Shen'dralar",
+      "sanitized": "shendralar"
     },
     "458": {
       "slug": "silvermoon",
       "name": "Silvermoon",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "silvermoon"
     },
     "459": {
       "slug": "sinstralis",
       "name": "Sinstralis",
-      "ownerrealm": "Sinstralis"
+      "ownerrealm": "Sinstralis",
+      "sanitized": "sinstralis"
     },
     "460": {
       "slug": "skullcrusher",
       "name": "Skullcrusher",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "skullcrusher"
     },
     "461": {
       "slug": "soulflayer",
       "name": "Soulflayer",
-      "ownerrealm": "Свежеватель Душ"
+      "ownerrealm": "Свежеватель Душ",
+      "sanitized": "soulflayer"
     },
     "462": {
       "slug": "spinebreaker",
       "name": "Spinebreaker",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "spinebreaker"
     },
     "463": {
       "slug": "sporeggar",
       "name": "Sporeggar",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "sporeggar"
     },
     "464": {
       "slug": "steamwheedle-cartel",
       "name": "Steamwheedle Cartel",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "steamwheedlecartel"
     },
     "465": {
       "slug": "stormrage",
       "name": "Stormrage",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "stormrage"
     },
     "466": {
       "slug": "stormreaver",
       "name": "Stormreaver",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "stormreaver"
     },
     "467": {
       "slug": "stormscale",
       "name": "Stormscale",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "stormscale"
     },
     "468": {
       "slug": "sunstrider",
       "name": "Sunstrider",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "sunstrider"
     },
     "469": {
       "slug": "sylvanas",
       "name": "Sylvanas",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "sylvanas"
     },
     "470": {
       "slug": "taerar",
       "name": "Taerar",
-      "ownerrealm": "Taerar"
+      "ownerrealm": "Taerar",
+      "sanitized": "taerar"
     },
     "471": {
       "slug": "talnivarr",
       "name": "Talnivarr",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "talnivarr"
     },
     "472": {
       "slug": "tarren-mill",
       "name": "Tarren Mill",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "tarrenmill"
     },
     "473": {
       "slug": "teldrassil",
       "name": "Teldrassil",
-      "ownerrealm": "Teldrassil"
+      "ownerrealm": "Teldrassil",
+      "sanitized": "teldrassil"
     },
     "474": {
       "slug": "temple-noir",
       "name": "Temple noir",
-      "ownerrealm": "Temple noir"
+      "ownerrealm": "Temple noir",
+      "sanitized": "templenoir"
     },
     "475": {
       "slug": "terenas",
       "name": "Terenas",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "terenas"
     },
     "476": {
       "slug": "terokkar",
       "name": "Terokkar",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "terokkar"
     },
     "477": {
       "slug": "terrordar",
       "name": "Terrordar",
-      "ownerrealm": "Terrordar"
+      "ownerrealm": "Terrordar",
+      "sanitized": "terrordar"
     },
     "478": {
       "slug": "the-maelstrom",
       "name": "The Maelstrom",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "themaelstrom"
     },
     "479": {
       "slug": "the-shatar",
       "name": "The Sha'tar",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "theshatar"
     },
     "480": {
       "slug": "the-venture-co",
       "name": "The Venture Co",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "theventureco"
     },
     "481": {
       "slug": "theradras",
       "name": "Theradras",
-      "ownerrealm": "Theradras"
+      "ownerrealm": "Theradras",
+      "sanitized": "theradras"
     },
     "482": {
       "slug": "thermaplugg",
       "name": "Thermaplugg",
-      "ownerrealm": "Термоштепсель"
+      "ownerrealm": "Термоштепсель",
+      "sanitized": "thermaplugg"
     },
     "483": {
       "slug": "thrall",
       "name": "Thrall",
-      "ownerrealm": "Thrall"
+      "ownerrealm": "Thrall",
+      "sanitized": "thrall"
     },
     "484": {
       "slug": "throkferoth",
       "name": "Throk'Feroth",
-      "ownerrealm": "Throk'Feroth"
+      "ownerrealm": "Throk'Feroth",
+      "sanitized": "throkferoth"
     },
     "485": {
       "slug": "thunderhorn",
       "name": "Thunderhorn",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "thunderhorn"
     },
     "486": {
       "slug": "tichondrius",
       "name": "Tichondrius",
-      "ownerrealm": "Tichondrius"
+      "ownerrealm": "Tichondrius",
+      "sanitized": "tichondrius"
     },
     "487": {
       "slug": "tirion",
       "name": "Tirion",
-      "ownerrealm": "Tirion"
+      "ownerrealm": "Tirion",
+      "sanitized": "tirion"
     },
     "488": {
       "slug": "todeswache",
       "name": "Todeswache",
-      "ownerrealm": "Todeswache"
+      "ownerrealm": "Todeswache",
+      "sanitized": "todeswache"
     },
     "489": {
       "slug": "trollbane",
       "name": "Trollbane",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "trollbane"
     },
     "490": {
       "slug": "turalyon",
       "name": "Turalyon",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "turalyon"
     },
     "491": {
       "slug": "twilights-hammer",
       "name": "Twilight's Hammer",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "twilightshammer"
     },
     "492": {
       "slug": "twisting-nether",
       "name": "Twisting Nether",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "twistingnether"
     },
     "493": {
       "slug": "tyrande",
       "name": "Tyrande",
-      "ownerrealm": "Tyrande"
+      "ownerrealm": "Tyrande",
+      "sanitized": "tyrande"
     },
     "494": {
       "slug": "uldaman",
       "name": "Uldaman",
-      "ownerrealm": "Uldaman"
+      "ownerrealm": "Uldaman",
+      "sanitized": "uldaman"
     },
     "495": {
       "slug": "ulduar",
       "name": "Ulduar",
-      "ownerrealm": "Ulduar"
+      "ownerrealm": "Ulduar",
+      "sanitized": "ulduar"
     },
     "496": {
       "slug": "uldum",
       "name": "Uldum",
-      "ownerrealm": "Uldum"
+      "ownerrealm": "Uldum",
+      "sanitized": "uldum"
     },
     "497": {
       "slug": "ungoro",
       "name": "Un'Goro",
-      "ownerrealm": "Un'Goro"
+      "ownerrealm": "Un'Goro",
+      "sanitized": "ungoro"
     },
     "498": {
       "slug": "varimathras",
       "name": "Varimathras",
-      "ownerrealm": "Varimathras"
+      "ownerrealm": "Varimathras",
+      "sanitized": "varimathras"
     },
     "499": {
       "slug": "vashj",
       "name": "Vashj",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "vashj"
     },
     "500": {
       "slug": "veklor",
       "name": "Vek'lor",
-      "ownerrealm": "Vek'lor"
+      "ownerrealm": "Vek'lor",
+      "sanitized": "veklor"
     },
     "501": {
       "slug": "veknilash",
       "name": "Vek'nilash",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "veknilash"
     },
     "502": {
       "slug": "voljin",
       "name": "Vol'jin",
-      "ownerrealm": "Vol'jin"
+      "ownerrealm": "Vol'jin",
+      "sanitized": "voljin"
     },
     "503": {
       "slug": "wildhammer",
       "name": "Wildhammer",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "wildhammer"
     },
     "504": {
       "slug": "wrathbringer",
       "name": "Wrathbringer",
-      "ownerrealm": "Wrathbringer"
+      "ownerrealm": "Wrathbringer",
+      "sanitized": "wrathbringer"
     },
     "505": {
       "slug": "xavius",
       "name": "Xavius",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "xavius"
     },
     "506": {
       "slug": "ysera",
       "name": "Ysera",
-      "ownerrealm": "Ysera"
+      "ownerrealm": "Ysera",
+      "sanitized": "ysera"
     },
     "507": {
       "slug": "ysondre",
       "name": "Ysondre",
-      "ownerrealm": "Ysondre"
+      "ownerrealm": "Ysondre",
+      "sanitized": "ysondre"
     },
     "508": {
       "slug": "zenedar",
       "name": "Zenedar",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "zenedar"
     },
     "509": {
       "slug": "zirkel-des-cenarius",
       "name": "Zirkel des Cenarius",
-      "ownerrealm": "Zirkel des Cenarius"
+      "ownerrealm": "Zirkel des Cenarius",
+      "sanitized": "zirkeldescenarius"
     },
     "510": {
       "slug": "zuljin",
       "name": "Zul'jin",
-      "ownerrealm": "Zul'jin"
+      "ownerrealm": "Zul'jin",
+      "sanitized": "zuljin"
     },
     "511": {
       "slug": "zuluhed",
       "name": "Zuluhed",
-      "ownerrealm": "Zuluhed"
+      "ownerrealm": "Zuluhed",
+      "sanitized": "zuluhed"
     },
     "531": {
       "slug": "burning-legion",
       "name": "Burning Legion",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "burninglegion"
     },
     "562": {
       "slug": "suramar",
       "name": "Suramar",
-      "ownerrealm": null
+      "ownerrealm": null,
+      "sanitized": "suramar"
     }
   }
 ]

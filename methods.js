@@ -47,7 +47,7 @@ const validateTokenRegion = region => (CONSTANTS.TOKEN_REGIONS.includes(region) 
 const validateRealm = (region, realm) => {
   const [sanitizedRealm, realmContainer] = [realm.toLowerCase().replace(/[áéíóú\- ']/g, ''), CONSTANTS.REALMS[region]];
 
-  return Object.values(realmContainer).some(realmObj => realmObj.name.toLowerCase().replace(/[áéíóú\- ']/g, '') === sanitizedRealm);
+  return Object.values(realmContainer).some(realmObj => realmObj.sanitized === sanitizedRealm);
 };
 
 const normalize = {
@@ -371,8 +371,9 @@ const getRaidProgression = (progressionData, achievementContainer) => {
   for (let i = 0; i < progression.length; i += 1) {
     result.push({
       name: `${sanitizeRaidName(raids[i], achievementContainer)}`,
-      value: `${progression[i].normal_bosses_killed} | ${progression[i].heroic_bosses_killed} | ${progression[i]
-        .mythic_bosses_killed} of ${progression[i].total_bosses}`
+      value: `${progression[i].normal_bosses_killed} | ${progression[i].heroic_bosses_killed} | ${progression[i].mythic_bosses_killed} of ${
+        progression[i].total_bosses
+      }`
     });
   }
 
