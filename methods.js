@@ -3,9 +3,7 @@ const Discord = require('discord.io');
 const rp = require('request-promise');
 
 const returnMessage = (bot, channelID, message) => {
-  if (!message.to) {
-    message.to = channelID;
-  }
+  !message.to ? (message.to = channelID) : void 0;
 
   bot.sendMessage(message);
 };
@@ -150,55 +148,43 @@ const affix = async region => {
 const prettyPrintSeconds = s => {
   s = parseInt(s, 10);
 
-  if (s <= 1) {
-    return 'just now';
-  }
-  if (s <= 90) {
-    return `${s} seconds`;
-  }
+  s <= 1 ? 'just now' : void 0;
+
+  s <= 90 ? `${s} seconds` : void 0;
 
   let m = Math.floor(s / 60);
   if (m <= 90) {
     let result = `${m} minute`;
-    if (m !== 1) {
-      result += 's';
-    }
 
+    m !== 1 ? (result += 's') : void 0;
     s = Math.round((s / 60 - m) * 60);
-    if (s > 0) {
-      result += `, ${s} second`;
-    }
-    if (s > 1) {
-      result += 's';
-    }
+    s > 0 ? (result += `, ${s} second`) : void 0;
+    s > 1 ? (result += 's') : void 0;
+
     return result;
   }
 
   let h = Math.floor(m / 60);
   m = m % 60;
+
   if (h <= 36) {
     let result = `${h} hour`;
-    if (h !== 1) {
-      result += 's';
-    }
+
+    h !== 1 ? (result += 's') : void 0;
     result += `, ${m} minute`;
-    if (m !== 1) {
-      result += 's';
-    }
+    m !== 1 ? (result += 's') : void 0;
 
     return result;
   }
 
   let d = Math.floor(h / 24);
   h = h % 24;
+
   let result = `${d} day`;
-  if (d !== 1) {
-    result += 's';
-  }
+  d !== 1 ? (result += 's') : void 0;
   result += `, ${h} hour`;
-  if (h !== 1) {
-    result += 's';
-  }
+  h !== 1 ? (result += 's') : void 0;
+
   return result;
 };
 
