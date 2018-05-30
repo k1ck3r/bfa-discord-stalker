@@ -7,25 +7,10 @@ const HELP = {
     desc: 'displays general character information (itemlevel, progress, mythic+ score, etc.)',
     ex: '!stalk xepheris eu blackmoore'
   },
-  azerite: {
-    params: ['{ CHARACTER }', '{ REGION }', '{ REALM }'],
-    desc: 'displays azerite level of specified character or region',
-    ex: '!azerite xepheris eu blackmoore` or `!azerite eu` or `!azerite'
-  },
-  mplus: {
-    params: ['[ CHARACTER]', '[ REGION ]', '[ REALM ]'],
-    desc: 'displays Raider.io mythic plus scores of specified character',
-    ex: '!m+ xepheris eu blackmoore'
-  },
   logs: {
     params: ['[ CHARACTER ]', '[ REGION]', '[ REALM ]'],
     desc: 'displays top logs via WarcraftLogs of specified character',
     ex: '!logs xepheris eu blackmoore'
-  },
-  progress: {
-    params: ['[ CHARACTER ]', '[ REGION ]', '[ REALM ]'],
-    desc: 'displays raid progress of specified character',
-    ex: '!progress xepheris eu blackmoore'
   },
   affix: {
     params: ['[ REGION ]'],
@@ -65,7 +50,9 @@ const URLS = {
     `https://raider.io/api/v1/characters/profile?region=${region}&realm=${realm}&name=${character}&fields=mythic_plus_scores`,
   Affixes: region => `https://raider.io/api/v1/mythic-plus/affixes?region=${region}&locale=en`,
   Progress: (character, region, realm) =>
-    `https://${region}.api.battle.net/wow/character/${realm}/${character}?fields=progression&locale=en_GB&apikey=${API.KEYS.battleNet}`
+    `https://raider.io/api/v1/characters/profile?region=${region}&realm=${realm}&name=${character}&fields=gear%2Craid_progression%2Cmythic_plus_scores%2Cmythic_plus_recent_runs%2Cmythic_plus_highest_level_runs`,
+  Achievements: (character, region, realm) =>
+    `https://${region}.api.battle.net/wow/character/${realm}/${character}?fields=achievements&locale=en_GB&apikey=${API.KEYS.battleNet}`
 };
 
 const REGIONS = ['EU', 'US'];
@@ -74,6 +61,13 @@ const TOKEN_REGIONS = ['EU', 'NA', 'CN', 'TW', 'KR'];
 const CAN_HEAL = ['Paladin', 'Druid', 'Priest', 'Monk', 'Shaman'];
 const CAN_TANK = ['Demon Hunter', 'Death Knight', 'Warrior', 'Monk', 'Druid'];
 const CLASSES = ['', 'Warrior', 'Paladin', 'Hunter', 'Rogue', 'Priest', 'Death Knight', 'Shaman', 'Mage', 'Warlock', 'Monk', 'Druid', 'Demon Hunter'];
+
+const MPLUS_ACHIEVEMENTS = [11183, 11184, 11185, 11162];
+const MPLUS_ACHIEVEMENT_LEVELS = [2, 5, 10, 15];
+
+const BFA_MPLUS_ACHIEVEMENTS_SEASON_ONE = [13079, 13080];
+const BFA_MPLUS_ACHIEVEMENTS_SEASON_TWO = []; // add IDs via wowhead url:  http://bfa.wowhead.com/achievement=13080/ <-- this number
+const BFA_MPLUS_LEVELS = [10, 15];
 
 const REALMS = {
   US: realmJSON[0],
@@ -89,5 +83,10 @@ module.exports = {
   TOKEN_REGIONS,
   CAN_HEAL,
   CAN_TANK,
-  CLASSES
+  CLASSES,
+  MPLUS_ACHIEVEMENTS,
+  MPLUS_ACHIEVEMENT_LEVELS,
+  BFA_MPLUS_ACHIEVEMENTS_SEASON_ONE,
+  BFA_MPLUS_ACHIEVEMENTS_SEASON_TWO,
+  BFA_MPLUS_LEVELS
 };

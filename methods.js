@@ -42,8 +42,6 @@ const showHelp = () => {
 
 const capitalize = word => word.charAt(0).toUpperCase() + word.slice(1);
 
-const stalk = (character, region, realm) => [character, region, realm];
-
 const validateRegion = region => (CONSTANTS.REGIONS.includes(region) ? true : false);
 
 const validateTokenRegion = region => (CONSTANTS.TOKEN_REGIONS.includes(region) ? true : false);
@@ -87,8 +85,17 @@ const azerite = (character, region, realm) => {
 
 */
 
-const returnSpecAgnosticMPlusScores = (className, mplusScores) => {
-  const result = [
+const returnSpecAgnosticMPlusScores = (className, mplusScores, header) => {
+  const result = [];
+
+  if (header) {
+    result.push({
+      name: '--------------------------------------------------------------------------------Mythic+ Scores',
+      value: '_powered by raider.io_'
+    });
+  }
+
+  result.push(
     {
       name: 'All',
       value: mplusScores.all.toString()
@@ -98,7 +105,7 @@ const returnSpecAgnosticMPlusScores = (className, mplusScores) => {
       value: mplusScores.dps.toString(),
       inline: true
     }
-  ];
+  );
 
   if (CONSTANTS.CAN_HEAL.includes(className)) {
     result.push({
@@ -117,40 +124,6 @@ const returnSpecAgnosticMPlusScores = (className, mplusScores) => {
   }
 
   return result;
-};
-
-const createMPlusString = data => {
-  return {
-    embed: {
-      description: `${data.race} ${data.class}`,
-      timestamp: new Date(),
-      thumbnail: {
-        url: data.thumbnail_url
-      },
-      author: {
-        name: `${data.name} @ ${normalize.upperCase(data.region)}-${data.realm}`,
-        url: data.profile_url,
-        icon_url: data.thumbnail_url
-      },
-      fields: returnSpecAgnosticMPlusScores(data.class, data.mythic_plus_scores)
-    }
-  };
-};
-
-const mplus = async (character, region, realm) => {
-  if (character && region && realm) {
-    const [normedRealm, normedRegion, normedCharacter] = normCharacterInformation(character, region, realm);
-
-    if (validateRegion(normedRegion) && validateRealm(normedRegion, normedRealm)) {
-      const jsonURL = CONSTANTS.URLS.MPlus(normedCharacter, normedRegion, normedRealm);
-      const jsonResponse = await rp({ uri: jsonURL, json: true });
-
-      return createMPlusString(jsonResponse);
-    }
-    return CONSTANTS.ERROR_MSG.invalidRealmOrRegion(normedRegion, normedRealm);
-  }
-
-  return CONSTANTS.ERROR_MSG.paramMissing;
 };
 
 /*
@@ -208,40 +181,71 @@ const prettyPrintSeconds = s => {
   s = parseInt(s, 10);
 
   if (s <= 1) {
-    return 'Immediately';
+    return 'just now';
   }
   if (s <= 90) {
     return `${s} seconds`;
   }
-  let m = Math.round(s / 60);
+
+  let m = Math.floor(s / 60);
   if (m <= 90) {
-    return '' + m + ' minute' + (m === 1 ? '' : 's');
+    let result = `${m} minute`;
+    if (m !== 1) {
+      result += 's';
+    }
+
+    s = Math.round((s / 60 - m) * 60);
+    if (s > 0) {
+      result += `, ${s} second`;
+    }
+    if (s > 1) {
+      result += 's';
+    }
+    return result;
   }
+
   let h = Math.floor(m / 60);
   m = m % 60;
   if (h <= 36) {
-    return '' + h + ' hour' + (h === 1 ? '' : 's') + ', ' + m + ' minute' + (m === 1 ? '' : 's');
+    let result = `${h} hour`;
+    if (h !== 1) {
+      result += 's';
+    }
+    result += `, ${m} minute`;
+    if (m !== 1) {
+      result += 's';
+    }
+
+    return result;
   }
+
   let d = Math.floor(h / 24);
   h = h % 24;
-  return '' + d + ' day' + (d === 1 ? '' : 's') + ', ' + h + ' hour' + (h === 1 ? '' : 's');
+  let result = `${d} day`;
+  if (d !== 1) {
+    result += 's';
+  }
+  result += `, ${h} hour`;
+  if (h !== 1) {
+    result += 's';
+  }
+  return result;
 };
 
-const returnDataAge = (now, then) => prettyPrintSeconds(now / 1000 - then / 1000);
+const returnDataAge = then => prettyPrintSeconds(Date.now() / 1000 - then / 1000);
 
 const createTokenMessage = (data, normedRegion, validatedTokenRegion) => {
-  const now = Date.now();
   const obj = {
     message: '```region | price    | last updated\n'
   };
 
   if (normedRegion !== '' && validatedTokenRegion) {
-    const age = returnDataAge(now, Date.parse(data[normedRegion].raw.updatedISO8601));
+    const age = returnDataAge(Date.parse(data[normedRegion].raw.updatedISO8601));
 
     obj.message += `    ${normedRegion} | ${data[normedRegion].formatted.buy} | ${age} ago`;
   } else {
     CONSTANTS.TOKEN_REGIONS.forEach(tokenRegion => {
-      const age = returnDataAge(now, Date.parse(data[tokenRegion].raw.updatedISO8601));
+      const age = returnDataAge(Date.parse(data[tokenRegion].raw.updatedISO8601));
 
       obj.message += `    ${tokenRegion} | ${data[tokenRegion].formatted.buy} | ${age} ago\n`;
     });
@@ -330,36 +334,223 @@ const returnRaceById = id => {
   return race;
 };
 
-const createProgressString = (data, region) => {
-  const dataAge = returnDataAge(Date.now(), data.lastModified);
+const getItemlevelThresholds = items => {
+  let [lowest, highest] = [Infinity, -Infinity];
+  Reflect.deleteProperty(items, 'tabard');
 
-  console.log(dataAge);
+  Object.values(items).forEach(function(item) {
+    if (typeof item === 'object' && item !== undefined) {
+      item.itemLevel < lowest ? (lowest = item.itemLevel) : void 0;
+      item.itemLevel > highest ? (highest = item.itemLevel) : void 0;
+    }
+  });
 
+  return `${lowest} / ${highest}`;
+};
+
+const getMPlusRunData = (data, type) => {
+  const result = [];
+
+  let headerObj = {
+    name: '--------------------------------------------------------------------------------',
+    value: '_powered by raider.io_'
+  };
+
+  type === 'highest' ? (headerObj.name += 'Mythic+ Highest Runs') : void 0;
+  type === 'recent' ? (headerObj.name += 'Mythic+ Recent Runs') : void 0;
+
+  data.length === 0 ? (headerObj.value += '\nnone within this season') : void 0;
+
+  result.push(headerObj);
+
+  for (let i = 0; i < data.length; i += 1) {
+    result.push({
+      name: `${data[i].dungeon} - ${data[i].mythic_level} +${data[i].num_keystone_upgrades}`,
+      value: `[${prettyPrintSeconds(data[i].clear_time_ms / 1000)} - ${returnDataAge(Date.parse(data[i].completed_at))} ago](${data[i].url})`
+    });
+  }
+
+  return result;
+};
+
+const sanitizeRaidName = raidName => {
+  let correctName = '';
+
+  raidName
+    .replace(/-/g, ' ')
+    .split(' ')
+    .forEach(part => {
+      // capitalize in general
+      part !== 'of' ? (part = capitalize(part)) : void 0;
+      // if a 'the' got capizalized within the string, tolowerCase() it again
+      part === 'The' && raidName.indexOf(part.toLowerCase()) > 0 ? (part = part.toLowerCase()) : void 0;
+      // add , for Antorus, the Burning Throne
+      part === 'Antorus' ? (part += ', ') : void 0;
+
+      correctName += `${part} `;
+    });
+
+  return correctName;
+};
+
+const getKeystoneProgress = (achievementsCompleted, achievementsCompletedTimestamp, type) => {
+  const obj = {
+    maxLevelCompleted: 0,
+    completedIndex: 0,
+    completedTimestamp: 0
+  };
+
+  let achievementContainer;
+  let achievementLevels;
+  let result;
+
+  if (type === 'General') {
+    achievementContainer = CONSTANTS.MPLUS_ACHIEVEMENTS;
+    achievementLevels = CONSTANTS.MPLUS_ACHIEVEMENT_LEVELS;
+  } else if (type === 'BfA Season One') {
+    achievementContainer = CONSTANTS.BFA_MPLUS_ACHIEVEMENTS_SEASON_ONE;
+    achievementLevels = CONSTANTS.BFA_MPLUS_LEVELS;
+  } /* else if(type === 'BfA Season Two') {
+    achievementContainer = CONSTANTS.BFA_MPLUS_ACHIEVEMENTS_SEASON_TWO;
+    achievementLevels = CONSTANTS.BFA_MPLUS_LEVELS
+  }*/
+
+  achievementContainer.forEach(id => {
+    if (achievementsCompleted.includes(id)) {
+      obj.maxLevelCompleted = achievementLevels[achievementContainer.indexOf(id)];
+      obj.completedIndex = achievementsCompleted.indexOf(id);
+    }
+  });
+
+  if (obj.maxLevelCompleted > 0) {
+    obj.completedTimestamp = achievementsCompletedTimestamp[obj.completedIndex];
+  }
+
+  result = `${type}: ${obj.maxLevelCompleted}`;
+
+  if (obj.completedTimestamp > 0) {
+    result += ` - ${returnDataAge(obj.completedTimestamp)} ago`;
+  }
+
+  return result;
+};
+
+const getHighestKeystoneAchievement = achievementContainer => {
+  let result = '';
+
+  const [achievementsCompleted, achievementsCompletedTimestamp] = [
+    achievementContainer.achievements.achievementsCompleted,
+    achievementContainer.achievements.achievementsCompletedTimestamp
+  ];
+
+  result += getKeystoneProgress(achievementsCompleted, achievementsCompletedTimestamp, 'General');
+  result += `\n${getKeystoneProgress(achievementsCompleted, achievementsCompletedTimestamp, 'BfA Season One')}`;
+  // result += `\n${getKeystoneProgress(achievementsCompleted, achievementsCompletedTimestamp, 'BfA Season Two')}`;
+
+  return result;
+};
+
+const getRaidProgression = (progressionData, achievementContainer) => {
+  const [raids, progression] = [Object.keys(progressionData), Object.values(progressionData)];
+
+  const result = [
+    {
+      name: '--------------------------------------------------------------------------------Raid Progression',
+      value: 'Normal | Heroic | Mythic'
+    }
+  ];
+
+  for (let i = 0; i < progression.length; i += 1) {
+    result.push({
+      name: `${sanitizeRaidName(raids[i])}`,
+      value: `${progression[i].normal_bosses_killed} | ${progression[i].heroic_bosses_killed} | ${progression[i]
+        .mythic_bosses_killed} of ${progression[i].total_bosses}`
+    });
+  }
+
+  return result;
+};
+
+const getCharacterProgression = (progress, achievementContainer) => {
+  const [result, gear, MPlusData] = [[], progress.gear, returnSpecAgnosticMPlusScores(progress.class, progress.mythic_plus_scores, true)];
+
+  result.push({
+    name: 'Itemlevel',
+    value: `${gear.item_level_equipped} / ${gear.item_level_total}`,
+    inline: true
+  });
+
+  result.push({
+    name: 'AP/Azerite Level',
+    value: gear.artifact_traits.toString(),
+    inline: true
+  });
+
+  result.push({
+    name: '--------------------------------------------------------------------------------Highest Mythic+ achievement',
+    value: getHighestKeystoneAchievement(achievementContainer)
+  });
+
+  for (let i = 0; i < MPlusData.length; i += 1) {
+    result.push(MPlusData[i]);
+  }
+
+  const highestRuns = getMPlusRunData(progress.mythic_plus_highest_level_runs, 'highest');
+
+  for (let i = 0; i < highestRuns.length; i += 1) {
+    result.push(highestRuns[i]);
+  }
+
+  const recentRuns = getMPlusRunData(progress.mythic_plus_recent_runs, 'recent');
+
+  for (let i = 0; i < recentRuns.length; i += 1) {
+    result.push(recentRuns[i]);
+  }
+
+  const raidProgression = getRaidProgression(progress.raid_progression, achievementContainer);
+
+  for (let i = 0; i < raidProgression.length; i += 1) {
+    result.push(raidProgression[i]);
+  }
+
+  return result;
+};
+
+const createProgressString = (progress, achievementContainer) => {
   return {
     embed: {
-      description: `${returnRaceById(data.race)} ${returnClassByID(data.class)}`,
+      description: `${progress.active_spec_name} ${progress.class}`,
       timestamp: new Date(),
       thumbnail: {
-        url: `https://render-eu.worldofwarcraft.com/character/${data.thumbnail}`
+        url: progress.thumbnail_url
       },
       author: {
-        name: `${data.name} @ ${region}-${data.realm}`,
-        icon_url: `https://render-eu.worldofwarcraft.com/character/${data.thumbnail}`
+        name: `${progress.name} @ ${normalize.upperCase(progress.region)}-${progress.realm}`,
+        icon_url: progress.thumbnail_url,
+        url: progress.profile_url
       },
-      fields: []
+      fields: getCharacterProgression(progress, achievementContainer)
     }
   };
 };
 
-const progress = async (character, region, realm) => {
+const stalk = async (character, region, realm) => {
   if (character && region && realm) {
     const [normedRealm, normedRegion, normedCharacter] = normCharacterInformation(character, region, realm);
 
     if (validateRegion(normedRegion) && validateRealm(normedRegion, normedRealm)) {
       const jsonURL = CONSTANTS.URLS.Progress(normedCharacter, normedRegion, normedRealm);
-      const jsonResponse = await rp({ uri: jsonURL, json: true });
 
-      return createProgressString(jsonResponse, normedRegion);
+      const urls = [
+        CONSTANTS.URLS.Progress(normedCharacter, normedRegion, normedRealm),
+        CONSTANTS.URLS.Achievements(normedCharacter, normedRegion, normedRealm)
+      ];
+
+      const progress = await rp({ uri: urls[0], json: true });
+      const achievementContainer = await rp({ uri: urls[1], json: true });
+      console.log(urls[1]);
+
+      return createProgressString(progress, achievementContainer);
     }
     return CONSTANTS.ERROR_MSG.invalidRealmOrRegion(normedRegion, normedRealm);
   }
@@ -381,13 +572,6 @@ const returnAnswer = async (cmd, args) => {
     case 'help':
       answer = showHelp();
       break;
-    case 'mplus':
-      try {
-        answer = await mplus(args[0], args[1], args[2]);
-      } catch (e) {
-        answer = CONSTANTS.ERROR_MSG.LookupError(e);
-      }
-      break;
     case 'affix':
       try {
         answer = await affix(args[0]);
@@ -395,9 +579,9 @@ const returnAnswer = async (cmd, args) => {
         answer = CONSTANTS.ERROR_MSG.AffixError(e);
       }
       break;
-    case 'progress':
+    case 'stalk':
       try {
-        answer = await progress(args[0], args[1], args[2]);
+        answer = await stalk(args[0], args[1], args[2]);
       } catch (e) {
         answer = CONSTANTS.ERROR_MSG.LookupError(e);
       }
