@@ -452,6 +452,7 @@ const createProgressString = (progress, achievementContainer) => {
 };
 
 const stalk = async (character, region, realm) => {
+  // only go beyond this if parameters are given
   if (character && region && realm) {
     const [normedRealm, normedRegion, normedCharacter] = normCharacterInformation(character, region, realm);
 
@@ -461,9 +462,12 @@ const stalk = async (character, region, realm) => {
         CONSTANTS.URLS.BlizzardAchievements(normedCharacter, normedRegion, normedRealm)
       ];
 
+      // fetches raider io progress
       const progress = await rp({ uri: urls[0], json: true });
+      // fetches blizzard achievements
       const achievementContainer = await rp({ uri: urls[1], json: true });
 
+      // returns discord embed obj
       return createProgressString(progress, achievementContainer);
     }
     return CONSTANTS.ERROR_MSG.invalidRealmOrRegion(normedRegion, normedRealm);
