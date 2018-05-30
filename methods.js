@@ -47,7 +47,7 @@ const validateTokenRegion = region => (CONSTANTS.TOKEN_REGIONS.includes(region) 
 const validateRealm = (region, realm) => {
   const [sanitizedRealm, realmContainer] = [realm.toLowerCase().replace(/[áéíóú\- ']/g, ''), CONSTANTS.REALMS[region]];
 
-  return Object.values(realmContainer).some(realmObj => realmObj.sanitized === sanitizedRealm);
+  return Object.values(realmContainer).some(realmObj => realmObj.name.toLowerCase().replace(/[áéíóú\- ']/g, '') === sanitizedRealm);
 };
 
 const normalize = {
